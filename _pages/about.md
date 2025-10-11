@@ -62,6 +62,3 @@ You can find my publication at [My google scholar](https://scholar.google.com/ci
 ## 🍽️Miscellaneous
 
 I am a food enthusiast who loves both eating and cooking. I enjoy preparing a hearty dinner after a busy work schedule and then rewarding myself with a game of StarCraft II. Here are some photos of the dishes I have made: [See Gallery](/gallery/)
-
-</div>
-</div>
