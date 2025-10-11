@@ -6,10 +6,10 @@ permalink: /gallery/
 
 Here are some dishes I have made：
 
-![Dish 1](/images/f1.jpg)
-![Dish 2](/images/f2.jpg)
-![Dish 3](/images/f3.jpg)
-![Dish 4](/images/f4.jpg)
-![Dish 5](/images/f5.jpg)
-![Dish 6](/images/f6.jpg)
-![Dish 7](/images/f7.jpg)
+<img src="/images/f1.jpg" alt="Dish 1" style="width:50%; height:auto;">
+<img src="/images/f2.jpg" alt="Dish 2" style="width:50%; height:auto;">
+<img src="/images/f3.jpg" alt="Dish 3" style="width:50%; height:auto;">
+<img src="/images/f4.jpg" alt="Dish 4" style="width:50%; height:auto;">
+<img src="/images/f5.jpg" alt="Dish 5" style="width:50%; height:auto;">
+<img src="/images/f6.jpg" alt="Dish 6" style="width:50%; height:auto;">
+<img src="/images/f7.jpg" alt="Dish 7" style="width:50%; height:auto;">
