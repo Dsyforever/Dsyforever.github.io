@@ -15,43 +15,53 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+# About Me
 
-Hi, I'm Tianyu. I am a Ph.D. student at Dartmouth College. I have the great honor of being advised by [Prof. Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/).
-
-I am passionate about model diagnostics and mechanistic interpretability . My  current research is focused on
-
-- understanding the mechanisms, dynamics and generalization of LLMs  from the perspective of random matrix theory, high-dimensional statistics and loss landscape;
-- leveraging  model/data diagnostics and interpretability insights to improve the transparency, robustness and efficiency  of (scientific) machine learning.
-
-# 📖 Educations
-
-- *2025.09 - present*, Ph.D. in Machine Learning, Department of Computer Science, Dartmouth College.
-- *2022.09 - 2025.06*, M.S. in Mathematics, Department of Mathematics, Nanjing University. 
-- *2018.09 - 2022.06*, B.S. in Statistics, Kuang Yaming Honors School, Nanjing University. 
+I am currently a second-year PhD student at Dartmouth College. I am honored to be advised by Prof. [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/). Prior to this, I earned my Bachelor's degree in Mathematics and Applied Mathematics from South China University of Technology in 2024. My primary research interests lie in learning theory📊 and optimization📈.
 
 
-# 🔥 News
-- *2025.07*: 🎉🎉Excited to share that our work“From Spikes to Heavy Tails: Unveiling the Spectral Evolution of Neural Networks”  is accepted by [TMLR](https://openreview.net/forum?id=DJHB8eBUnt&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)).
-- *2025.05*: 🎉🎉 Excited to share that our work “LIFT the Veil for the Truth: Principal Weights Emerge after Rank Reduction for Reasoning-Focused Supervised Fine-Tuning” is accepted by [ICML 2025](https://icml.cc/) as **Poster**!
-- *2024.10*: &nbsp;😁 Completing a wonderful three-month visiting at Dartmouth College.
-- *2024.09*: &nbsp;🎉🎉 Excited to share that our work “Model Balancing Helps Low-data Training and Fine-tuning” is accepted by [EMNLP 2024](https://2024.emnlp.org) as **Oral Presentation**!
-- *2023.09*: &nbsp;🎉🎉 Excited to share that our work “Temperature Balancing, Layer-wise Weight Analysis, and Neural Network Training” is accepted by [NeurIPS 2023](https://neurips.cc/Conferences/2023) as **Spotlight**!
 
-# 📝 Publications 
+<span class='anchor' id='research'></span>
 
-（# denotes equal contribution）
+## ✨Research Interests
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='images/NeurIPS_2023.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+I am interested in both classical learning theory problems (Rademacher Complexity, Covering Number, PAC-Bayesian, etc.) and recently emerging theory problems (primarily focusing on the statistical and optimization properties of large-scale deep neural networks). If you have any interesting related problems, feel free to discuss with me anytime! I am very open to cooperation.
 
-**Temperature Balancing, Layer-wise Weight Analysis, and Neural Network Training** 
+My current research primarily focus on:
 
-[Yefan Zhou](https://yefanzhou.github.io)#, **Tianyu Pang**#, [Keqin Liu](https://scholar.xjtlu.edu.cn/en/persons/kevin-liu), [Charles H. Martin](https://www.linkedin.com/in/charlesmartin14/), [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/), [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/)
+- Investigate **non-vacuous** and theoretically interpretable metrics for data/model statistical complexity in neural networks training, and determine how the interplay between data complexity and model complexity can lead to improved generalization and robustness performance.
+- Analyze the loss landscapes of large-scale neural networks (CNNs, Transformers, etc.) and the behavior of optimization algorithms under specific loss landscapes, and develop scalable pre-conditional optimization algorithms based on the optimization properties of the loss landscapes.
 
-[Code](https://github.com/YefanZhou/TempBalance)\|[Paper](https://arxiv.org/abs/2312.00359)\|[Video](https://recorder-v3.slideslive.com/?share=87192&s=14ff4069-14ea-4f19-bf8b-368a2db26dfd)
 
-**NeurIPS 2023 <span style="color: red;">Spotlight</span>**
+<span class='anchor' id='xl'></span>
+
+## 📖Education
+
+*2024.9-present*    Ph.D in Computer Science, Department of Computer Science, Dartmouth College
+
+*2020.9-2024.6*      B.S. in Mathematics and Applied Mathematics, Department of Mathematics, South China University of Technology 
+
+
+
+<span class='anchor' id='news'></span>
+
+## 📢News
+
+*2025.10.11*  Hi everyone, this is the first post on this website. Welcome to discuss interesting topics together!
+
+
+
+<span class='anchor' id='publications'></span>
+
+## 📚Publications
+
+You can find my publication at [My google scholar](https://scholar.google.com/citations?user=TvUZLD8AAAAJ&hl=en)
+
+
+
+## 🍽️Miscellaneous
+
+I am a food enthusiast who loves both eating and cooking. I enjoy preparing a hearty dinner after a busy work schedule and then rewarding myself with a game of StarCraft II. Here are some photos of the dishes I have made: [See Gallery](/gallery/)
 
 </div>
 </div>

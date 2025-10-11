@@ -19,25 +19,39 @@ google_site_verification :  # get google_site_verification from https://search.g
 bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
+# Site Settings
+title                    : "Shenyang Deng"
+description              : "Hi, Welcome to my website!"
+repository               : "Dsyforever/Dsyforever.github.io"
+google_scholar_stats_use_cdn : false
+
+# google analytics
+google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+
+# SEO Related
+google_site_verification :  fQZQD0EwLaSOrp3EbALt2rjxHEY9pUvWuh1fS96xgNk # get google_site_verification from https://search.google.com/search-console/about
+bing_site_verification   : 56D1B3DBCF345410DA9431AFE01788E7 # get bing_site_verification from https://www.bing.com/webmasters/about
+baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+
 # Site Author
 author:
-  name             : "Tianyu Pang"
-  avatar           : "/images/profile.jpg"
-  bio              : "Ph.D. student @ Dartmouth College"
-  location         : "Hanover, NH"
-  employer         :
+  name             : "Shenyang Deng"
+  avatar           : "images/android-chrome-512x512.png"
+  bio              : "Ph.D student @ Dartmouth College"
+  location         : "New Hampshire, United States"
+  employer         : "Dartmouth College"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=xcDPmRMAAAAJ&hl=zh-CN"
-  email            : "tianyu.pang.gr@dartmouth.edu"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  googlescholar    : "https://scholar.google.com/citations?user=TvUZLD8AAAAJ&hl=en"
+  email            : "shenyang.deng.gr@dartmouth.edu"
+  researchgate     : 
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "TDCSZ327"
+  github           : "Dsyforever"
   google_plus      :
   keybase          :
   instagram        :
@@ -45,7 +59,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -57,8 +71,6 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  resume           : "https://drive.google.com/file/d/1Yi9jqtQK9IJUrKuVvbI05FiJfPfToPKM/view?usp=sharing"
-
 
 # Reading Files
 include:
