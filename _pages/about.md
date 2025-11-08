@@ -46,6 +46,7 @@ My current research primarily focus on:
 <span class='anchor' id='news'></span>
 
 ## 📢News
+*2025.10.12*  I will be serving as a reviewer for ICLR 2026.
 
 *2025.10.11*  Hi everyone, this is the first post on this website. Welcome to discuss interesting topics together!
 
