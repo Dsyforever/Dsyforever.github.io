@@ -30,7 +30,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 My current research primarily focus on:
 
 - Investigate **non-vacuous** and theoretically interpretable metrics for data/model statistical complexity in neural networks training, and determine how the interplay between data complexity and model complexity can lead to improved generalization and robustness performance.
-- Analyze the loss landscapes of large-scale neural networks (CNNs, Transformers, etc.) and the behavior of optimization algorithms under specific loss landscapes, and develop scalable pre-conditional optimization algorithms based on the optimization properties of the loss landscapes(Such as the smoothness of these models under different metrics or divergences).
+- Analyze the loss landscapes properties (Smoothness, Hessian, River-Valley,etc.) of large-scale neural networks (CNNs, Transformers, etc.) and the behavior of optimization algorithms under specific loss landscapes, and develop scalable pre-conditional optimization algorithms based on the optimization properties of the loss landscapes.
 
 
 <span class='anchor' id='xl'></span>
