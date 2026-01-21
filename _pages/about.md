@@ -46,7 +46,7 @@ My current research primarily focus on:
 <span class='anchor' id='news'></span>
 
 ## 📢News
-*2025.12.18*  Our work "Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis" is accepted by Algorithmic Learning Theory 2026🎉. Stay tuned!
+*2025.12.18*  Our work ["Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis"](https://arxiv.org/abs/2601.11789) is accepted by Algorithmic Learning Theory 2026🎉.
 
 *2025.12*  I am honored to receive a 2,000$ grant from Lambda AI.
 
