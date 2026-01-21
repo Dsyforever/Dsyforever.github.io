@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Tianyu Pang"
+title                    : "Shenyang Deng"
 description              : ""
-repository               : "TDCSZ327/tianyupang.github.io"
+repository               : "Dsyforever/Dsyforever.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -65,7 +65,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://x.com/DengShenyang24"
+  twitter          : # https://x.com/DengShenyang24
   vine             :
   weibo            :
   xing             :
