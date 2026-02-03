@@ -46,6 +46,10 @@ My current research primarily focus on:
 <span class='anchor' id='news'></span>
 
 ## 📢News
+*2025.2.3*  Our short paper ["Depth, Not Data: An Analysis of Hessian Spectral Bifurcation"]([https://arxiv.org/abs/2601.11789](https://arxiv.org/abs/2602.00545)) is available on arXiv.
+
+*2025.2.2*  I will be serving as a reviewer for ICML 2026.
+
 *2025.12.18*  Our work ["Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis"](https://arxiv.org/abs/2601.11789) is accepted by Algorithmic Learning Theory 2026🎉.
 
 *2025.12*  I am honored to receive a 2,000$ grant from Lambda AI.
