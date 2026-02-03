@@ -46,7 +46,7 @@ My current research primarily focus on:
 <span class='anchor' id='news'></span>
 
 ## 📢News
-*2025.2.3*  Our short paper ["Depth, Not Data: An Analysis of Hessian Spectral Bifurcation"](】(https://arxiv.org/abs/2602.00545)) is available on arXiv.
+*2025.2.3*  Our short paper [Depth, Not Data: An Analysis of Hessian Spectral Bifurcation](https://arxiv.org/abs/2602.00545) is available on arXiv.
 
 *2025.2.2*  I will be serving as a reviewer for ICML 2026.
 
