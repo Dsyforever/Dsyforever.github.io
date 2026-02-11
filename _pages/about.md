@@ -66,10 +66,10 @@ My current research primarily focus on:
 
 ### Selected Research
 
-- **Shenyang Deng**, Boyao Liao, Zhuoli Ouyang, Tianyu Pang, Minhak Song, Yaoqing Yang. [Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis](https://arxiv.org/abs/2601.11789). *Algorithmic Learning Theory (ALT)*, 2026.
+- **Shenyang Deng**, Boyao Liao, Zhuoli Ouyang, Tianyu Pang, Minhak Song, Yaoqing Yang. [Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis](https://arxiv.org/abs/2601.11789). *The 37th International Conference on Algorithmic Learning Theory (ALT)*, 2026.
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/images/con_figure_3agx_2.png" alt="Suspicious Alignment of SGD" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="/images/con_figure_3agx_2.png" alt="Suspicious Alignment of SGD" style="max-width: 60%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 </div>
 
 Check out more of my work on [Google Scholar](https://scholar.google.com/citations?user=TvUZLD8AAAAJ&hl=en) 🎓
