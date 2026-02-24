@@ -46,6 +46,8 @@ My current research primarily focus on:
 <span class='anchor' id='news'></span>
 
 ## 📢News
+*2026.2.22*  I will give a talk about my  ["ALT2026 paper"](https://arxiv.org/abs/2601.11789)   at the Fields Institute on February 26th.
+
 *2026.2.3*  Our short paper [Depth, Not Data: An Analysis of Hessian Spectral Bifurcation](https://arxiv.org/abs/2602.00545) is available on arXiv.
 
 *2026.2.2*  I will be serving as a reviewer for ICML 2026.
