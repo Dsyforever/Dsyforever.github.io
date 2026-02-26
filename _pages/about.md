@@ -46,6 +46,9 @@ My current research primarily focus on:
 <span class='anchor' id='news'></span>
 
 ## 📢News
+
+*2026.2.24* My first first-author paper ["Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis"](https://arxiv.org/abs/2601.11789) received <span style="color: #E74C3C; font-family: 'Brush Script MT', 'Lucida Handwriting', cursive; font-size: 1.1em; font-weight: bold;">Best Student Paper Award</span> for The 37th International Conference on Algorithmic Learning Theory. It's a great honor for me!
+
 *2026.2.22*  I will give a talk about my  [ALT2026 paper](https://arxiv.org/abs/2601.11789)   at the Fields Institute on February 26th.
 
 *2026.2.3*  Our short paper [Depth, Not Data: An Analysis of Hessian Spectral Bifurcation](https://arxiv.org/abs/2602.00545) is available on arXiv.
