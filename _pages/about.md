@@ -47,7 +47,7 @@ My current research primarily focus on:
 
 ## 📢News
 
-**2026.2.24* My first paper as a first author, ["Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis"](https://arxiv.org/abs/2601.11789), was awarded the [<span style="color: #E74C3C; font-weight: bold;">Best Student Paper Award</span>] at the 37th International Conference on Algorithmic Learning Theory. This is a meaningful recognition for my early research journey.
+**2026.2.24* My first paper as a first author, ["Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis"](https://arxiv.org/abs/2601.11789), was awarded the [<span style="color: #E74C3C; font-weight: bold;">Best Student Paper Award</span>] at the 37th International Conference on Algorithmic Learning Theory (ALT2026). This is a meaningful recognition for my early research journey.
 
 *2026.2.22*  I will give a talk about my  [ALT2026 paper](https://arxiv.org/abs/2601.11789)   at the Fields Institute on February 26th.
 
