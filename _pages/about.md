@@ -47,19 +47,27 @@ My current research primarily focus on:
 
 ## 📢News
 
-**2026.2.24* My first paper as a first author, ["Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis"](https://arxiv.org/abs/2601.11789), was awarded the [<span style="color: #E74C3C; font-weight: bold;">Best Student Paper Award</span>] at the 37th International Conference on Algorithmic Learning Theory (ALT2026). This is a meaningful recognition for my early research journey.
+**2026.2.24* My first paper as a first author, ["Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis"](https://arxiv.org/abs/2601.11789), was awarded the [<span style="color: #E74C3C; font-weight: bold;">Best Student Paper Award</span>] at the 37th International Conference on Algorithmic Learning Theory (ALT2026). 
+            
+            This is a meaningful recognition for my early research journey.
 
 *2026.2.22*  I will give a talk about my  [ALT2026 paper](https://arxiv.org/abs/2601.11789)   at the Fields Institute on February 26th.
 
+
 *2026.2.3*  Our short paper [Depth, Not Data: An Analysis of Hessian Spectral Bifurcation](https://arxiv.org/abs/2602.00545) is available on arXiv.
+
 
 *2026.2.2*  I will be serving as a reviewer for ICML 2026.
 
+
 *2025.12.18*  Our work ["Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis"](https://arxiv.org/abs/2601.11789) is accepted by Algorithmic Learning Theory 2026🎉.
+
 
 *2025.12*  I am honored to receive a 2,000$ grant from Lambda AI.
 
+
 *2025.10.12*  I will be serving as a reviewer for ICLR 2026.
+
 
 *2025.10.11*  Hi everyone, this is the first post on this website. Welcome to discuss interesting topics together!
 
