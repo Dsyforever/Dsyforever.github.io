@@ -70,11 +70,11 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 <div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
 
-**Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis**  
-<span style="color: #555;">**Shenyang Deng**, Boyao Liao, Zhuoli Ouyang, Tianyu Pang, Minhak Song, Yaoqing Yang</span>  
-*The 37th International Conference on Algorithmic Learning Theory (ALT)*, 2026  
-🏆 <span style="color: #E74C3C; font-weight: bold;">Best Student Paper Award</span>  
-[[Paper]](https://arxiv.org/abs/2601.11789)
+<strong>Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis</strong><br>
+<span style="color: #555;"><strong>Shenyang Deng</strong>, Boyao Liao, Zhuoli Ouyang, Tianyu Pang, Minhak Song, Yaoqing Yang</span><br>
+<em>The 37th International Conference on Algorithmic Learning Theory (ALT)</em>, 2026<br>
+🏆 <span style="color: #E74C3C; font-weight: bold;">Best Student Paper Award</span><br>
+<a href="https://arxiv.org/abs/2601.11789">[Paper]</a>
 
 </div>
 
