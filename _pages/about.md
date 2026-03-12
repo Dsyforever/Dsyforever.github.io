@@ -52,7 +52,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 | Date | Update |
 |:-----|:-------|
 | **2026.02** | 🏆 My first paper as first author, [*"Suspicious Alignment of SGD"*](https://arxiv.org/abs/2601.11789), received **Best Student Paper Award** at the 37th International Conference on Algorithmic Learning Theory (ALT) 2026! |
-| **2026.02** | � Giving a talk at the [Fields Institute](https://www.youtube.com/watch?v=uRXzDT5L_Sk&t=2761s) on Feb 26th about our ALT paper |
+| **2026.02** | 🎙️ Giving a talk at the [Fields Institute](https://www.youtube.com/watch?v=uRXzDT5L_Sk&t=2761s) on Feb 26th about our ALT paper |
 | **2026.02** | 📄 New preprint: [*Depth, Not Data: An Analysis of Hessian Spectral Bifurcation*](https://arxiv.org/abs/2602.00545) |
 | **2026.02** | 📝 Serving as a reviewer for **ICML 2026** |
 | **2025.12** | 🎉 [*"Suspicious Alignment of SGD"*](https://arxiv.org/abs/2601.11789) accepted to **ALT 2026** |
