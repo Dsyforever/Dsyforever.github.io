@@ -17,7 +17,7 @@ redirect_from:
 
 # About Me
 
-I am currently a second-year PhD student at Dartmouth College, advised by Prof. [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/). Prior to this, I earned my Bachelor's degree in Mathematics and Applied Mathematics from South China University of Technology in 2024. My primary research interests lie in **learning theory** 📊 and **optimization** 📈.
+I am currently a second-year PhD student at Dartmouth College. I am honored to be advised by Prof. [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/). Prior to this, I earned my Bachelor's degree in Mathematics and Applied Mathematics from South China University of Technology in 2024. My primary research interests lie in **learning theory** 📊 and **optimization** 📈.
 
 ---
 
@@ -25,21 +25,12 @@ I am currently a second-year PhD student at Dartmouth College, advised by Prof. 
 
 ## ✨ Research Interests
 
-I am interested in both classical learning theory problems (Rademacher Complexity, Covering Number, PAC-Bayesian, etc.) and recently emerging theory problems (primarily focusing on the statistical and optimization properties of large-scale deep neural networks). 
-
-> 💬 If you have any interesting related problems, feel free to discuss with me anytime! I am very open to cooperation.
+I am interested in both classical learning theory problems (Rademacher Complexity, Covering Number, PAC-Bayesian, etc.) and recently emerging theory problems (primarily focusing on the statistical and optimization properties of large-scale deep neural networks). If you have any interesting related problems, feel free to discuss with me anytime! I am very open to cooperation.
 
 **My current research primarily focuses on:**
 
-<div style="margin-left: 1em;">
-
-🔹 **Statistical Complexity in Neural Networks**  
-Investigating *non-vacuous* and theoretically interpretable metrics for data/model statistical complexity, and determining how the interplay between data and model complexity can lead to improved generalization and robustness.
-
-🔹 **Loss Landscape & Optimization**  
-Analyzing loss landscape properties (Smoothness, Hessian, River-Valley, etc.) of large-scale neural networks, understanding optimizer behavior, and developing scalable optimization algorithms based on these insights.
-
-</div>
+- Investigate **non-vacuous** and theoretically interpretable metrics for data/model statistical complexity in neural networks training, and determine how the interplay between data complexity and model complexity can lead to improved generalization and robustness performance.
+- Analyze the loss landscapes properties (Smoothness, Hessian, River-Valley, etc.) of large-scale neural networks, the behavior of optimization algorithms under specific loss landscapes, and develop scalable optimization algorithms based on the optimization properties of the loss landscapes.
 
 ---
 
@@ -99,6 +90,4 @@ Analyzing loss landscape properties (Smoothness, Hessian, River-Valley, etc.) of
 
 ## 🍽️ Miscellaneous
 
-I am a food enthusiast who loves both eating and cooking. I enjoy preparing a hearty dinner after a busy work schedule and rewarding myself with a game of **StarCraft II** 🎮.
-
-📸 Check out some dishes I've made: [**See Gallery →**](/gallery/)
+I am a food enthusiast who loves both eating and cooking. I enjoy preparing a hearty dinner after a busy work schedule and then rewarding myself with a game of **StarCraft II** 🎮. Here are some photos of the dishes I have made: [**See Gallery →**](/gallery/)
