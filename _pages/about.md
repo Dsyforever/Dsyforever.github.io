@@ -51,12 +51,13 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 | Date | Update |
 |:-----|:-------|
+| **2026.03** | 🎉 Our paper about [*"Hessian Spectral Bifurcation"*](https://arxiv.org/abs/2602.00545) has been accepted to **ISIT 2026**.|
 | **2026.03** | 📄 New preprint about Matrix-Based Optimization: [*RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization*](https://arxiv.org/abs/2603.20527) |
 | **2026.02** | 🏆 My first paper as first author, [*"Suspicious Alignment of SGD"*](https://arxiv.org/abs/2601.11789), received **Best Student Paper Award** at the 37th International Conference on Algorithmic Learning Theory (ALT) 2026! |
 | **2026.02** | 🎙️ Giving a talk at Fields Institute on Feb 26th about our ALT paper ([Recording](https://www.youtube.com/watch?v=uRXzDT5L_Sk&t=2761s))|
 | **2026.02** | 📄 New short paper preprint about Hessian: [*Depth, Not Data: An Analysis of Hessian Spectral Bifurcation*](https://arxiv.org/abs/2602.00545))|
 | **2026.02** | 📝 Serving as a reviewer for **ICML 2026** |
-| **2025.12** | 🎉 [*"Suspicious Alignment of SGD"*](https://arxiv.org/abs/2601.11789) accepted to **ALT 2026** |
+| **2025.12** | 🎉 [*"Suspicious Alignment of SGD"*](https://arxiv.org/abs/2601.11789) has been accepted to **ALT 2026** .|
 | **2025.12** | 💰 Honored to receive a $2,000 grant from **Lambda AI** |
 | **2025.10** | 📝 Serving as a reviewer for **ICLR 2026** |
 | **2025.10** | 👋 First post on this website - welcome! |
