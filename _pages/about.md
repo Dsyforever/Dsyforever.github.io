@@ -77,7 +77,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 <span style="color: #555;"><strong>Shenyang Deng</strong>, Boyao Liao, Zhuoli Ouyang, Tianyu Pang, Minhak Song, Yaoqing Yang</span><br>
 <em>The 37th International Conference on Algorithmic Learning Theory (ALT)</em>, 2026<br>
 🏆 <span style="color: #E74C3C; font-weight: bold;">Best Student Paper Award</span><br>
-<a href="https://arxiv.org/abs/2601.11789">[Paper]</a>
+<a href="https://arxiv.org/abs/2601.11789">[arxiv]</a> <a href="https://drive.google.com/file/d/1VIR-OjXcosWFBDb9lUU_AEeEEqCc3xLu/view?usp=sharing">[download]</a>
 
 </div>
 
