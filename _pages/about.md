@@ -46,15 +46,31 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 ## 🏆 Selected Awards
 
-<div style="background: linear-gradient(135deg, #fff7f0 0%, #f6efe6 100%); padding: 22px; border-radius: 14px; margin: 18px 0; box-shadow: 0 6px 18px rgba(0,0,0,0.06);">
-
-<div style="padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,0.08);"><strong>2026</strong> <span style="color: #C0392B; font-weight: 700;">Best Student Paper Award</span> of The 37th International Conference on Algorithmic Learning Theory.</div>
-<div style="padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,0.08);"><strong>2024</strong> Outstanding Graduation Thesis Award.</div>
-<div style="padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,0.08);"><strong>2023</strong> Yingli Scholarship (2/68).</div>
-<div style="padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,0.08);"><strong>2023</strong> Hong Ping Evergreen Fund (Outstanding Research Potential).</div>
-<div style="padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,0.08);"><strong>2022</strong> Mathematical Contest in Modeling: Finalist (0.2% of participants).</div>
-<div style="padding: 10px 0 0 0;"><strong>2022</strong> First-class scholarship: top 2% of grade (2/68).</div>
-
+<div style="margin: 8px 0 2px 0; font-size: 0.97em; line-height: 1.35;">
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2026</strong>
+    <span><strong>Best Student Paper Award</strong>, The 37th International Conference on Algorithmic Learning Theory.</span>
+  </div>
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2024</strong>
+    <span>Outstanding Graduation Thesis Award.</span>
+  </div>
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2023</strong>
+    <span>Yingli Scholarship (2/68).</span>
+  </div>
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2023</strong>
+    <span>Hong Ping Evergreen Fund (Outstanding Research Potential).</span>
+  </div>
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2022</strong>
+    <span>Mathematical Contest in Modeling: Finalist (0.2% of participants).</span>
+  </div>
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0 0 0; align-items: start;">
+    <strong>2022</strong>
+    <span>First-class scholarship: top 2% of grade (2/68).</span>
+  </div>
 </div>
 
 ---
