@@ -44,6 +44,19 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 | 2024.9 – Present | **Ph.D** in Computer Science | Dartmouth College |
 | 2020.9 – 2024.6 | **B.S.** in Mathematics & Applied Mathematics | South China University of Technology |
 
+## 🏆 Selected Awards
+
+<div style="background: linear-gradient(135deg, #fff7f0 0%, #f6efe6 100%); padding: 22px; border-radius: 14px; margin: 18px 0; box-shadow: 0 6px 18px rgba(0,0,0,0.06);">
+
+<div style="padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,0.08);"><strong>2026</strong> <span style="color: #C0392B; font-weight: 700;">Best Student Paper Award</span> of The 37th International Conference on Algorithmic Learning Theory.</div>
+<div style="padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,0.08);"><strong>2024</strong> Outstanding Graduation Thesis Award.</div>
+<div style="padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,0.08);"><strong>2023</strong> Yingli Scholarship (2/68).</div>
+<div style="padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,0.08);"><strong>2023</strong> Hong Ping Evergreen Fund (Outstanding Research Potential).</div>
+<div style="padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,0.08);"><strong>2022</strong> Mathematical Contest in Modeling: Finalist (0.2% of participants).</div>
+<div style="padding: 10px 0 0 0;"><strong>2022</strong> First-class scholarship: top 2% of grade (2/68).</div>
+
+</div>
+
 ---
 
 <span class='anchor' id='news'></span>
@@ -84,6 +97,32 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 <div style="text-align: center; margin: 25px 0;">
   <img src="/images/con_figure_3agx_2.png" alt="Suspicious Alignment of SGD" style="max-width: 65%; height: auto; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
+</div>
+
+<div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
+
+<strong>RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization</strong><br>
+<span style="color: #555;"><strong>Shenyang Deng</strong>, Zhuoli Ouyang, Tianyu Pang, Zihang Liu, Ruochen Jin, Shuhua Yu, Yaoqing Yang</span><br>
+<em>International Conference on Machine Learning (ICML 2026)</em><br>
+<a href="https://arxiv.org/abs/2603.20527">[arxiv]</a>
+
+</div>
+
+<div style="text-align: center; margin: 25px 0;">
+  <img src="/images/precc3_01.png" alt="RMNP" style="max-width: 65%; height: auto; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
+</div>
+
+<div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
+
+<strong>Depth, Not Data: An Analysis of Hessian Spectral Bifurcation</strong><br>
+<span style="color: #555;"><strong>Shenyang Deng</strong>, Boyao Liao, Zhuoli Ouyang, Tianyu Pang, Yaoqing Yang</span><br>
+<em>IEEE International Symposium on Information Theory (ISIT 2026)</em> <span style="color: #666;">(Extended version in preparation for IEEE Transactions on Information Theory)</span><br>
+<a href="https://arxiv.org/abs/2602.00545">[arxiv]</a>
+
+</div>
+
+<div style="text-align: center; margin: 25px 0;">
+  <img src="/images/combined_3panels.png" alt="Depth, Not Data: An Analysis of Hessian Spectral Bifurcation" style="max-width: 65%; height: auto; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
 </div>
 
 <p style="text-align: center;">
