@@ -55,7 +55,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 <div style="margin: 8px 0 2px 0; font-size: 0.97em; line-height: 1.35;">
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
     <strong>2026</strong>
-    <span><strong>Best Student Paper Award</strong>, The 37th International Conference on Algorithmic Learning Theory.</span>
+    <span><strong style="color: #C0392B;">Best Student Paper Award</strong>, The 37th International Conference on Algorithmic Learning Theory.</span>
   </div>
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
     <strong>2024</strong>
@@ -118,7 +118,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 </div>
 
 <div style="display: flex; justify-content: center; margin: 18px 0 24px 0;">
-  <div style="width: min(60%, 620px); height: 240px; display: flex; align-items: center; justify-content: center; padding: 12px; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; box-shadow: 0 3px 12px rgba(0,0,0,0.08); background: #fff; overflow: hidden;">
+  <div style="width: min(52%, 520px); height: 210px; display: flex; align-items: center; justify-content: center; padding: 12px; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; box-shadow: 0 3px 12px rgba(0,0,0,0.08); background: #fff; overflow: hidden;">
     <img src="/images/con_figure_3agx_2.png" alt="Suspicious Alignment of SGD" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
   </div>
 </div>
@@ -127,7 +127,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 <strong>RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization</strong><br>
 <span style="color: #555;"><strong>Shenyang Deng</strong>, Zhuoli Ouyang, Tianyu Pang, Zihang Liu, Ruochen Jin, Shuhua Yu, Yaoqing Yang</span><br>
-<em>International Conference on Machine Learning (ICML 2026)</em><br>
+<em>The 43rd International Conference on Machine Learning (ICML 2026)</em><br>
 <a href="https://arxiv.org/abs/2603.20527">[arxiv]</a>
 
 </div>
@@ -142,7 +142,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 <strong>Depth, Not Data: An Analysis of Hessian Spectral Bifurcation</strong><br>
 <span style="color: #555;"><strong>Shenyang Deng</strong>, Boyao Liao, Zhuoli Ouyang, Tianyu Pang, Yaoqing Yang</span><br>
-<em>IEEE International Symposium on Information Theory (ISIT 2026)</em> <span style="color: #666;">(Extended version in preparation for IEEE Transactions on Information Theory)</span><br>
+<em>IEEE International Symposium on Information Theory (ISIT 2026)</em> <strong>(Extended version in preparation for IEEE Transactions on Information Theory)</strong><br>
 <a href="https://arxiv.org/abs/2602.00545">[arxiv]</a>
 
 </div>
