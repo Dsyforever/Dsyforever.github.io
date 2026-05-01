@@ -39,10 +39,16 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 ## 📖 Education
 
-| Period | Degree | Institution |
-|:-------|:-------|:------------|
-| 2024.9 – Present | **Ph.D** in Computer Science | Dartmouth College |
-| 2020.9 – 2024.6 | **B.S.** in Mathematics & Applied Mathematics | South China University of Technology |
+<div style="margin: 8px 0 2px 0; font-size: 0.97em; line-height: 1.35;">
+  <div style="display: grid; grid-template-columns: 120px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2024.9 - Present</strong>
+    <span><strong>Ph.D in Computer Science</strong>, Dartmouth College</span>
+  </div>
+  <div style="display: grid; grid-template-columns: 120px 1fr; gap: 8px; padding: 6px 0 0 0; align-items: start;">
+    <strong>2020.9 - 2024.6</strong>
+    <span><strong>B.S. in Mathematics and Applied Mathematics</strong>, South China University of Technology</span>
+  </div>
+</div>
 
 ## 🏆 Selected Awards
 
@@ -111,8 +117,10 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 </div>
 
-<div style="text-align: center; margin: 25px 0;">
-  <img src="/images/con_figure_3agx_2.png" alt="Suspicious Alignment of SGD" style="max-width: 65%; height: auto; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
+<div style="display: flex; justify-content: center; margin: 22px 0;">
+  <div style="width: min(72%, 760px); height: 320px; display: flex; align-items: center; justify-content: center; padding: 14px; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.10); background: #fff; overflow: hidden;">
+    <img src="/images/con_figure_3agx_2.png" alt="Suspicious Alignment of SGD" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+  </div>
 </div>
 
 <div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
@@ -124,8 +132,10 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 </div>
 
-<div style="text-align: center; margin: 25px 0;">
-  <img src="/images/precc3_01.png" alt="RMNP" style="max-width: 65%; height: auto; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
+<div style="display: flex; justify-content: center; margin: 22px 0;">
+  <div style="width: min(72%, 760px); height: 320px; display: flex; align-items: center; justify-content: center; padding: 14px; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.10); background: #fff; overflow: hidden;">
+    <img src="/images/precc3_01.png" alt="RMNP" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+  </div>
 </div>
 
 <div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
@@ -137,8 +147,10 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 </div>
 
-<div style="text-align: center; margin: 25px 0;">
-  <img src="/images/combined_3panels.png" alt="Depth, Not Data: An Analysis of Hessian Spectral Bifurcation" style="max-width: 65%; height: auto; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
+<div style="display: flex; justify-content: center; margin: 22px 0;">
+  <div style="width: min(72%, 760px); height: 320px; display: flex; align-items: center; justify-content: center; padding: 14px; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.10); background: #fff; overflow: hidden;">
+    <img src="/images/combined_3panels.png" alt="Depth, Not Data: An Analysis of Hessian Spectral Bifurcation" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+  </div>
 </div>
 
 <p style="text-align: center;">
