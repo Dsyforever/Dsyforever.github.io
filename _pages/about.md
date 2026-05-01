@@ -107,6 +107,8 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 ### Selected Research
 
+<p style="margin: 4px 0 12px 0; font-size: 0.95em; color: #555;"><sup>*</sup> indicates equal contribution.</p>
+
 <div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
 
 <strong>Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis</strong><br>
@@ -126,7 +128,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 <div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
 
 <strong>RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization</strong><br>
-<span style="color: #555;"><strong>Shenyang Deng</strong>, Zhuoli Ouyang, Tianyu Pang, Zihang Liu, Ruochen Jin, Shuhua Yu, Yaoqing Yang</span><br>
+<span style="color: #555;"><strong>Shenyang Deng</strong><sup>*</sup>, Zhuoli Ouyang<sup>*</sup>, Tianyu Pang, Zihang Liu, Ruochen Jin, Shuhua Yu, Yaoqing Yang</span><br>
 <em>The 43rd International Conference on Machine Learning (ICML 2026)</em><br>
 <a href="https://arxiv.org/abs/2603.20527">[arxiv]</a>
 
@@ -141,7 +143,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 <div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
 
 <strong>Depth, Not Data: An Analysis of Hessian Spectral Bifurcation</strong><br>
-<span style="color: #555;"><strong>Shenyang Deng</strong>, Boyao Liao, Zhuoli Ouyang, Tianyu Pang, Yaoqing Yang</span><br>
+<span style="color: #555;"><strong>Shenyang Deng</strong><sup>*</sup>, Boyao Liao<sup>*</sup>, Zhuoli Ouyang<sup>*</sup>, Tianyu Pang, Yaoqing Yang</span><br>
 <em>IEEE International Symposium on Information Theory (ISIT 2026)</em> <strong>(Extended version in preparation for IEEE Transactions on Information Theory)</strong><br>
 <a href="https://arxiv.org/abs/2602.00545">[arxiv]</a>
 
