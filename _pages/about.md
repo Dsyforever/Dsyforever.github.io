@@ -109,6 +109,21 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 <div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
 
+<strong>RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization</strong><br>
+<span style="color: #555;"><strong>Shenyang Deng</strong><sup>*</sup>, Zhuoli Ouyang<sup>*</sup>, Tianyu Pang, Zihang Liu, Ruochen Jin, Shuhua Yu, Yaoqing Yang</span><br>
+<em>The 43rd International Conference on Machine Learning (ICML 2026)</em><br>
+<a href="https://arxiv.org/abs/2603.20527">[arxiv]</a>
+
+</div>
+
+<div style="display: flex; justify-content: center; margin: 18px 0 24px 0;">
+  <div style="width: min(60%, 620px); height: 240px; display: flex; align-items: center; justify-content: center; padding: 12px; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; box-shadow: 0 3px 12px rgba(0,0,0,0.08); background: #fff; overflow: hidden;">
+    <img src="/images/precc3_01.png" alt="RMNP" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+  </div>
+</div>
+
+<div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
+
 <strong>Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis</strong><br>
 <span style="color: #555;"><strong>Shenyang Deng</strong>, Boyao Liao, Zhuoli Ouyang, Tianyu Pang, Minhak Song, Yaoqing Yang</span><br>
 <em>The 37th International Conference on Algorithmic Learning Theory (ALT)</em>, 2026<br>
@@ -120,21 +135,6 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 <div style="display: flex; justify-content: center; margin: 18px 0 24px 0;">
   <div style="width: min(52%, 520px); height: 210px; display: flex; align-items: center; justify-content: center; padding: 12px; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; box-shadow: 0 3px 12px rgba(0,0,0,0.08); background: #fff; overflow: hidden;">
     <img src="/images/con_figure_3agx_2.png" alt="Suspicious Alignment of SGD" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
-  </div>
-</div>
-
-<div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
-
-<strong>RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization</strong><br>
-<span style="color: #555;"><strong>Shenyang Deng</strong><sup>*</sup>, Zhuoli Ouyang<sup>*</sup>, Tianyu Pang, Zihang Liu, Ruochen Jin, Shuhua Yu, Yaoqing Yang</span><br>
-<em>The 43rd International Conference on Machine Learning (ICML 2026)</em><br>
-<a href="https://arxiv.org/abs/2603.20527">[arxiv]</a>
-
-</div>
-
-<div style="display: flex; justify-content: center; margin: 18px 0 24px 0;">
-  <div style="width: min(60%, 620px); height: 240px; display: flex; align-items: center; justify-content: center; padding: 12px; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; box-shadow: 0 3px 12px rgba(0,0,0,0.08); background: #fff; overflow: hidden;">
-    <img src="/images/precc3_01.png" alt="RMNP" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
   </div>
 </div>
 
@@ -169,12 +169,12 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 <div style="margin: 8px 0 2px 0; font-size: 0.94em; line-height: 1.35;">
   <div style="display: grid; grid-template-columns: 92px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
-    <strong>2025.11.27</strong>
-    <span><strong>Suspicious Alignment of SGD</strong><br>Dartmouth--Berkeley--Rice AI Reading Group. <a href="https://drive.google.com/file/d/1ByfsVsaRM7DG_HPKRijWwpkVApFOgjHx/view?usp=sharing">Recording</a></span>
-  </div>
-  <div style="display: grid; grid-template-columns: 92px 1fr; gap: 8px; padding: 6px 0 0 0; align-items: start;">
     <strong>2026.02.26</strong>
     <span><strong>Suspicious Alignment of SGD</strong><br>The Fields Institute. <a href="https://www.youtube.com/watch?v=uRXzDT5L_Sk&t=2761s">Recording</a></span>
+  </div>
+  <div style="display: grid; grid-template-columns: 92px 1fr; gap: 8px; padding: 6px 0 0 0; align-items: start;">
+    <strong>2025.11.27</strong>
+    <span><strong>Suspicious Alignment of SGD</strong><br>Dartmouth--Berkeley--Rice AI Reading Group. <a href="https://drive.google.com/file/d/1ByfsVsaRM7DG_HPKRijWwpkVApFOgjHx/view?usp=sharing">Recording</a></span>
   </div>
 </div>
 
