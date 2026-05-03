@@ -167,14 +167,14 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 ## 🎙️ Recent Talks
 
-<div style="margin: 10px 0 18px 0; font-size: 0.97em; line-height: 1.5;">
-  <div style="display: grid; grid-template-columns: 105px 1fr; gap: 10px; padding: 8px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+<div style="margin: 8px 0 2px 0; font-size: 0.94em; line-height: 1.35;">
+  <div style="display: grid; grid-template-columns: 92px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
     <strong>2025.11.27</strong>
-    <span><strong>Suspicious Alignment of SGD</strong><br>Dartmouth--Berkeley--Rice AI Reading Group · <a href="https://drive.google.com/file/d/1ByfsVsaRM7DG_HPKRijWwpkVApFOgjHx/view?usp=sharing">Recording</a></span>
+    <span><strong>Suspicious Alignment of SGD</strong><br>Dartmouth--Berkeley--Rice AI Reading Group. <a href="https://drive.google.com/file/d/1ByfsVsaRM7DG_HPKRijWwpkVApFOgjHx/view?usp=sharing">Recording</a></span>
   </div>
-  <div style="display: grid; grid-template-columns: 105px 1fr; gap: 10px; padding: 8px 0 0 0; align-items: start;">
+  <div style="display: grid; grid-template-columns: 92px 1fr; gap: 8px; padding: 6px 0 0 0; align-items: start;">
     <strong>2026.02.26</strong>
-    <span><strong>Suspicious Alignment of SGD</strong><br>The Fields Institute · <a href="https://www.youtube.com/watch?v=uRXzDT5L_Sk&t=2761s">Recording</a></span>
+    <span><strong>Suspicious Alignment of SGD</strong><br>The Fields Institute. <a href="https://www.youtube.com/watch?v=uRXzDT5L_Sk&t=2761s">Recording</a></span>
   </div>
 </div>
 
