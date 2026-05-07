@@ -200,9 +200,11 @@ and aggregated it into per-layer minima, averages, and maxima (\(r_{\min}, r_{\t
 
 Three observations:
 
-1. **The ratios cross $1$ early and stay above it.** After warm-up, \(\overline{r}_{\min}, \overline{r}_{\text{avg}}, \overline{r}_{\max}\) all rise above \(1\) within the first few percent of training and remain there.
-2. **Dominance grows with model scale.** For both architectures, \(\overline{r}_{\text{avg}}\) and \(\overline{r}_{\min}\) are visibly higher for larger models — consistent with the \(\Theta(d_1)\) asymptotic scaling predicted by Theorem 2.
-3. **The phenomenon is architecture-agnostic.** Both GPT-2 and LLaMA show the same qualitative behavior, suggesting the dominance is a generic property of well-conditioned Transformer training rather than an artifact of any specific design choice.
+<ol>
+  <li><strong>The ratios cross \(1\) early and stay above it.</strong> After warm-up, \(\overline{r}_{\min}, \overline{r}_{\text{avg}}, \overline{r}_{\max}\) all rise above \(1\) within the first few percent of training and remain there.</li>
+  <li><strong>Dominance grows with model scale.</strong> For both architectures, \(\overline{r}_{\text{avg}}\) and \(\overline{r}_{\min}\) are visibly higher for larger models, consistent with the \(\Theta(d_1)\) asymptotic scaling predicted by Theorem 2.</li>
+  <li><strong>The phenomenon is architecture-agnostic.</strong> Both GPT-2 and LLaMA show the same qualitative behavior, suggesting the dominance is a generic property of well-conditioned Transformer training rather than an artifact of any specific design choice.</li>
+</ol>
 
 In short: across model families, scales, and the entire course of training, $V_t V_t^\top$ is *not just* diagonally dominant — it is *increasingly so* at the regime where matrix-aware optimizers actually matter.
 
