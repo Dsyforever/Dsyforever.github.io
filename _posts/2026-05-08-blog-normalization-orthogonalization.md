@@ -3,6 +3,13 @@ layout: default
 title: "Row Normalization and Orthogonalization Are Asymptotically Equivalent on Neural Networks"
 date: 2026-05-08
 permalink: /blog/normalization-orthogonalization/
+related_notes:
+  - title: Matrix factorization
+    url: https://drive.google.com/file/d/1GxAA8o-D9mE6t5aulZGyWxIsy47fM1sf/view?usp=sharing
+  - title: Deep linear network
+    url: https://drive.google.com/file/d/1F7vKij-qOy89S-NyqmungdDcAe4z3k5w/view?usp=sharing
+  - title: 2-layer ReLU
+    url: https://drive.google.com/file/d/1Vm1gibwaH5GM9k0Bod-9RWAcDwgGyvKe/view?usp=sharing
 ---
 
 # Row Normalization and Orthogonalization Are Asymptotically Equivalent on Neural Networks
@@ -56,11 +63,12 @@ This raises a clean structural question:
 > **Is $V_t V_t^\top$ (equivalently, $G_t G_t^\top$) diagonally dominant on neural networks?**
 
 This blog gives preliminary theoretical results on three canonical NN-theory setups (matrix factorization, deep linear networks, and 2-layer ReLU networks) at initialization that point to "yes" in the asymptotic-width regime; full-dynamics empirical evidence on practical models (GPT-2, LLaMA) is given in our paper [5].
+Figure 2 summarizes this structural comparison: Muon's preconditioner is row-block aligned precisely when $V_t V_t^\top$ is close to diagonal, matching the dominant row-block pattern observed in the neural-network Hessian.
 
 <div style="clear: both;"></div>
 
 <figure style="margin: 1.4rem auto 1.6rem auto; text-align: center; max-width: 540px;">
-  <img src="/images/blog/hessian.png" alt="Comparison between Muon's preconditioner and the Hessian structure." style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />
+  <img src="/images/blog/Hessian.png" alt="Comparison between Muon's preconditioner and the Hessian structure." style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />
   <figcaption style="margin-top: 0.55rem; font-size: 0.92em; line-height: 1.45; color: #5c6675;">Figure 2. Comparison between Muon's preconditioner and the Hessian structure.</figcaption>
 </figure>
 

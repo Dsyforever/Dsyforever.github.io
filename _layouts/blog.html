@@ -2,10 +2,113 @@
 layout: default
 ---
 
+<style>
+  .blog-shell {
+    margin-top: 1.25rem;
+  }
+
+  .blog-note {
+    margin: 0 0 1.25rem 0;
+    color: #5f5a53;
+    font-size: 0.98rem;
+  }
+
+  .blog-list {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .blog-card {
+    padding: 1.15rem 1.2rem;
+    border: 1px solid rgba(90, 76, 59, 0.12);
+    border-radius: 16px;
+    background: linear-gradient(180deg, #fffdfa 0%, #f7f2eb 100%);
+    box-shadow: 0 8px 24px rgba(68, 52, 35, 0.06);
+  }
+
+  .blog-title {
+    margin: 0;
+    font-size: 1.35rem;
+    line-height: 1.45;
+  }
+
+  .blog-title a {
+    color: #1f2933;
+    text-decoration: none;
+  }
+
+  .blog-title a:hover {
+    color: #6f4d32;
+  }
+
+  .blog-meta {
+    margin: 0.45rem 0 0 0;
+    color: #4d5761;
+    font-size: 0.95rem;
+  }
+
+  .blog-related {
+    margin-top: 0.9rem;
+    color: #2f3943;
+    line-height: 1.8;
+  }
+
+  .blog-related-label {
+    font-weight: 700;
+    margin-right: 0.35rem;
+  }
+
+  .blog-links {
+    margin-top: 0.55rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .blog-links a {
+    display: inline-block;
+    padding: 0.22rem 0.7rem;
+    border-radius: 999px;
+    border: 1px solid rgba(73, 93, 118, 0.16);
+    background: rgba(255, 255, 255, 0.78);
+    text-decoration: none;
+    font-size: 0.92rem;
+  }
+
+  @media (max-width: 640px) {
+    .blog-card {
+      padding: 1rem;
+    }
+
+    .blog-title {
+      font-size: 1.2rem;
+    }
+  }
+</style>
+
 <h1>{{ page.title }}</h1>
 
-<ul>
-  {% for post in site.posts %}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<div class="blog-shell">
+  {% if page.description %}
+    <p class="blog-note">{{ page.description }}</p>
+  {% endif %}
+
+  <div class="blog-list">
+    {% for post in site.posts %}
+      <article class="blog-card">
+        <h2 class="blog-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="blog-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+        {% if post.related_notes %}
+          <div class="blog-related">
+            <span class="blog-related-label">Related Note:</span>
+            <div class="blog-links">
+              {% for note in post.related_notes %}
+                <a href="{{ note.url }}">{{ note.title }}</a>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+</div>
