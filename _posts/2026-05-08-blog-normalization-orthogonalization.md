@@ -191,7 +191,7 @@ $$
 r_i \;:=\; \frac{(V_t V_t^\top)_{ii}}{\frac{1}{m-1}\sum_{j \neq i} |(V_t V_t^\top)_{ij}|},
 $$
 
-and aggregated it into per-layer minima, averages, and maxima ($r_{\min}, r_{\text{avg}}, r_{\max}$), then averaged those across all matrix parameters in the network ($\overline{r}_{\min}, \overline{r}_{\text{avg}}, \overline{r}_{\max}$).
+and aggregated it into per-layer minima, averages, and maxima (\(r_{\min}, r_{\text{avg}}, r_{\max}\)), then averaged those across all matrix parameters in the network (\(\overline{r}_{\min}, \overline{r}_{\text{avg}}, \overline{r}_{\max}\)).
 
 <figure style="margin: 1.4rem auto 1.6rem auto; text-align: center; max-width: 860px;">
   <img src="/images/blog/global.png" alt="Global diagonal dominance ratios across training for GPT-2 and LLaMA." style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />
@@ -200,8 +200,8 @@ and aggregated it into per-layer minima, averages, and maxima ($r_{\min}, r_{\te
 
 Three observations:
 
-1. **The ratios cross $1$ early and stay above it.** After warm-up, $\overline{r}_{\min}, \overline{r}_{\text{avg}}, \overline{r}_{\max}$ all rise above $1$ within the first few percent of training and remain there.
-2. **Dominance grows with model scale.** For both architectures, $\overline{r}_{\text{avg}}$ and $\overline{r}_{\min}$ are visibly higher for larger models — consistent with the $\Theta(d_1)$ asymptotic scaling predicted by Theorem 2.
+1. **The ratios cross $1$ early and stay above it.** After warm-up, \(\overline{r}_{\min}, \overline{r}_{\text{avg}}, \overline{r}_{\max}\) all rise above \(1\) within the first few percent of training and remain there.
+2. **Dominance grows with model scale.** For both architectures, \(\overline{r}_{\text{avg}}\) and \(\overline{r}_{\min}\) are visibly higher for larger models — consistent with the \(\Theta(d_1)\) asymptotic scaling predicted by Theorem 2.
 3. **The phenomenon is architecture-agnostic.** Both GPT-2 and LLaMA show the same qualitative behavior, suggesting the dominance is a generic property of well-conditioned Transformer training rather than an artifact of any specific design choice.
 
 In short: across model families, scales, and the entire course of training, $V_t V_t^\top$ is *not just* diagonally dominant — it is *increasingly so* at the regime where matrix-aware optimizers actually matter.
