@@ -13,9 +13,12 @@ related_notes:
 hide_from_blog_index: true
 ---
 
-<div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.75rem; margin-bottom: 0.4rem;">
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.75rem; margin-bottom: 0.4rem;">
   <h1 style="margin: 0;">神经网络中行归一化与正交化的渐近等价性</h1>
-  <a href="/blog/normalization-orthogonalization/" style="display: inline-block; padding: 0.22rem 0.78rem; border-radius: 999px; border: 1px solid rgba(73, 93, 118, 0.16); background: rgba(255, 255, 255, 0.82); text-decoration: none; font-size: 0.92rem; white-space: nowrap;">English</a>
+  <div style="display: inline-flex; flex-wrap: wrap; align-items: baseline; justify-content: flex-end; gap: 0.45rem; margin-left: auto;">
+    <a href="/blog/normalization-orthogonalization/" style="display: inline-block; padding: 0.22rem 0.78rem; border-radius: 999px; border: 1px solid rgba(73, 93, 118, 0.16); background: rgba(255, 255, 255, 0.82); text-decoration: none; font-size: 0.92rem; white-space: nowrap;">English</a>
+    <span style="display: inline-block; padding: 0.22rem 0.78rem; border-radius: 999px; border: 1px solid rgba(73, 93, 118, 0.2); background: rgba(73, 93, 118, 0.1); color: #24323f; font-size: 0.92rem; white-space: nowrap;">中文</span>
+  </div>
 </div>
 
 > **TL;DR.** 在神经网络中，正交化与沿输入维度的逐行 $\ell_2$ 归一化这两类看似不同的矩阵级预条件方法，实际上是渐近等价的。本文从理论和实验两方面支持这一结论。理论上，我们在初始化处对三个传统神经网络理论模型中的梯度自外积进行了闭式分析：矩阵分解、深线性网络和两层 ReLU 网络；结果表明，在这些模型中，行归一化与正交化渐近等价。经验上，我们跟踪了不同尺度 GPT-2 和 LLaMA 的完整训练动态，并验证了在整个训练动态过程中，正交化与行归一化始终保持近似等价。结合以上两方面的分析，一个长期存在的问题也得到了解释：*为什么基于正交化的预条件方法能够如此自然地适配神经网络的曲率结构？* 答案在于，它的作用方向隐式对齐了神经网络块对角占优的 Hessian 结构。

@@ -39,26 +39,28 @@ layout: default
   }
 
   .blog-title {
-    margin: 0 0 0.45rem 0;
+    margin: 0;
     color: #1f2933;
     font-size: 1.08rem;
     line-height: 1.55;
   }
 
-  .blog-title a {
-    color: #1f2933;
-    text-decoration: none;
-  }
-
-  .blog-title a:hover {
-    color: #6f4d32;
-  }
-
   .blog-title-row {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    gap: 0.55rem;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.45rem;
+  }
+
+  .blog-lang-group {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: flex-end;
+    gap: 0.45rem;
+    margin-left: auto;
   }
 
   .blog-lang-link {
@@ -136,10 +138,13 @@ layout: default
 
     <article class="blog-card">
       <div class="blog-title-row">
-        <p class="blog-title"><a href="{{ post.url | relative_url }}">&ldquo;<em>{{ post.title }}</em>.&rdquo;</a></p>
-        {% if post.translation_url and post.translation_label %}
-          <a class="blog-lang-link" href="{{ post.translation_url | relative_url }}">{{ post.translation_label }}</a>
-        {% endif %}
+        <p class="blog-title">&ldquo;<em>{{ post.title }}</em>.&rdquo;</p>
+        <div class="blog-lang-group">
+          <a class="blog-lang-link" href="{{ post.url | relative_url }}">English</a>
+          {% if post.translation_url %}
+            <a class="blog-lang-link" href="{{ post.translation_url | relative_url }}">中文</a>
+          {% endif %}
+        </div>
       </div>
       {% if post.related_notes and post.related_notes.size > 0 %}
         <div class="blog-related">
