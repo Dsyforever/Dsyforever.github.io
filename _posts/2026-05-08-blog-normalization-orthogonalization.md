@@ -60,7 +60,7 @@ The structure of Muon's preconditioner is therefore entirely determined by the s
 
 This raises a clean structural question:
 
-> **Is $V_t V_t^\top$ (equivalently, $G_t G_t^\top$) diagonally dominant on neural networks?**
+> **Is $V_t V_t^\top$ (equivalently, $G_t G_t^\top$) diagonally dominant for neural networks?**
 
 This blog gives preliminary theoretical results on three canonical NN-theory setups (matrix factorization, deep linear networks, and 2-layer ReLU networks) at initialization that point to "yes" in the asymptotic-width regime; full-dynamics empirical evidence on practical models (GPT-2, LLaMA) is given in our paper [5].
 Figure 2 summarizes this structural comparison: Muon's preconditioner is row-block aligned precisely when $V_t V_t^\top$ is close to diagonal, matching the dominant row-block pattern observed in the neural-network Hessian.
