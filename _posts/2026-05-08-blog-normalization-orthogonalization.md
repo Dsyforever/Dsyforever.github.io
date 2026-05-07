@@ -10,6 +10,8 @@ related_notes:
     url: https://drive.google.com/file/d/1F7vKij-qOy89S-NyqmungdDcAe4z3k5w/view?usp=sharing
   - title: 2-layer ReLU
     url: https://drive.google.com/file/d/1Vm1gibwaH5GM9k0Bod-9RWAcDwgGyvKe/view?usp=sharing
+translation_label: "中文版"
+translation_url: /blog/normalization-orthogonalization-zh/
 ---
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; margin-bottom: 0.4rem;">

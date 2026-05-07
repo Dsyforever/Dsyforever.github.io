@@ -54,6 +54,24 @@ layout: default
     color: #6f4d32;
   }
 
+  .blog-title-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .blog-lang-link {
+    display: inline-block;
+    padding: 0.18rem 0.68rem;
+    border-radius: 999px;
+    border: 1px solid rgba(73, 93, 118, 0.16);
+    background: rgba(255, 255, 255, 0.78);
+    text-decoration: none;
+    font-size: 0.88rem;
+    white-space: nowrap;
+  }
+
   .blog-meta {
     margin: 0.7rem 0 0 0;
     color: #4d5761;
@@ -108,6 +126,7 @@ layout: default
 
   {% assign current_year = "" %}
   {% for post in site.posts %}
+    {% unless post.hide_from_blog_index %}
     {% assign post_year = post.date | date: "%Y" %}
     {% if post_year != current_year %}
       {% assign current_year = post_year %}
@@ -116,7 +135,12 @@ layout: default
     {% endif %}
 
     <article class="blog-card">
-      <p class="blog-title"><a href="{{ post.url | relative_url }}">&ldquo;<em>{{ post.title }}</em>.&rdquo;</a></p>
+      <div class="blog-title-row">
+        <p class="blog-title"><a href="{{ post.url | relative_url }}">&ldquo;<em>{{ post.title }}</em>.&rdquo;</a></p>
+        {% if post.translation_url and post.translation_label %}
+          <a class="blog-lang-link" href="{{ post.translation_url | relative_url }}">{{ post.translation_label }}</a>
+        {% endif %}
+      </div>
       {% if post.related_notes and post.related_notes.size > 0 %}
         <div class="blog-related">
           <span class="blog-related-label">Related Note:</span>
@@ -138,5 +162,6 @@ layout: default
     {% if forloop.last or next_year != current_year %}
       </div>
     {% endif %}
+    {% endunless %}
   {% endfor %}
 </div>
