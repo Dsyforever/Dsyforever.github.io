@@ -44,7 +44,7 @@ $$
   <figcaption style="margin-top: 0.5rem; font-size: 0.9em; line-height: 1.45; color: #5c6675;">Figure 1. Modern neural-network optimization lives far away from worst-case nonconvex smooth instances.</figcaption>
 </figure>
 
-As a preconditioned optimizer, how does Muon adapt to the Hessian structure of neural networks? This is a fundamental open question. Simple preconditioned methods like Muon were only very recently found to dramatically outperform other optimizers on neural networks, and no analysis under the classical optimization theory setup predicts such a gap. The shortfall is no accident — classical theory studies *worst-case* problems within an abstract problem class (typically nonconvex smooth functions), and worst-case analyses are by construction blind to the structural properties of the actual problems they are applied to. To explain Muon's effectiveness, we have to look at the structure of neural networks themselves.
+As a preconditioned optimizer, how does Muon adapt to the Hessian structure of neural networks? This is a fundamental question. Simple preconditioned methods like Muon were only very recently found to dramatically outperform other optimizers on neural networks, and no analysis under the classical optimization theory setup predicts such a gap. The shortfall is no accident — classical theory studies *worst-case* problems within an abstract problem class (typically steepest descent on nonconvex smooth problem classes), and worst-case analyses are by construction blind to the structural properties of the actual problems they are applied to. To explain Muon's effectiveness, we have to look at the structure of neural networks themselves.
 
 A line of empirical and theoretical work [2,3,4] has established that the layer-wise Hessian of a neural network is **row-block diagonally dominant**: when the Hessian of a weight matrix $W \in \mathbb{R}^{m \times n}$ is unfolded along the $m$ row-direction blocks of size $n \times n$, the diagonal blocks dominate the off-diagonal ones in magnitude.
 
@@ -119,7 +119,15 @@ $$
 
 and let $G_{i,t} := \partial \mathcal{L} / \partial W_i$. At step $t = 0$ the momentum equals the gradient, $V_0 = G_0$, so $V_t V_t^\top = G_t G_t^\top$.
 
-**Standing assumption.** $(W_1)_{ij}, (W_2)_{ij} \stackrel{\text{iid}}{\sim} \mathcal{N}(0, 1)$, $x \sim \mathcal{N}(0, I_{d_0})$, and $\Phi$ is deterministic and independent of $W_1, W_2$.
+**Standing assumption.** At initialization,
+
+$$
+(W_1)_{ij}, (W_2)_{ij} \stackrel{\mathrm{iid}}{\sim} \mathcal{N}(0, 1),
+\qquad
+x \sim \mathcal{N}(0, I_{d_0}),
+$$
+
+and $\Phi$ is deterministic and independent of $W_1, W_2$.
 
 ### 3.2 Closed-Form Structure of the Gradient Self Outer-Product
 
@@ -185,7 +193,7 @@ This 0-step result is the simplest model in which the dominance phenomenon is an
 
 ## 4. Empirical Evidence Across Full Training Dynamics
 
-To validate that $V_t V_t^\top$ is diagonally dominant beyond the toy setting, in our paper [5] we tracked, for every matrix parameter throughout training, the row-wise dominance ratio
+To test whether $V_t V_t^\top$ remains diagonally dominant beyond the toy setting, our paper [5] tracked, for every matrix parameter throughout training, the row-wise dominance ratio
 
 $$
 r_i \;:=\; \frac{(V_t V_t^\top)_{ii}}{\frac{1}{m-1}\sum_{j \neq i} |(V_t V_t^\top)_{ij}|},
