@@ -191,7 +191,7 @@ $$
 r_i \;:=\; \frac{(V_t V_t^\top)_{ii}}{\frac{1}{m-1}\sum_{j \neq i} |(V_t V_t^\top)_{ij}|},
 $$
 
-and aggregated it into per-layer minima, averages, and maxima (\(r_{\min}, r_{\text{avg}}, r_{\max}\)), then averaged those across all matrix parameters in the network (\(\overline{r}_{\min}, \overline{r}_{\text{avg}}, \overline{r}_{\max}\)).
+and aggregated it into per-layer minima, averages, and maxima ($r_{\min}, r_{\mathrm{avg}}, r_{\max}$), then averaged those across all matrix parameters in the network ($\bar r_{\min}, \bar r_{\mathrm{avg}}, \bar r_{\max}$).
 
 <figure style="margin: 1.4rem auto 1.6rem auto; text-align: center; max-width: 860px;">
   <img src="/images/blog/global.png" alt="Global diagonal dominance ratios across training for GPT-2 and LLaMA." style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />
@@ -201,8 +201,8 @@ and aggregated it into per-layer minima, averages, and maxima (\(r_{\min}, r_{\t
 Three observations:
 
 <ol>
-  <li><strong>The ratios cross \(1\) early and stay above it.</strong> After warm-up, \(\overline{r}_{\min}, \overline{r}_{\text{avg}}, \overline{r}_{\max}\) all rise above \(1\) within the first few percent of training and remain there.</li>
-  <li><strong>Dominance grows with model scale.</strong> For both architectures, \(\overline{r}_{\text{avg}}\) and \(\overline{r}_{\min}\) are visibly higher for larger models, consistent with the \(\Theta(d_1)\) asymptotic scaling predicted by Theorem 2.</li>
+  <li><strong>The ratios cross $1$ early and stay above it.</strong> After warm-up, $\bar r_{\min}, \bar r_{\mathrm{avg}}, \bar r_{\max}$ all rise above $1$ within the first few percent of training and remain there.</li>
+  <li><strong>Dominance grows with model scale.</strong> For both architectures, $\bar r_{\mathrm{avg}}$ and $\bar r_{\min}$ are visibly higher for larger models, consistent with the $\Theta(d_1)$ asymptotic scaling predicted by Theorem 2.</li>
   <li><strong>The phenomenon is architecture-agnostic.</strong> Both GPT-2 and LLaMA show the same qualitative behavior, suggesting the dominance is a generic property of well-conditioned Transformer training rather than an artifact of any specific design choice.</li>
 </ol>
 
