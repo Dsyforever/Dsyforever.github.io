@@ -87,6 +87,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 | Date | Update |
 |:-----|:-------|
+| **2026.05** | ✨ [New blog](/blog/) in understanding Row normalization and orthogonalization for NN online. Welcome to discuss! |
 | **2026.05** | 🎉Two paper has been accepted to ICML 2026, including [*RMNP*](https://arxiv.org/abs/2603.20527) ! We will soon release two blog posts to discuss the rich intuitions behind RMNP.|
 | **2026.03** | 🎉 Our paper about [*"Hessian Spectral Bifurcation"*](https://arxiv.org/abs/2602.00545) has been accepted to **ISIT 2026**.|
 | **2026.03** | 📄 New preprint about Matrix-Based Optimization: [*RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization*](https://arxiv.org/abs/2603.20527) |
