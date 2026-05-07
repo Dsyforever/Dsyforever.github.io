@@ -14,7 +14,7 @@ translation_label: "中文版"
 translation_url: /blog/normalization-orthogonalization-zh/
 ---
 
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; margin-bottom: 0.4rem;">
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.75rem; margin-bottom: 0.4rem;">
   <h1 style="margin: 0;">Row Normalization and Orthogonalization Are Asymptotically Equivalent on Neural Networks</h1>
   <a href="/blog/normalization-orthogonalization-zh/" style="display: inline-block; padding: 0.22rem 0.78rem; border-radius: 999px; border: 1px solid rgba(73, 93, 118, 0.16); background: rgba(255, 255, 255, 0.82); text-decoration: none; font-size: 0.92rem; white-space: nowrap;">中文版</a>
 </div>

@@ -13,7 +13,7 @@ related_notes:
 hide_from_blog_index: true
 ---
 
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; margin-bottom: 0.4rem;">
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.75rem; margin-bottom: 0.4rem;">
   <h1 style="margin: 0;">神经网络中行归一化与正交化的渐近等价性</h1>
   <a href="/blog/normalization-orthogonalization/" style="display: inline-block; padding: 0.22rem 0.78rem; border-radius: 999px; border: 1px solid rgba(73, 93, 118, 0.16); background: rgba(255, 255, 255, 0.82); text-decoration: none; font-size: 0.92rem; white-space: nowrap;">English</a>
 </div>
@@ -75,7 +75,7 @@ $$
   <figcaption style="margin-top: 0.55rem; font-size: 0.92em; line-height: 1.45; color: #5c6675;">图 2. Muon 的预条件器与 Hessian 结构的对比。</figcaption>
 </figure>
 
-## 3. 神经网络设定下的理论图景
+## 3. 神经网络Setup下的理论理解
 
 下面我们从理论上解释这一现象。具体来说，我们分析了三个传统神经网络理论模型在初始化处的梯度自外积的渐近结构。由于每个模型的推导都比较长，这里只展示两层 ReLU 神经网络的结果，用它来传达核心图景；完整证明可以在对应的 proof notes 中找到。
 
@@ -219,7 +219,7 @@ $$
 
 简言之，在不同模型家族、不同模型规模以及完整训练过程中，$V_t V_t^\top$ 不仅呈现出对角占优，而且在真正体现矩阵感知优化器优势的训练区域里，这种占优还会持续增强。
 
-## 5. RMNP：Muon 的高效等价物
+## 5. RMNP：Muon 的高效替代物
 
 现在我们可以把前面的图景闭合起来。回忆 Muon 的更新方向：
 
