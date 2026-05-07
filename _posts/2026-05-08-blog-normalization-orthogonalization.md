@@ -12,9 +12,12 @@ related_notes:
     url: https://drive.google.com/file/d/1Vm1gibwaH5GM9k0Bod-9RWAcDwgGyvKe/view?usp=sharing
 ---
 
-# Row Normalization and Orthogonalization Are Asymptotically Equivalent on Neural Networks
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; margin-bottom: 0.4rem;">
+  <h1 style="margin: 0;">Row Normalization and Orthogonalization Are Asymptotically Equivalent on Neural Networks</h1>
+  <a href="/blog/normalization-orthogonalization-zh/" style="display: inline-block; padding: 0.22rem 0.78rem; border-radius: 999px; border: 1px solid rgba(73, 93, 118, 0.16); background: rgba(255, 255, 255, 0.82); text-decoration: none; font-size: 0.92rem; white-space: nowrap;">中文版</a>
+</div>
 
-> **TL;DR.** On neural networks, two seemingly different matrix-level preconditioners turn out to be asymptotically equivalent: orthogonalization, and row-wise $\ell_2$ normalization along the input dimension. We provide preliminary theoretical results for this picture together with large-scale empirical evidence. On the theoretical side, we give a closed-form analysis of the gradient self outer-product across three canonical NN-theory setups at initialization (matrix factorization, deep linear networks, and 2-layer ReLU networks), and our results show that row normalization and orthogonalization are asymptotically equivalent in these setups. On the empirical side, we track the full training dynamics of GPT-2 and LLaMA at multiple scales. Along the way, this picture clarifies a long-standing puzzle: *why does orthogonalization-based preconditioning adapt so well to the curvature structure of neural networks?* The answer is that its action is implicitly aligned with the block-diagonally-dominant Hessian of neural networks.
+> **TL;DR.** On neural networks, two seemingly different matrix-level preconditioners turn out to be asymptotically equivalent: orthogonalization, and row-wise $\ell_2$ normalization along the input dimension. We provide preliminary theoretical results for this picture together with large-scale empirical evidence. On the theoretical side, we give a closed-form analysis of the gradient self outer-product across three canonical NN-theory setups at initialization (matrix factorization, deep linear networks, and 2-layer ReLU networks), and our results show that row normalization and orthogonalization are asymptotically equivalent in these setups. On the empirical side, we track the full training dynamics of GPT-2 and LLaMA at multiple scales, and verify that orthogonalization and row-wise normalization remain approximately equivalent throughout training. Taken together, these two analyses clarify a long-standing puzzle: *why does orthogonalization-based preconditioning adapt so well to the curvature structure of neural networks?* The answer is that its action is implicitly aligned with the block-diagonally-dominant Hessian of neural networks.
 
 ## 1. Muon
 
