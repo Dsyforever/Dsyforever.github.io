@@ -288,14 +288,13 @@ and earlier empirical explorations of various normalization schemes:
 
 ## 7. Citing This Blog
 
-If you find this post useful, you may cite it as:
-
-```bibtex
-@misc{rmnp_blog_2026,
+<div style="margin: 1.2rem 0 0 0; padding: 1.1rem 1.15rem; border: 1px solid rgba(90, 76, 59, 0.12); border-radius: 16px; background: linear-gradient(180deg, #fffdfa 0%, #f7f2eb 100%); box-shadow: 0 8px 24px rgba(68, 52, 35, 0.06);">
+  <p style="margin: 0 0 0.65rem 0; color: #1f2933; font-size: 1.02rem; line-height: 1.65;"><strong>Cite.</strong> If you find this post useful, you may cite it as:</p>
+  <pre style="margin: 0; padding: 1rem 1.05rem; overflow-x: auto; border-radius: 12px; border: 1px solid rgba(73, 93, 118, 0.12); background: rgba(255, 255, 255, 0.9); color: #24323f; font-size: 0.95rem; line-height: 1.7;"><code>@misc{rmnp_blog_2026,
   title  = {Row Normalization and Orthogonalization Are Asymptotically Equivalent on Neural Networks},
   author = {Shenyang Deng},
   year   = {2026},
   note   = {Blog post},
   url    = {https://dsyforever.github.io/blog/normalization-orthogonalization/}
-}
-```
+}</code></pre>
+</div>

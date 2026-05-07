@@ -10,7 +10,19 @@ layout: default
   .blog-note {
     margin: 0 0 1.25rem 0;
     color: #5f5a53;
-    font-size: 0.98rem;
+    font-size: 0.95rem;
+  }
+
+  .blog-year {
+    margin: 2rem 0 0.85rem 0;
+    display: inline-block;
+    padding: 0.2rem 0.8rem;
+    border-radius: 999px;
+    background: #e9dfd1;
+    color: #6f4d32;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
   }
 
   .blog-list {
@@ -27,9 +39,10 @@ layout: default
   }
 
   .blog-title {
-    margin: 0;
-    font-size: 1.35rem;
-    line-height: 1.45;
+    margin: 0 0 0.45rem 0;
+    color: #1f2933;
+    font-size: 1.08rem;
+    line-height: 1.55;
   }
 
   .blog-title a {
@@ -42,24 +55,24 @@ layout: default
   }
 
   .blog-meta {
-    margin: 0.45rem 0 0 0;
+    margin: 0.7rem 0 0 0;
     color: #4d5761;
-    font-size: 0.95rem;
+    line-height: 1.75;
   }
 
   .blog-related {
-    margin-top: 0.9rem;
+    margin: 0;
     color: #2f3943;
-    line-height: 1.8;
+    line-height: 1.75;
   }
 
   .blog-related-label {
     font-weight: 700;
-    margin-right: 0.35rem;
+    margin-right: 0.45rem;
   }
 
   .blog-links {
-    margin-top: 0.55rem;
+    margin-top: 0.5rem;
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
@@ -81,7 +94,7 @@ layout: default
     }
 
     .blog-title {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
 </style>
@@ -93,22 +106,37 @@ layout: default
     <p class="blog-note">{{ page.description }}</p>
   {% endif %}
 
-  <div class="blog-list">
-    {% for post in site.posts %}
-      <article class="blog-card">
-        <h2 class="blog-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="blog-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-        {% if post.related_notes %}
-          <div class="blog-related">
-            <span class="blog-related-label">Related Note:</span>
-            <div class="blog-links">
-              {% for note in post.related_notes %}
-                <a href="{{ note.url }}">{{ note.title }}</a>
-              {% endfor %}
-            </div>
+  {% assign current_year = "" %}
+  {% for post in site.posts %}
+    {% assign post_year = post.date | date: "%Y" %}
+    {% if post_year != current_year %}
+      {% assign current_year = post_year %}
+      <div class="blog-year">{{ current_year }}</div>
+      <div class="blog-list">
+    {% endif %}
+
+    <article class="blog-card">
+      <p class="blog-title"><a href="{{ post.url | relative_url }}">&ldquo;<em>{{ post.title }}</em>.&rdquo;</a></p>
+      {% if post.related_notes and post.related_notes.size > 0 %}
+        <div class="blog-related">
+          <span class="blog-related-label">Related Note:</span>
+          <div class="blog-links">
+            {% for note in post.related_notes %}
+              <a href="{{ note.url }}">{{ note.title }}</a>
+            {% endfor %}
           </div>
-        {% endif %}
-      </article>
-    {% endfor %}
-  </div>
+        </div>
+      {% endif %}
+      <p class="blog-meta"><strong>{{ post.date | date: "%B %-d, %Y" }}</strong>.</p>
+    </article>
+
+    {% assign next_post = site.posts[forloop.index] %}
+    {% assign next_year = "" %}
+    {% if next_post %}
+      {% assign next_year = next_post.date | date: "%Y" %}
+    {% endif %}
+    {% if forloop.last or next_year != current_year %}
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>
