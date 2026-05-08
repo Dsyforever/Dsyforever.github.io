@@ -44,12 +44,12 @@ $$
 
 ## 2. Muon 为什么能适配神经网络的 Hessian 结构
 
-<figure style="float: right; width: 28%; min-width: 210px; max-width: 320px; margin: 0.2rem 0 1rem 1.4rem;">
-  <img src="/images/blog/vennRMNP_01.png" alt="现代神经网络优化问题，例如 Transformer 与 CNN，属于更大的非凸光滑问题类，但它们远离最坏情形。传统理论刻画的是最坏情形，真实神经网络问题则具有额外结构。" style="width: 100%; height: auto; display: block; border-radius: 6px;" />
+Muon 为什么能够自然地适配神经网络的 Hessian 结构？这是本文关注的核心问题。传统优化理论的发展历史非常悠久，像 Muon 这样结构简单的预条件方法，直到最近才被发现能在神经网络训练中显著优于许多常见优化器，这种优势并不能充分地被传统优化理论所理解。这一缺口并非偶然。传统理论通常研究的是某个抽象问题类中的*最坏情形*，而最坏情形分析天然无法反映真实神经网络问题中那些决定训练行为的结构性特征。要理解 Muon 为什么有效，我们就必须回到神经网络本身的结构上来。
+
+<figure style="margin: 1.1rem auto 1.35rem auto; text-align: center; max-width: 620px;">
+  <img src="/images/blog/vennRMNP_01.png" alt="现代神经网络优化问题，例如 Transformer 与 CNN，属于更大的非凸光滑问题类，但它们远离最坏情形。传统理论刻画的是最坏情形，真实神经网络问题则具有额外结构。" style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />
   <figcaption style="margin-top: 0.5rem; font-size: 0.9em; line-height: 1.45; color: #5c6675;">图 1. 现代神经网络优化远离最坏情形的非凸光滑实例。</figcaption>
 </figure>
-
-Muon 为什么能够自然地适配神经网络的 Hessian 结构？这是本文关注的核心问题。传统优化理论的发展历史非常悠久，像 Muon 这样结构简单的预条件方法，直到最近才被发现能在神经网络训练中显著优于许多常见优化器，这种优势并不能充分地被传统优化理论所理解。这一缺口并非偶然。传统理论通常研究的是某个抽象问题类中的*最坏情形*，而最坏情形分析天然无法反映真实神经网络问题中那些决定训练行为的结构性特征。要理解 Muon 为什么有效，我们就必须回到神经网络本身的结构上来。
 
 [2,3,4] 的一系列经验与理论工作表明：神经网络逐层的 Hessian 往往呈现出**按行分块的对角占优结构**。更具体地说，当我们把权重矩阵 $W \in \mathbb{R}^{m \times n}$ 的 Hessian 沿着 $m$ 个行方向拆成大小为 $n \times n$ 的子块时，对角块通常在量级上主导非对角块。
 
@@ -70,8 +70,6 @@ $$
 这篇博客给出了一些初步理论结果。在三个传统神经网络理论模型中，矩阵分解、深线性网络和两层 ReLU 网络，我们在初始化处的分析都指向同一个结论：在宽度趋于无穷的渐近极限下，答案是肯定的。而对于真实模型在完整训练过程中的经验证据，可以参见我们的论文 [5]，其中包含 GPT-2 与 LLaMA 的完整动态分析。
 
 图 2 概括了这种结构对应关系：当 $V_t V_t^\top$ 接近对角矩阵时，Muon 的预条件器就会沿着行分块方向自然对齐，而这恰好匹配了神经网络 Hessian 中占主导地位的行分块结构。
-
-<div style="clear: both;"></div>
 
 <figure style="margin: 1.4rem auto 1.6rem auto; text-align: center; max-width: 540px;">
   <img src="/images/blog/Hessian.png" alt="Muon 的预条件器与 Hessian 结构的对比。" style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />
