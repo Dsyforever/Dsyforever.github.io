@@ -195,7 +195,17 @@ $$
 
 In particular, **as the hidden width $d_1 \to \infty$, $G_{1,t} G_{1,t}^\top$ is asymptotically diagonal**: the diagonal entries dominate the off-diagonal entries by a factor that grows linearly in the hidden width.
 
-The mechanism is intuitive. The off-diagonals $(G_{1,t} G_{1,t}^\top)_{ac}$ measure correlations between gradient rows of *different* hidden neurons. Under Gaussian initialization, hidden neurons are exchangeable and their gradient rows align with different random directions in $\mathbb{R}^{d_0}$, so each off-diagonal entry stays $\Theta(1)$ in $d_1$. The diagonal entries, by contrast, accumulate a $(d_1 - 1)\kappa_1$ contribution from summing over the other hidden neurons in the backprop expansion, giving the $\Theta(d_1)$ that drives the dominance.
+This mechanism can also be understood through the geometry of high-dimensional Gaussians. If $u, v \sim \mathcal{N}(0, I_{d_0})$ are independent, then
+
+$$
+\mathbb{E}[\langle u, v \rangle] = 0,
+\qquad
+\mathbb{E}[\langle u, u \rangle] = \mathbb{E}[\|u\|_2^2] = d_0.
+$$
+
+So, in expectation, two different Gaussian vectors are nearly orthogonal, while the self-inner-product grows with dimension. This is exactly the right intuition here. The off-diagonal term $(G_{1,t} G_{1,t}^\top)_{ac}$ with $a \neq c$ measures the correlation between gradient rows of two different hidden neurons, and therefore behaves like an inner product between two different random directions: it does not accumulate with the hidden width $d_1$, and remains $\Theta(1)$. By contrast, the diagonal term $(G_{1,t} G_{1,t}^\top)_{aa}$ is a self-inner-product, analogous to a squared norm; after expanding the backprop expression, it also collects an additional constant-order contribution from each of the other $d_1 - 1$ hidden neurons, producing the leading term $(d_1 - 1)\kappa_1 = \Theta(d_1)$.
+
+In our setting, the hidden width $d_1$ plays the role of this effective high dimension: the strong independence across rows at initialization induces a similar near-orthogonality structure across gradient rows. As a result, when $d_1 \to \infty$, the correlations behind the off-diagonal terms are weaker than those behind the diagonal terms, so the off-diagonal entries grow more slowly than the diagonal ones, forcing $G_{1,t} G_{1,t}^\top$ toward diagonal dominance.
 
 This 0-step result is the simplest model in which the dominance phenomenon is analytically transparent. The next section shows that the same structural force acts throughout training in practice.
 
