@@ -199,7 +199,7 @@ This 0-step result is the simplest model in which the dominance phenomenon is an
 
 ## 4. Empirical Evidence Across Full Training Dynamics
 
-To test whether $V_t V_t^\top$ remains diagonally dominant beyond the toy setting, our paper [5] tracked, for every matrix parameter throughout training, the row-wise dominance ratio
+To test whether this phenomenon persists in realistic models, our paper [5] experimentally studied the full training dynamics of GPT-2 and LLaMA. We found that $V_t V_t^\top$ remains diagonally dominant beyond the toy setting, and that this structure continues to appear throughout training. Concretely, for every matrix parameter, we tracked the row-wise dominance ratio
 
 $$
 r_i \;:=\; \frac{(V_t V_t^\top)_{ii}}{\frac{1}{m-1}\sum_{j \neq i} |(V_t V_t^\top)_{ij}|},
