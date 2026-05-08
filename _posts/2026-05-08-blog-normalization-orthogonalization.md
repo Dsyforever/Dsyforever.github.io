@@ -47,12 +47,12 @@ $$
 
 ## 2. How Muon Adapts to the Hessian Structure of Neural Networks
 
-<figure style="float: right; width: 28%; min-width: 210px; max-width: 320px; margin: 0.2rem 0 1rem 1.4rem;">
-  <img src="/images/blog/vennRMNP_01.png" alt="Modern NN optimization problems (e.g., Transformer, CNN) sit inside the broader class of nonconvex smooth problems, but they live far from the worst-case instances. Classical theory bounds the worst case (left small ellipse). Real NN problems (right small ellipses) inherit additional structure that worst-case analysis does not see." style="width: 100%; height: auto; display: block; border-radius: 6px;" />
+As a preconditioned optimizer, how does Muon adapt to the Hessian structure of neural networks? This is a fundamental question. Simple preconditioned methods like Muon were only very recently found to dramatically outperform other optimizers on neural networks, and no analysis under the classical optimization theory setup predicts such a gap. The shortfall is no accident — classical theory studies *worst-case* problems within an abstract problem class (typically steepest descent on nonconvex smooth problem classes), and worst-case analyses are by construction blind to the structural properties of the actual problems they are applied to. To explain Muon's effectiveness, we have to look at the structure of neural networks themselves.
+
+<figure style="margin: 1.1rem auto 1.35rem auto; text-align: center; max-width: 620px;">
+  <img src="/images/blog/vennRMNP_01.png" alt="Modern NN optimization problems (e.g., Transformer, CNN) sit inside the broader class of nonconvex smooth problems, but they live far from the worst-case instances. Classical theory bounds the worst case (left small ellipse). Real NN problems (right small ellipses) inherit additional structure that worst-case analysis does not see." style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />
   <figcaption style="margin-top: 0.5rem; font-size: 0.9em; line-height: 1.45; color: #5c6675;">Figure 1. Modern neural-network optimization lives far away from worst-case nonconvex smooth instances.</figcaption>
 </figure>
-
-As a preconditioned optimizer, how does Muon adapt to the Hessian structure of neural networks? This is a fundamental question. Simple preconditioned methods like Muon were only very recently found to dramatically outperform other optimizers on neural networks, and no analysis under the classical optimization theory setup predicts such a gap. The shortfall is no accident — classical theory studies *worst-case* problems within an abstract problem class (typically steepest descent on nonconvex smooth problem classes), and worst-case analyses are by construction blind to the structural properties of the actual problems they are applied to. To explain Muon's effectiveness, we have to look at the structure of neural networks themselves.
 
 A line of empirical and theoretical work [2,3,4] has established that the layer-wise Hessian of a neural network is **row-block diagonally dominant**: when the Hessian of a weight matrix $W \in \mathbb{R}^{m \times n}$ is unfolded along the $m$ row-direction blocks of size $n \times n$, the diagonal blocks dominate the off-diagonal ones in magnitude.
 
@@ -72,8 +72,6 @@ This raises a clean structural question:
 
 This blog gives preliminary theoretical results on three canonical NN-theory setups (matrix factorization, deep linear networks, and 2-layer ReLU networks) at initialization that point to "yes" in the asymptotic-width regime; full-dynamics empirical evidence on practical models (GPT-2, LLaMA) is given in our paper [5].
 Figure 2 summarizes this structural comparison: Muon's preconditioner is row-block aligned precisely when $V_t V_t^\top$ is close to diagonal, matching the dominant row-block pattern observed in the neural-network Hessian.
-
-<div style="clear: both;"></div>
 
 <figure style="margin: 1.4rem auto 1.6rem auto; text-align: center; max-width: 540px;">
   <img src="/images/blog/Hessian.png" alt="Comparison between Muon's preconditioner and the Hessian structure." style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />
@@ -234,7 +232,7 @@ Three observations:
 
 In short: across model families, scales, and the entire course of training, $V_t V_t^\top$ is *not just* diagonally dominant — it is *increasingly so* at the regime where matrix-aware optimizers actually matter.
 
-## 5. RMNP: An Efficient Equivalent of Muon
+## 5. RMNP: An Efficient Surrogate for Muon
 
 Now this blog can close the loop. Recall Muon's update direction:
 
