@@ -46,7 +46,7 @@ $$
 
 Muon 为什么能够自然地适配神经网络的 Hessian 结构？这是本文关注的核心问题。传统优化理论的发展历史非常悠久，像 Muon 这样结构简单的预条件方法，直到最近才被发现能在神经网络训练中显著优于许多常见优化器，这种优势并不能充分地被传统优化理论所理解。这一缺口并非偶然。传统理论通常研究的是某个抽象问题类中的*最坏情形*，而最坏情形分析天然无法反映真实神经网络问题中那些决定训练行为的结构性特征。要理解 Muon 为什么有效，我们就必须回到神经网络本身的结构上来。
 
-<figure style="margin: 1.1rem auto 1.35rem auto; text-align: center; max-width: 620px;">
+<figure style="margin: 1.1rem auto 1.35rem auto; text-align: center; max-width: 360px;">
   <img src="/images/blog/vennRMNP_01.png" alt="现代神经网络优化问题，例如 Transformer 与 CNN，属于更大的非凸光滑问题类，但它们远离最坏情形。传统理论刻画的是最坏情形，真实神经网络问题则具有额外结构。" style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />
   <figcaption style="margin-top: 0.5rem; font-size: 0.9em; line-height: 1.45; color: #5c6675;">图 1. 现代神经网络优化远离最坏情形的非凸光滑实例。</figcaption>
 </figure>

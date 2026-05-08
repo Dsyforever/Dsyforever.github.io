@@ -49,7 +49,7 @@ $$
 
 As a preconditioned optimizer, how does Muon adapt to the Hessian structure of neural networks? This is a fundamental question. Simple preconditioned methods like Muon were only very recently found to dramatically outperform other optimizers on neural networks, and no analysis under the classical optimization theory setup predicts such a gap. The shortfall is no accident — classical theory studies *worst-case* problems within an abstract problem class (typically steepest descent on nonconvex smooth problem classes), and worst-case analyses are by construction blind to the structural properties of the actual problems they are applied to. To explain Muon's effectiveness, we have to look at the structure of neural networks themselves.
 
-<figure style="margin: 1.1rem auto 1.35rem auto; text-align: center; max-width: 620px;">
+<figure style="margin: 1.1rem auto 1.35rem auto; text-align: center; max-width: 360px;">
   <img src="/images/blog/vennRMNP_01.png" alt="Modern NN optimization problems (e.g., Transformer, CNN) sit inside the broader class of nonconvex smooth problems, but they live far from the worst-case instances. Classical theory bounds the worst case (left small ellipse). Real NN problems (right small ellipses) inherit additional structure that worst-case analysis does not see." style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />
   <figcaption style="margin-top: 0.5rem; font-size: 0.9em; line-height: 1.45; color: #5c6675;">Figure 1. Modern neural-network optimization lives far away from worst-case nonconvex smooth instances.</figcaption>
 </figure>
