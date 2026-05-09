@@ -287,7 +287,7 @@ and earlier empirical explorations of various normalization schemes:
 
 [3] Yushun Zhang, Congliang Chen, Ziniu Li, Tian Ding, Chenwei Wu, Diederik P. Kingma, Yinyu Ye, Zhi-Quan Luo, and Ruoyu Sun. *Adam-mini: Use Fewer Learning Rates To Gain More.* arXiv preprint arXiv:2406.16793, 2024. <https://arxiv.org/abs/2406.16793>
 
-[4] Zhaorui Dong, Yushun Zhang, Zhi-Quan Luo, Jianfeng Yao, and Ruoyu Sun. *Towards Quantifying the Hessian Structure of Neural Networks.* arXiv preprint arXiv:2505.02809, 2025. <https://arxiv.org/abs/2505.02809>
+[4] Zhaorui Dong, Yushun Zhang, Jianfeng Yao, and Ruoyu Sun. *Towards Quantifying the Hessian Structure of Neural Networks.* arXiv preprint arXiv:2505.02809, 2025. <https://arxiv.org/abs/2505.02809>
 
 [5] Shenyang Deng, Zhuoli Ouyang, Tianyu Pang, Zihang Liu, Ruochen Jin, Shuhua Yu, and Yaoqing Yang. *RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization.* In *Proceedings of the 43rd International Conference on Machine Learning (ICML)*, 2026.
 
