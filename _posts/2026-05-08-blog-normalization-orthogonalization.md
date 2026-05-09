@@ -82,6 +82,8 @@ Figure 2 summarizes this structural comparison: Muon's preconditioner is row-blo
 
 ## 3. Theoretical Understanding on NN Setup
 
+If you do not want to go through the detailed theory, feel free to jump directly to [Section 4](#empirical-evidence) for the empirical evidence in practical training.
+
 This blog gives an asymptotic analysis of the gradient self outer-product at initialization across three canonical NN-theory setups. Since the math gets fairly involved in each case, this blog only states the result for the 2-layer ReLU case and uses it to convey the picture; the full proofs are in the corresponding proof notes.
 
 <table style="margin: 1rem auto 1.4rem auto; text-align: left;">
@@ -198,6 +200,8 @@ In particular, **as the hidden width $d_1 \to \infty$, $G_{1,t} G_{1,t}^\top$ is
 This mechanism is not hard to understand. In high dimensions, independent Gaussian vectors are orthogonal in expectation, which matches the behavior of the off-diagonal terms; meanwhile, the expected self-inner-product of a Gaussian vector grows with dimension, which matches the diagonal terms. Here the hidden width plays the role of that dimension: the strong independence across rows at initialization induces a similar near-orthogonality structure across gradient rows. As the hidden width grows, the off-diagonal terms grow more slowly than the diagonal ones, so $G_{1,t} G_{1,t}^\top$ becomes asymptotically diagonally dominant.
 
 This 0-step result is the simplest model in which the dominance phenomenon is analytically transparent. The next section shows that the same structural force acts throughout training in practice.
+
+<span id="empirical-evidence"></span>
 
 ## 4. Empirical Evidence Across Full Training Dynamics
 
