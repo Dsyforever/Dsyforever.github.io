@@ -67,7 +67,9 @@ $$
 
 > **对神经网络而言，$V_t V_t^\top$（等价地，$G_t G_t^\top$）是否是对角占优的？**
 
-这篇博客给出了一些初步理论结果。在三个传统神经网络理论模型中，矩阵分解、深线性网络和两层 ReLU 网络，我们在初始化处的分析都指向同一个结论：在宽度趋于无穷的渐近极限下，答案是肯定的。而对于真实模型在完整训练过程中的经验证据，可以参见我们的论文 [5]，其中包含 GPT-2 与 LLaMA 的完整动态分析。
+对于神经网络的权重矩阵来说，在宽度趋于无穷的渐近极限下，答案是肯定的。
+
+这篇博客给出了一些初步理论结果。在三个传统神经网络理论模型中，矩阵分解、深线性网络和两层 ReLU 网络，我们在初始化处的分析都指向同一个结论。而对于真实模型在完整训练过程中的经验证据，可以参见我们的论文 [5]，其中包含 GPT-2 与 LLaMA 的完整动态分析。
 
 图 2 概括了这种结构对应关系：当 $V_t V_t^\top$ 接近对角矩阵时，Muon 的预条件器就会沿着行分块方向自然对齐，而这恰好匹配了神经网络 Hessian 中占主导地位的行分块结构。
 
@@ -267,6 +269,7 @@ $$
 - [8] *SRON: State-Free LLM Training via Row-Wise Gradient Normalization.*
 - [9] *Mano: Restriking Manifold Optimization for LLM Training.*
 - [10] *On the Width Scaling of Neural Optimizers Under Matrix Operator Norms I: Row/Column Normalization and Hyperparameter Transfer.*
+- [13] *Aurora: A Leverage-Aware Optimizer for Rectangular Matrices.*
 
 以及更早一些关于不同归一化方案的经验探索：
 
@@ -300,6 +303,8 @@ $$
 
 [12] Chao Ma, Wenbo Gong, Meyer Scetbon, and Edward Meeds. *SWAN: SGD with Normalization and Whitening Enables Stateless LLM Training.* In *Proceedings of the 42nd International Conference on Machine Learning (ICML)*, 2025. arXiv:2412.13148. <https://arxiv.org/abs/2412.13148>
 
+[13] Alec Dewulf, Dhruv Pai, Li Yang, Ashley Zhang, and Ben Keigwin. *Aurora: A Leverage-Aware Optimizer for Rectangular Matrices.* Tilde Research Blog, 2026. <https://blog.tilderesearch.com/blog/aurora>
+
 ## 7. 如何引用这篇博客
 
 <div style="margin: 1.2rem 0 0 0; padding: 1.1rem 1.15rem; border: 1px solid rgba(90, 76, 59, 0.12); border-radius: 16px; background: linear-gradient(180deg, #fffdfa 0%, #f7f2eb 100%); box-shadow: 0 8px 24px rgba(68, 52, 35, 0.06);">
@@ -312,3 +317,7 @@ $$
   url    = {https://dsyforever.github.io/blog/normalization-orthogonalization/}
 }</code></pre>
 </div>
+
+## 8. 致谢
+
+感谢 Yushun Zhang、Shuhua Yu 和 Yaoqing Yang 提供的讨论与反馈。后续如有需要，这份名单还会继续补充。

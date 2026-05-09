@@ -70,7 +70,9 @@ This raises a clean structural question:
 
 > **Is $V_t V_t^\top$ (equivalently, $G_t G_t^\top$) diagonally dominant for neural networks?**
 
-This blog gives preliminary theoretical results on three canonical NN-theory setups (matrix factorization, deep linear networks, and 2-layer ReLU networks) at initialization that point to "yes" in the asymptotic-width regime; full-dynamics empirical evidence on practical models (GPT-2, LLaMA) is given in our paper [5].
+For neural-network weight matrices, the answer is yes in the asymptotic-width regime.
+
+This blog gives preliminary theoretical results on three canonical NN-theory setups (matrix factorization, deep linear networks, and 2-layer ReLU networks) at initialization that point to this conclusion; full-dynamics empirical evidence on practical models (GPT-2, LLaMA) is given in our paper [5].
 Figure 2 summarizes this structural comparison: Muon's preconditioner is row-block aligned precisely when $V_t V_t^\top$ is close to diagonal, matching the dominant row-block pattern observed in the neural-network Hessian.
 
 <figure style="margin: 1.4rem auto 1.6rem auto; text-align: center; max-width: 540px;">
@@ -269,6 +271,7 @@ Our paper [5] verifies that RMNP matches Muon's performance on GPT-2 (125M–1.5
 - [8] *SRON: State-Free LLM Training via Row-Wise Gradient Normalization.*
 - [9] *Mano: Restriking Manifold Optimization for LLM Training.*
 - [10] *On the Width Scaling of Neural Optimizers Under Matrix Operator Norms I: Row/Column Normalization and Hyperparameter Transfer.*
+- [13] *Aurora: A Leverage-Aware Optimizer for Rectangular Matrices.*
 
 and earlier empirical explorations of various normalization schemes:
 
@@ -302,6 +305,8 @@ and earlier empirical explorations of various normalization schemes:
 
 [12] Chao Ma, Wenbo Gong, Meyer Scetbon, and Edward Meeds. *SWAN: SGD with Normalization and Whitening Enables Stateless LLM Training.* In *Proceedings of the 42nd International Conference on Machine Learning (ICML)*, 2025. arXiv:2412.13148. <https://arxiv.org/abs/2412.13148>
 
+[13] Alec Dewulf, Dhruv Pai, Li Yang, Ashley Zhang, and Ben Keigwin. *Aurora: A Leverage-Aware Optimizer for Rectangular Matrices.* Tilde Research Blog, 2026. <https://blog.tilderesearch.com/blog/aurora>
+
 ## 7. Citing This Blog
 
 <div style="margin: 1.2rem 0 0 0; padding: 1.1rem 1.15rem; border: 1px solid rgba(90, 76, 59, 0.12); border-radius: 16px; background: linear-gradient(180deg, #fffdfa 0%, #f7f2eb 100%); box-shadow: 0 8px 24px rgba(68, 52, 35, 0.06);">
@@ -314,3 +319,7 @@ and earlier empirical explorations of various normalization schemes:
   url    = {https://dsyforever.github.io/blog/normalization-orthogonalization/}
 }</code></pre>
 </div>
+
+## 8. Acknowledgements
+
+Thanks to Yushun Zhang, Shuhua Yu, and Yaoqing Yang for helpful discussions and feedback. Further acknowledgements may be added as this note evolves.
