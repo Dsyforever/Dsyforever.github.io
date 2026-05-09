@@ -51,7 +51,7 @@ As a preconditioned optimizer, how does Muon adapt to the Hessian structure of n
 
 <figure style="margin: 1.1rem auto 1.35rem auto; text-align: center; max-width: 360px;">
   <img src="/images/blog/vennRMNP_01.png" alt="Modern NN optimization problems (e.g., Transformer, CNN) sit inside the broader class of nonconvex smooth problems, but they live far from the worst-case instances. Classical theory bounds the worst case (left small ellipse). Real NN problems (right small ellipses) inherit additional structure that worst-case analysis does not see." style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9em; line-height: 1.45; color: #5c6675;">Figure 1. Modern neural-network optimization lives far away from worst-case nonconvex smooth instances.</figcaption>
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9em; line-height: 1.45; color: #5c6675;">Figure 1. Modern neural-network optimization lives far away from worst-case nonconvex smooth problems.</figcaption>
 </figure>
 
 A line of empirical and theoretical work [2,3,4] has established that the layer-wise Hessian of a neural network is **row-block diagonally dominant**: when the Hessian of a weight matrix $W \in \mathbb{R}^{m \times n}$ is unfolded along the $m$ row-direction blocks of size $n \times n$, the diagonal blocks dominate the off-diagonal ones in magnitude.

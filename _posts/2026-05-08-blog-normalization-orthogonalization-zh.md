@@ -48,7 +48,7 @@ Muon 为什么能够自然地适配神经网络的 Hessian 结构？这是本文
 
 <figure style="margin: 1.1rem auto 1.35rem auto; text-align: center; max-width: 360px;">
   <img src="/images/blog/vennRMNP_01.png" alt="现代神经网络优化问题，例如 Transformer 与 CNN，属于更大的非凸光滑问题类，但它们远离最坏情形。传统理论刻画的是最坏情形，真实神经网络问题则具有额外结构。" style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9em; line-height: 1.45; color: #5c6675;">图 1. 现代神经网络优化远离最坏情形的非凸光滑实例。</figcaption>
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9em; line-height: 1.45; color: #5c6675;">图 1. 现代神经网络优化远离最坏情形的非凸光滑问题。</figcaption>
 </figure>
 
 [2,3,4] 的一系列经验与理论工作表明：神经网络逐层的 Hessian 往往呈现出**按行分块的对角占优结构**。更具体地说，当我们把权重矩阵 $W \in \mathbb{R}^{m \times n}$ 的 Hessian 沿着 $m$ 个行方向拆成大小为 $n \times n$ 的子块时，对角块通常在量级上主导非对角块。
