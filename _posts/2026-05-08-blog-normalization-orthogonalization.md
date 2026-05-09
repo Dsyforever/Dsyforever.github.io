@@ -289,7 +289,7 @@ and earlier empirical explorations of various normalization schemes:
 
 [4] Zhaorui Dong, Yushun Zhang, Zhi-Quan Luo, Jianfeng Yao, and Ruoyu Sun. *Towards Quantifying the Hessian Structure of Neural Networks.* arXiv preprint arXiv:2505.02809, 2025. <https://arxiv.org/abs/2505.02809>
 
-[5] Shenyang Deng, et al. *RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization.* In *Proceedings of the 43rd International Conference on Machine Learning (ICML)*, 2026.
+[5] Shenyang Deng, Zhuoli Ouyang, Tianyu Pang, Zihang Liu, Ruochen Jin, Shuhua Yu, and Yaoqing Yang. *RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization.* In *Proceedings of the 43rd International Conference on Machine Learning (ICML)*, 2026.
 
 [6] Thomas Pethick, Wanyun Xie, Kimon Antonakopoulos, Zhenyu Zhu, Antonio Silveti-Falls, and Volkan Cevher. *Training Deep Learning Models with Norm-Constrained LMOs.* In *Proceedings of the 42nd International Conference on Machine Learning (ICML)*, 2025. <https://arxiv.org/abs/2502.07529>
 
