@@ -269,7 +269,14 @@ $$
 
 Combined with the diagonal-dominance results of the previous two sections, this gives a clean picture: **as the model width grows to infinity, RMNP and Muon are asymptotically equivalent** — the costly $\Theta(mn \min(m, n))$ orthogonalization step in Muon collapses to a simple $\Theta(mn)$ input-dimension $\ell_2$ normalization, with no loss of preconditioning quality on neural networks.
 
-Our paper [5] verifies that RMNP matches Muon's performance on GPT-2 (125M–1.5B) and LLaMA (60M–1B). For further empirical results on row/column normalization and other advantages of normalization-based optimizers, please also see the following concurrent works:
+Our paper [5] verifies that RMNP matches Muon's performance on GPT-2 (125M–1.5B) and LLaMA (60M–1B).
+
+<figure style="margin: 1.4rem auto 1.6rem auto; text-align: center; max-width: 920px;">
+  <img src="/images/blog/GPT2-OWT-LLaMA-C4-combined_bar_blog.png" alt="GPT-2 and LLaMA results for RMNP and Muon." style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />
+  <figcaption style="margin-top: 0.55rem; font-size: 0.92em; line-height: 1.45; color: #5c6675;">Figure 5. Left: GPT-2 results from 125M to 770M. Right: LLaMA results. GPT-2 XL (1.5B) results are reported in the paper.</figcaption>
+</figure>
+
+For further empirical results on row/column normalization and other advantages of normalization-based optimizers, please also see the following concurrent works:
 
 - [7] *A Minimalist Optimizer Design for LLM Pretraining.*
 - [8] *SRON: State-Free LLM Training via Row-Wise Gradient Normalization.*
