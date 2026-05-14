@@ -55,6 +55,10 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 <div style="margin: 8px 0 2px 0; font-size: 0.97em; line-height: 1.35;">
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
     <strong>2026</strong>
+    <span><strong style="color: #C0392B;">ICML Golden Reviewer</strong>.</span>
+  </div>
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2026</strong>
     <span><strong style="color: #C0392B;">Best Student Paper Award</strong>, The 37th International Conference on Algorithmic Learning Theory.</span>
   </div>
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
@@ -87,6 +91,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 | Date | Update |
 |:-----|:-------|
+| **2026.05** | 🎉 Honored to receive the **ICML Golden Reviewer** award. Grateful for the recognition from the community. |
 | **2026.05** | ✨ [New blog](/blog/) in understanding Row normalization and orthogonalization for NN online. Welcome to discuss! |
 | **2026.05** | 🎉Two paper has been accepted to ICML 2026, including [*RMNP*](https://arxiv.org/abs/2603.20527) ! We will soon release two blog posts to discuss the rich intuitions behind RMNP.|
 | **2026.03** | 🎉 Our paper about [*"Hessian Spectral Bifurcation"*](https://arxiv.org/abs/2602.00545) has been accepted to **ISIT 2026**.|
