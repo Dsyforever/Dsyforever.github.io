@@ -55,7 +55,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 <div style="margin: 8px 0 2px 0; font-size: 0.97em; line-height: 1.35;">
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
     <strong>2026</strong>
-    <span><strong style="color: #C0392B;">ICML Golden Reviewer</strong>.</span>
+    <span><strong style="color: #C0392B;">ICML 2026 Golden Reviewer</strong>.</span>
   </div>
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
     <strong>2026</strong>
