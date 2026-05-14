@@ -269,7 +269,7 @@ $$
 
 Combined with the diagonal-dominance results of the previous two sections, this gives a clean picture: **as the model width grows to infinity, RMNP and Muon are asymptotically equivalent** — the costly $\Theta(mn \min(m, n))$ orthogonalization step in Muon collapses to a simple $\Theta(mn)$ input-dimension $\ell_2$ normalization, with no loss of preconditioning quality on neural networks.
 
-Our paper [5] verifies that RMNP matches Muon's performance on GPT-2 (125M–1.5B) and LLaMA (60M–1B).
+Our paper [5] shows that RMNP provides comparable results to Muon on GPT-2 (125M–1.5B) and LLaMA (60M–1B) after multiple rounds of hyperparameter search for each optimizer.
 
 <figure style="margin: 1.4rem auto 1.6rem auto; text-align: center; max-width: 920px;">
   <img src="/images/blog/GPT2-OWT-LLaMA-C4-combined_bar_blog.png" alt="GPT-2 and LLaMA results for RMNP and Muon." style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />

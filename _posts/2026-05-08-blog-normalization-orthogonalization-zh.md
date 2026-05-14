@@ -267,11 +267,11 @@ $$
 
 结合前两节中的对角占优结果，我们得到一个非常清晰的图景：**当模型宽度趋于无穷时，RMNP 与 Muon 是渐近等价的。** Muon 中代价为 $\Theta(mn \min(m,n))$ 的正交化步骤，会退化为一个简单的 $\Theta(mn)$ 输入维度 $\ell_2$ 归一化，而不会损失对神经网络的预条件质量。
 
-我们的论文 [5] 进一步验证了：在 GPT-2（125M 到 1.5B）和 LLaMA（60M 到 1B）上，RMNP 的效果与 Muon 基本一致。
+我们的论文 [5] 表明 RMNP 在对每个优化器都进行多轮超参数搜索之后在 GPT-2（125M 到 1.5B）和 LLaMA（60M 到 1B）上相对 Muon 提供了 comparable result。
 
 <figure style="margin: 1.4rem auto 1.6rem auto; text-align: center; max-width: 920px;">
   <img src="/images/blog/GPT2-OWT-LLaMA-C4-combined_bar_blog.png" alt="RMNP 与 Muon 在 GPT-2 和 LLaMA 上的结果对比。" style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />
-  <figcaption style="margin-top: 0.55rem; font-size: 0.92em; line-height: 1.45; color: #5c6675;">图 5. 左图为 GPT-2 125M 到 770M 的结果，右图为 LLaMA 结果。GPT-2 XL（1.5B）的结果在论文里。</figcaption>
+  <figcaption style="margin-top: 0.55rem; font-size: 0.92em; line-height: 1.45; color: #5c6675;">图 5. 左图为 GPT-2 125M 到 770M 的结果，右图为 LLaMA 结果。GPT-2 XL（1.5B）的结果在论文中可查。</figcaption>
 </figure>
 
 若想了解更多关于行归一化、列归一化，以及归一化型优化器其他优势的经验结果，也可以参考以下同期工作：
