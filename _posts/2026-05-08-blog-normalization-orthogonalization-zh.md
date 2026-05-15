@@ -224,7 +224,7 @@ $$
   <li><strong>这一现象并不依赖于特定架构。</strong> GPT-2 与 LLaMA 都呈现出相同的定性行为，这说明对角占优更像是良态 Transformer 训练中的普遍性质，而不是某种具体结构设计的偶然产物。</li>
 </ol>
 
-简言之，在不同模型家族、不同模型规模以及完整训练过程中，$V_t V_t^\top$ 不仅呈现出对角占优，而且在真正体现矩阵感知优化器优势的训练区域里，这种占优还会持续增强。
+简言之，在不同模型家族、不同模型规模以及完整训练过程中，$V_t V_t^\top$ 不仅呈现出对角占优，而且随着模型规模增大，这种占优还会进一步增强。
 
 ## 5. RMNP：Muon 的高效替代物
 
@@ -267,7 +267,7 @@ $$
 
 结合前两节中的对角占优结果，我们得到一个非常清晰的图景：**当模型宽度趋于无穷时，RMNP 与 Muon 是渐近等价的。** Muon 中代价为 $\Theta(mn \min(m,n))$ 的正交化步骤，会退化为一个简单的 $\Theta(mn)$ 输入维度 $\ell_2$ 归一化，而不会损失对神经网络的预条件质量。
 
-我们的论文 [5] 表明在 GPT-2（125M 到 1.5B）和 LLaMA（60M 到 1B）上对每个优化器都进行多轮超参数搜索之后 RMNP 相对 Muon 提供了 comparable result。
+我们的论文 [5] 表明在 GPT-2（125M 到 1.5B）和 LLaMA（60M 到 1B）上对每个优化器都进行多轮超参数搜索之后 RMNP 相对 Muon 提供了 comparable preformance表现。
 
 <figure style="margin: 1.4rem auto 1.6rem auto; text-align: center; max-width: 920px;">
   <img src="/images/blog/GPT2-OWT-LLaMA-C4-combined_bar_blog.png" alt="RMNP 与 Muon 在 GPT-2 和 LLaMA 上的结果对比。" style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px;" />

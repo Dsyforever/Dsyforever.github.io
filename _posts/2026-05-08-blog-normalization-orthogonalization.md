@@ -226,7 +226,7 @@ Three observations:
   <li><strong>The phenomenon is architecture-agnostic.</strong> Both GPT-2 and LLaMA show the same qualitative behavior, suggesting the dominance is a generic property of well-conditioned Transformer training rather than an artifact of any specific design choice.</li>
 </ol>
 
-In short: across model families, scales, and the entire course of training, $V_t V_t^\top$ is *not just* diagonally dominant — it is *increasingly so* at the regime where matrix-aware optimizers actually matter.
+In short: across model families, model scales, and the entire course of training, $V_t V_t^\top$ is not only diagonally dominant, but this dominance also becomes stronger as model scale increases.
 
 ## 5. RMNP: An Efficient Surrogate for Muon
 
