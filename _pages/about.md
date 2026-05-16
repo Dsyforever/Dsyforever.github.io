@@ -27,7 +27,6 @@ I am currently a second-year PhD student at Dartmouth College. I am honored to b
 
 I am interested in both classical learning theory problems (Rademacher Complexity, Covering Number, PAC-Bayesian, etc.) and recently emerging theory problems (primarily focusing on the statistical and optimization properties of large-scale deep neural networks). If you have any interesting related problems, feel free to discuss with me anytime! I am very open to cooperation.
 
-**My current research primarily focuses on:**
 
 - Analyze the optimization properties (Non-Smoothness, Hessian, River-Valley, etc.) of large-scale neural networks, the behavior of optimization algorithms under specific loss landscapes, and develop scalable optimization algorithms based on these optimization properties and algorithms' behavior.
 - Investigate **non-vacuous** and theoretically interpretable metrics for data/model statistical complexity in neural networks training, and determine how the interplay between data complexity and model complexity can lead to improved generalization and robustness performance.
@@ -42,7 +41,6 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 <table style="width: 100%; border-collapse: collapse; margin: 8px 0 2px 0; font-size: 0.97em; line-height: 1.35;">
   <tr style="border-bottom: 1px solid rgba(0,0,0,0.08);">
     <td style="width: 140px; padding: 6px 10px 6px 0; vertical-align: top;"><strong>2024.9 - Present</strong></td>
-    <td style="padding: 6px 0; vertical-align: top;"><strong>Ph.D in Computer Science</strong><br>Dartmouth College</td>
   </tr>
   <tr>
     <td style="width: 140px; padding: 6px 10px 0 0; vertical-align: top;"><strong>2020.9 - 2024.6</strong></td>
@@ -91,6 +89,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 | Date | Update |
 |:-----|:-------|
+| **2026.05** | ✨ [New blog: *A Simple Proof for the Gap Between the Muon and RMNP Descent Directions*](/blog/dsyblog/) is now online. |
 | **2026.05** | 🎉 Honored to be recognized as an ICML 2026 Golden Reviewer. Grateful for the recognition from the community. |
 | **2026.05** | ✨ [New blog](/blog/) in understanding Row normalization and orthogonalization for NN online. Welcome to discuss! |
 | **2026.05** | 🎉Two paper has been accepted to ICML 2026, including [*RMNP*](https://arxiv.org/abs/2603.20527) ! We will soon release two blog posts to discuss the rich intuitions behind RMNP.|
