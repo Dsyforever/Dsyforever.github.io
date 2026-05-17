@@ -89,7 +89,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 | Date | Update |
 |:-----|:-------|
-| **2026.05** | ✨ [New blog: *A Simple Proof for the Gap Between the Muon and RMNP Descent Directions on Linear Regression*](/blog/dsyblog/) is now online. |
+| **2026.05** | ✨ [New blog: *A Proof of Orthogonalized and Row-Normalized Descent Directions*](/blog/dsyblog/) is now online. |
 | **2026.05** | 🎉 Honored to be recognized as an ICML 2026 Golden Reviewer. Grateful for the recognition from the community. |
 | **2026.05** | ✨ [New blog](/blog/) in understanding Row normalization and orthogonalization for NN online. Welcome to discuss! |
 | **2026.05** | 🎉Two paper has been accepted to ICML 2026, including [*RMNP*](https://arxiv.org/abs/2603.20527) ! We will soon release two blog posts to discuss the rich intuitions behind RMNP.|
