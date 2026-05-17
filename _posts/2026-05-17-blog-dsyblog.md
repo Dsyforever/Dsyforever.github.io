@@ -166,7 +166,7 @@ $$
 }.
 $$
 
-**Proof.** Take operator norms in the exact perturbation identity from Section 3.6, use $\|XYZ\|_{\mathrm{op}}\leq\|X\|_{\mathrm{op}}\|Y\|_{\mathrm{op}}\|Z\|_{\mathrm{op}}$, and then apply the scalar integral from Section 3.2. $\square$
+**Proof.** Take operator norms in the exact perturbation identity from Section 3.6, use $\lVert XYZ\rVert_{\mathrm{op}}\leq\lVert X\rVert_{\mathrm{op}}\lVert Y\rVert_{\mathrm{op}}\lVert Z\rVert_{\mathrm{op}}$, and then apply the scalar integral from Section 3.2. $\square$
 
 ---
 

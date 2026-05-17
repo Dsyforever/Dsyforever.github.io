@@ -121,7 +121,7 @@ $$
 }
 $$
 
-**证明**. 对精确微扰恒等式(3.6)取算子范数,用 $\|XYZ\|_{\mathrm{op}}\leq\|X\|_{\mathrm{op}}\|Y\|_{\mathrm{op}}\|Z\|_{\mathrm{op}}$ 和标量积分(3.2)。$\square$
+**证明**. 对精确微扰恒等式(3.6)取算子范数,用 $\lVert XYZ\rVert_{\mathrm{op}}\leq\lVert X\rVert_{\mathrm{op}}\lVert Y\rVert_{\mathrm{op}}\lVert Z\rVert_{\mathrm{op}}$ 和标量积分(3.2)。$\square$
 
 ---
 
