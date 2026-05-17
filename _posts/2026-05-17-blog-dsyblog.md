@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "A Simple Proof for the Gap Between the Muon and RMNP Descent Directions"
+title: "A Simple Proof for the Gap Between the Muon and RMNP Descent Directions on Linear Regression"
 date: 2026-05-17
 permalink: /blog/dsyblog/
 translation_label: "中文版"
@@ -8,7 +8,7 @@ translation_url: /blog/dsyblog-zh/
 ---
 
 <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.75rem; margin-bottom: 0.4rem;">
-  <h1 style="margin: 0;">A Simple Proof for the Gap Between the Muon and RMNP Descent Directions</h1>
+  <h1 style="margin: 0;">A Simple Proof for the Gap Between the Muon and RMNP Descent Directions on Linear Regression</h1>
   <div style="display: inline-flex; flex-wrap: wrap; align-items: baseline; justify-content: flex-end; gap: 0.45rem; margin-left: auto;">
     <span style="display: inline-block; padding: 0.22rem 0.78rem; border-radius: 999px; border: 1px solid rgba(73, 93, 118, 0.2); background: rgba(73, 93, 118, 0.1); color: #24323f; font-size: 0.92rem; white-space: nowrap;">English</span>
     <a href="/blog/dsyblog-zh/" style="display: inline-block; padding: 0.22rem 0.78rem; border-radius: 999px; border: 1px solid rgba(73, 93, 118, 0.16); background: rgba(255, 255, 255, 0.82); text-decoration: none; font-size: 0.92rem; white-space: nowrap;">中文</a>
