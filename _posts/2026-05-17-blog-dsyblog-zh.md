@@ -23,8 +23,8 @@ $$\Delta := (WW^T)^{-1/2}W - \mathrm{diag}(WW^T)^{-1/2}W$$
 
 **记号约定**:
 - $A := WW^T$
-- $D := \mathrm{diag}(WW^T)$,$D_{ii} = \|W_{i*}\|^2$
-- $E := A - D$,$E_{i\ell} = \langle W_{i*}, W_{\ell*}\rangle$ 当 $i\neq\ell$
+- $D := \mathrm{diag}(WW^T)$,$D_{ii} = \|W_{i\ast}\|^2$
+- $E := A - D$,$E_{i\ell} = \langle W_{i\ast}, W_{\ell\ast}\rangle$ 当 $i\neq\ell$
 
 ---
 
@@ -89,7 +89,7 @@ $$\Omega_n := \{\sigma_{\min}(W)\geq\sqrt n/2\}\cap\{\sigma_{\max}(W)\leq 2\sqrt
 **(a) 奇异值的界**:对 Davidson-Szarek 不等式(3.3)取 $t = \sqrt n/4$,当 $n \geq 16m$:
 $$\mathbb{P}\bigl[\sigma_{\max}(W) \leq 2\sqrt n\bigr] \geq 1 - e^{-n/32},\qquad \mathbb{P}\bigl[\sigma_{\min}(W) \geq \tfrac{\sqrt n}{2}\bigr] \geq 1 - e^{-n/32}$$
 
-**(b) 行范数的界**:$D_{ii} = \|W_{i*}\|^2\sim\chi^2_n$。对 Laurent-Massart 不等式(3.4)取 $x = n/16$:
+**(b) 行范数的界**:$D_{ii} = \|W_{i\ast}\|^2\sim\chi^2_n$。对 Laurent-Massart 不等式(3.4)取 $x = n/16$:
 $$\mathbb{P}[D_{ii} \leq n/2] \leq e^{-n/16}$$
 Union bound 对 $i = 1,\ldots,m$:
 $$\mathbb{P}\bigl[\min_i D_{ii} \geq n/2\bigr] \geq 1 - m e^{-n/16}$$
@@ -160,7 +160,7 @@ $$\|\Delta\|_F\leq \sqrt m\cdot\frac{c_1}{\sqrt n} = \frac{c_2}{\sqrt n}$$
 
 回到我们考虑的最简单线性回归 $L(W) = \tfrac{1}{2}\|W\|_F^2$:当 $n\to\infty$、$m$ 固定时,Muon 下降方向 $(WW^T)^{-1/2}W$ 与 RMNP 下降方向 $\mathrm{diag}(WW^T)^{-1/2}W$ 在依概率意义下渐近相等,差异速率为 $\Theta(1/\sqrt n)$。
 
-差异的本质来源是 $WW^T$ 的非对角部分 $E$:$E_{i\ell} = \langle W_{i*}, W_{\ell*}\rangle$ 反映"第 $i$ 行和第 $\ell$ 行的相关性"。在高维($n\gg m$)下,独立随机向量近似正交,所以这些非对角元相对量级是 $O(1/\sqrt n)$。
+差异的本质来源是 $WW^T$ 的非对角部分 $E$:$E_{i\ell} = \langle W_{i\ast}, W_{\ell\ast}\rangle$ 反映"第 $i$ 行和第 $\ell$ 行的相关性"。在高维($n\gg m$)下,独立随机向量近似正交,所以这些非对角元相对量级是 $O(1/\sqrt n)$。
 
 直观上看:RMNP 把每一行单独单位化,得到 $m$ 个独立的单位向量;Muon 在此基础上再做一次小修正,把它们调整成精确正交。当行向量之间的内积已经 $O(1/\sqrt n)$ 时,这个修正自然也是 $O(1/\sqrt n)$ 量级。
 

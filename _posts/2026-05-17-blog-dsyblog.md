@@ -32,8 +32,8 @@ $$\Delta := (WW^T)^{-1/2}W - \mathrm{diag}(WW^T)^{-1/2}W.$$
 
 **Notation.**
 - $A := WW^T$
-- $D := \mathrm{diag}(WW^T)$, with $D_{ii} = \|W_{i*}\|^2$
-- $E := A - D$, with $E_{i\ell} = \langle W_{i*}, W_{\ell*}\rangle$ for $i \neq \ell$
+- $D := \mathrm{diag}(WW^T)$, with $D_{ii} = \|W_{i\ast}\|^2$
+- $E := A - D$, with $E_{i\ell} = \langle W_{i\ast}, W_{\ell\ast}\rangle$ for $i \neq \ell$
 
 ---
 
@@ -119,7 +119,7 @@ $$\mathbb{P}(\Omega_n^c) \leq n^{-2}.$$
 
 $$\mathbb{P}\bigl[\sigma_{\max}(W) \leq 2\sqrt n\bigr] \geq 1 - e^{-n/32},\qquad \mathbb{P}\bigl[\sigma_{\min}(W) \geq \tfrac{\sqrt n}{2}\bigr] \geq 1 - e^{-n/32}.$$
 
-**(b) Bounds on row norms.** Since $D_{ii} = \|W_{i*}\|^2\sim\chi^2_n$, applying Laurent-Massart from Section 3.4 with $x = n/16$ gives
+**(b) Bounds on row norms.** Since $D_{ii} = \|W_{i\ast}\|^2\sim\chi^2_n$, applying Laurent-Massart from Section 3.4 with $x = n/16$ gives
 
 $$\mathbb{P}[D_{ii} \leq n/2] \leq e^{-n/16}.$$
 
@@ -217,9 +217,9 @@ All constants $c_i$ depend only on the fixed row dimension $m$, and not on $n$.
 
 Returning to the basic linear-regression loss $L(W) = \tfrac{1}{2}\|W\|_F^2$, when $n\to\infty$ with $m$ fixed, the Muon descent direction $(WW^T)^{-1/2}W$ and the RMNP descent direction $\mathrm{diag}(WW^T)^{-1/2}W$ become asymptotically identical in probability, with gap size $\Theta(1/\sqrt n)$.
 
-The source of the gap is exactly the off-diagonal part $E$ of $WW^T$. The entry $E_{i\ell} = \langle W_{i*}, W_{\ell*}\rangle$ measures the correlation between row $i$ and row $\ell$. In high dimension, when $n\gg m$, independent random vectors are nearly orthogonal, so these off-diagonal terms are of relative order $O(1/\sqrt n)$. 
+The source of the gap is exactly the off-diagonal part $E$ of $WW^T$. The entry $E_{i\ell} = \langle W_{i\ast}, W_{\ell\ast}\rangle$ measures the correlation between row $i$ and row $\ell$. In high dimension, when $n\gg m$, independent random vectors are nearly orthogonal, so these off-diagonal terms are of relative order $O(1/\sqrt n)$. 
 
-The source of the gap is exactly the off-diagonal part $E$ of $WW^T$. The entry $E_{i\ell} = \langle W_{i*}, W_{\ell*}\rangle$ measures the correlation between row $i$ and row $\ell$. In high dimension, when $n\gg m$, independent random vectors are nearly orthogonal, so these off-diagonal terms are of relative order $O(1/\sqrt n)$.
+The source of the gap is exactly the off-diagonal part $E$ of $WW^T$. The entry $E_{i\ell} = \langle W_{i\ast}, W_{\ell\ast}\rangle$ measures the correlation between row $i$ and row $\ell$. In high dimension, when $n\gg m$, independent random vectors are nearly orthogonal, so these off-diagonal terms are of relative order $O(1/\sqrt n)$.
 
 Intuitively, RMNP normalizes each row independently and produces $m$ unit vectors. Muon then applies a small correction to make them exactly orthogonal. Once pairwise inner products are already of order $O(1/\sqrt n)$, that correction must itself also be of order $O(1/\sqrt n)$.
 
