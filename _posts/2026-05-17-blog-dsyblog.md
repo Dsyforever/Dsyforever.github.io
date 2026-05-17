@@ -157,7 +157,14 @@ $$A^{-1/2}-D^{-1/2} = -\frac{1}{\pi}\int_0^\infty t^{-1/2}(A+tI)^{-1}E(D+tI)^{-1
 
 For all positive definite $A, D \succ 0$,
 
-$$\|A^{-1/2}-D^{-1/2}\|_{\mathrm{op}} \leq \frac{\|E\|_{\mathrm{op}}}{\sqrt{\lambda_{\min}(A)\,\lambda_{\min}(D)}\bigl(\sqrt{\lambda_{\min}(A)}+\sqrt{\lambda_{\min}(D)}\bigr)}.$$
+$$
+\|A^{-1/2}-D^{-1/2}\|_{\mathrm{op}}
+\leq
+\frac{\|E\|_{\mathrm{op}}}{
+\sqrt{\lambda_{\min}(A)\,\lambda_{\min}(D)}
+\left(\sqrt{\lambda_{\min}(A)}+\sqrt{\lambda_{\min}(D)}\right)
+}.
+$$
 
 **Proof.** Take operator norms in the exact perturbation identity from Section 3.6, use $\|XYZ\|_{\mathrm{op}}\leq\|X\|_{\mathrm{op}}\|Y\|_{\mathrm{op}}\|Z\|_{\mathrm{op}}$, and then apply the scalar integral from Section 3.2. $\square$
 

@@ -112,7 +112,14 @@ $$A^{-1/2}-D^{-1/2} = -\frac{1}{\pi}\int_0^\infty t^{-1/2}(A+tI)^{-1}E(D+tI)^{-1
 ### 3.7 确定性算子范数界
 
 对所有 $A, D\succ 0$:
-$$\|A^{-1/2}-D^{-1/2}\|_{\mathrm{op}} \leq \frac{\|E\|_{\mathrm{op}}}{\sqrt{\lambda_{\min}(A)\,\lambda_{\min}(D)}\bigl(\sqrt{\lambda_{\min}(A)}+\sqrt{\lambda_{\min}(D)}\bigr)}$$
+$$
+\|A^{-1/2}-D^{-1/2}\|_{\mathrm{op}}
+\leq
+\frac{\|E\|_{\mathrm{op}}}{
+\sqrt{\lambda_{\min}(A)\,\lambda_{\min}(D)}
+\left(\sqrt{\lambda_{\min}(A)}+\sqrt{\lambda_{\min}(D)}\right)
+}
+$$
 
 **证明**. 对精确微扰恒等式(3.6)取算子范数,用 $\|XYZ\|_{\mathrm{op}}\leq\|X\|_{\mathrm{op}}\|Y\|_{\mathrm{op}}\|Z\|_{\mathrm{op}}$ 和标量积分(3.2)。$\square$
 
