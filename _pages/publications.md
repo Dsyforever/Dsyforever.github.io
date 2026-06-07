@@ -108,6 +108,9 @@ author_profile: false
       <p class="pub-title">&ldquo;<em>Balancing Learning Rates Across Layers: Exact Two-Step Dynamics and Optimal Scaling in Linear Neural Networks</em>.&rdquo;</p>
       <p class="pub-authors">Tianyu Pang, Vignesh Kothapalli, <strong>Shenyang Deng</strong>, Haohui Wang, Dawei Zhou, Yaoqing Yang.</p>
       <p class="pub-venue"><strong>The 43rd International Conference on Machine Learning (ICML 2026)</strong>.</p>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2606.00340">arXiv</a>
+      </div>
     </div>
 
     <div class="pub-card">
