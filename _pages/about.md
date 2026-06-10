@@ -89,7 +89,8 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 | Date | Update |
 |:-----|:-------|
-| **2026.05** | 🎙️ Gave a talk on [*RMNP*](https://arxiv.org/abs/2603.20527) at Dartmouth--Berkeley--Rice AI Reading Group ([Recording](https://drive.google.com/file/d/1DpE-PhpCtNHCZuI5oIdvQutLnOOL2yUS/view?usp=drive_link)). |
+| **2026.06** | 🎉 Our paper, "*How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization*," has been accepted to the **ICML 2026 HILD Workshop**. |
+| **2026.05** | 🎙️ Gave a talk about [*RMNP*](https://arxiv.org/abs/2603.20527) at Dartmouth--Berkeley--Rice AI Reading Group ([Recording](https://drive.google.com/file/d/1DpE-PhpCtNHCZuI5oIdvQutLnOOL2yUS/view?usp=drive_link)). |
 | **2026.05** | ✨ [New blog: *A Proof of Orthogonalized and Row-Normalized Descent Directions*](/blog/dsyblog/) is now online. |
 | **2026.05** | 🎉 Honored to be recognized as an ICML 2026 Golden Reviewer. Grateful for the recognition from the community. |
 | **2026.05** | ✨ [New blog](/blog/) in understanding Row normalization and orthogonalization for NN online. Welcome to discuss! |
