@@ -41,6 +41,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 <table style="width: 100%; border-collapse: collapse; margin: 8px 0 2px 0; font-size: 0.97em; line-height: 1.35;">
   <tr style="border-bottom: 1px solid rgba(0,0,0,0.08);">
     <td style="width: 140px; padding: 6px 10px 6px 0; vertical-align: top;"><strong>2024.9 - Present</strong></td>
+    <td style="padding: 6px 0; vertical-align: top;"><strong>Ph.D in Computer Science</strong><br>Dartmouth College</td>
   </tr>
   <tr>
     <td style="width: 140px; padding: 6px 10px 0 0; vertical-align: top;"><strong>2020.9 - 2024.6</strong></td>
@@ -51,6 +52,10 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 ## 🏆 Selected Awards
 
 <div style="margin: 8px 0 2px 0; font-size: 0.97em; line-height: 1.35;">
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2026</strong>
+    <span>ISIT 2026 Travel Grant.</span>
+  </div>
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
     <strong>2026</strong>
     <span>ICML 2026 Golden Reviewer.</span>
@@ -89,6 +94,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 | Date | Update |
 |:-----|:-------|
+| **2026.06** | 🏆 Honored to receive the **ISIT 2026 Travel Grant**. |
 | **2026.06** | 🎉 Our paper, "*How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization*," has been accepted to the **ICML 2026 HILD Workshop**. |
 | **2026.05** | 🎙️ Gave a talk about [*RMNP*](https://arxiv.org/abs/2603.20527) at Dartmouth--Berkeley--Rice AI Reading Group ([Recording](https://drive.google.com/file/d/1DpE-PhpCtNHCZuI5oIdvQutLnOOL2yUS/view?usp=drive_link)). |
 | **2026.05** | ✨ [New blog: *A Proof of Orthogonalized and Row-Normalized Descent Directions*](/blog/dsyblog/) is now online. |
