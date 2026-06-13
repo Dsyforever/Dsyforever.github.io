@@ -105,6 +105,12 @@ author_profile: false
     </div>
 
     <div class="pub-card">
+      <p class="pub-title">&ldquo;<em>How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</em>.&rdquo;</p>
+      <p class="pub-authors"><strong>Shenyang Deng</strong>, Shuhua Yu, Yaoqing Yang.</p>
+      <p class="pub-venue"><strong>ICML 2026 Workshop on High-dimensional Learning Dynamics</strong>.</p>
+    </div>
+
+    <div class="pub-card">
       <p class="pub-title">&ldquo;<em>Balancing Learning Rates Across Layers: Exact Two-Step Dynamics and Optimal Scaling in Linear Neural Networks</em>.&rdquo;</p>
       <p class="pub-authors">Tianyu Pang, Vignesh Kothapalli, <strong>Shenyang Deng</strong>, Haohui Wang, Dawei Zhou, Yaoqing Yang.</p>
       <p class="pub-venue"><strong>The 43rd International Conference on Machine Learning (ICML 2026)</strong>.</p>
