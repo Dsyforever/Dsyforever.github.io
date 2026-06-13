@@ -96,18 +96,18 @@ author_profile: false
   <div class="pub-year">2026</div>
   <div class="pub-list">
     <div class="pub-card">
+      <p class="pub-title">&ldquo;<em>How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</em>.&rdquo;</p>
+      <p class="pub-authors"><strong>Shenyang Deng</strong>, Shuhua Yu, Yaoqing Yang.</p>
+      <p class="pub-venue"><strong>ICML 2026 Workshop on High-dimensional Learning Dynamics</strong>.</p>
+    </div>
+
+    <div class="pub-card">
       <p class="pub-title">&ldquo;<em>RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization</em>.&rdquo;</p>
       <p class="pub-authors"><strong>Shenyang Deng</strong><sup>*</sup>, Zhuoli Ouyang<sup>*</sup>, Tianyu Pang, Zihang Liu, Ruochen Jin, Shuhua Yu, Yaoqing Yang.</p>
       <p class="pub-venue"><strong>The 43rd International Conference on Machine Learning (ICML 2026)</strong>.</p>
       <div class="pub-links">
         <a href="https://arxiv.org/abs/2603.20527">arXiv</a>
       </div>
-    </div>
-
-    <div class="pub-card">
-      <p class="pub-title">&ldquo;<em>How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</em>.&rdquo;</p>
-      <p class="pub-authors"><strong>Shenyang Deng</strong>, Shuhua Yu, Yaoqing Yang.</p>
-      <p class="pub-venue"><strong>ICML 2026 Workshop on High-dimensional Learning Dynamics</strong>.</p>
     </div>
 
     <div class="pub-card">
