@@ -200,7 +200,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 <div style="margin: 8px 0 2px 0; font-size: 0.94em; line-height: 1.35;">
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
     <strong>Journal</strong>
-    <span>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</span>
+    <span>Reviewer for TPAMI</span>
   </div>
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
     <strong>2026</strong>
