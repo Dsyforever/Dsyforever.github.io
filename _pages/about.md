@@ -121,7 +121,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 <strong>RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization</strong><br>
 <span style="color: #555;"><strong>Shenyang Deng</strong><sup>*</sup>, Zhuoli Ouyang<sup>*</sup>, Tianyu Pang, Zihang Liu, Ruochen Jin, Shuhua Yu, Yaoqing Yang</span><br>
 <em>The 43rd International Conference on Machine Learning (ICML 2026)</em><br>
-<a href="https://arxiv.org/abs/2603.20527">[arxiv]</a>
+<a href="https://arxiv.org/abs/2603.20527">[arxiv]</a> <a href="https://dsyforever.github.io/blog/normalization-orthogonalization/">[Additional Asymptotic Theory on NNs]</a>
 
 </div>
 
@@ -175,7 +175,6 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 <span class='anchor' id='talks'></span>
 
 ## 🎙️ Recent Talks
-
 <div style="margin: 8px 0 2px 0; font-size: 0.94em; line-height: 1.35;">
   <div style="display: grid; grid-template-columns: 92px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
     <strong>2026.05.05</strong>
