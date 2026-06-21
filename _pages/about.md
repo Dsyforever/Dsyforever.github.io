@@ -88,36 +88,178 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 ## 📢 News
 
-| Date | Update |
-|:-----|:-------|
-| **2026.06** | 💰 Honored to receive the **ISIT 2026 Travel Grant**. |
-| **2026.06** | 🎉 Our paper, ["*How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization*"](https://openreview.net/forum?id=U812abpXRD), has been accepted to the **ICML 2026 HILD Workshop**. |
-| **2026.05** | 🎙️ Gave a talk about [*RMNP*](https://arxiv.org/abs/2603.20527) at Dartmouth--Berkeley--Rice AI Reading Group ([Recording](https://drive.google.com/file/d/1DpE-PhpCtNHCZuI5oIdvQutLnOOL2yUS/view?usp=drive_link)). |
-| **2026.05** | ✨ [New blog: *A Proof of Orthogonalized and Row-Normalized Descent Directions*](/blog/dsyblog/) is now online. |
-| **2026.05** | 🎉 Honored to be recognized as an ICML 2026 Golden Reviewer. Grateful for the recognition from the community. |
- 
-<details style="margin-top: 10px;">
-  <summary style="cursor: pointer; color: #4b5563; font-weight: 600;">Show older news</summary>
+<style>
+  .news-toggle {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
 
-  <div style="margin-top: 10px;">
+  .news-shell {
+    position: relative;
+    max-height: 285px;
+    overflow: hidden;
+  }
 
-| Date | Update |
-|:-----|:-------|
-| **2026.05** | ✨ [New blog](/blog/) in understanding Row normalization and orthogonalization for NN online. Welcome to discuss! |
-| **2026.05** | 🎉Two paper has been accepted to ICML 2026, including [*RMNP*](https://arxiv.org/abs/2603.20527) ! We will soon release two blog posts to discuss the rich intuitions behind RMNP.|
-| **2026.03** | 🎉 Our paper about [*"Hessian Spectral Bifurcation"*](https://arxiv.org/abs/2602.00545) has been accepted to **ISIT 2026**.|
-| **2026.03** | 📄 New preprint about Matrix-Based Optimization: [*RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization*](https://arxiv.org/abs/2603.20527) |
-| **2026.02** | 🏆 My first paper as first author, [*"Suspicious Alignment of SGD"*](https://arxiv.org/abs/2601.11789), received **Best Student Paper Award** at the 37th International Conference on Algorithmic Learning Theory (ALT) 2026! |
-| **2026.02** | 🎙️ Giving a talk at Fields Institute on Feb 26th about our ALT paper ([Recording](https://www.youtube.com/watch?v=uRXzDT5L_Sk&t=2761s))|
-| **2026.02** | 📄 New short paper preprint about Hessian: [*Depth, Not Data: An Analysis of Hessian Spectral Bifurcation*](https://arxiv.org/abs/2602.00545))|
-| **2026.02** | 📝 Serving as a reviewer for **ICML 2026** |
-| **2025.12** | 🎉 [*"Suspicious Alignment of SGD"*](https://arxiv.org/abs/2601.11789) has been accepted to **ALT 2026** .|
-| **2025.12** | 💰 Honored to receive a $2,000 grant from **Lambda AI** |
-| **2025.10** | 📝 Serving as a reviewer for **ICLR 2026** |
-| **2025.10** | 👋 First post on this website - welcome! |
+  .news-toggle:checked + .news-shell {
+    max-height: none;
+  }
 
+  .news-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0 2px 0;
+    font-size: 0.97em;
+    line-height: 1.4;
+  }
+
+  .news-table th,
+  .news-table td {
+    padding: 8px 10px;
+    vertical-align: top;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  .news-table th {
+    text-align: left;
+    font-weight: 700;
+  }
+
+  .news-table td:first-child,
+  .news-table th:first-child {
+    width: 110px;
+    white-space: nowrap;
+  }
+
+  .news-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .news-fade {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 92px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 12px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.92) 58%, #ffffff 100%);
+  }
+
+  .news-toggle:checked + .news-shell .news-fade {
+    display: none;
+  }
+
+  .news-fade label {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: rgba(31, 41, 55, 0.92);
+    color: #ffffff;
+    font-size: 0.93em;
+    font-weight: 600;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  }
+
+  @media (max-width: 640px) {
+    .news-shell {
+      max-height: 340px;
+    }
+
+    .news-table td:first-child,
+    .news-table th:first-child {
+      width: 86px;
+    }
+  }
+</style>
+
+<input type="checkbox" id="news-expand" class="news-toggle">
+<div class="news-shell">
+  <table class="news-table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Update</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>2026.06</strong></td>
+        <td>💰 Honored to receive the <strong>ISIT 2026 Travel Grant</strong>.</td>
+      </tr>
+      <tr>
+        <td><strong>2026.06</strong></td>
+        <td>🎉 Our paper, <a href="https://openreview.net/forum?id=U812abpXRD"><em>How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</em></a>, has been accepted to the <strong>ICML 2026 HILD Workshop</strong>.</td>
+      </tr>
+      <tr>
+        <td><strong>2026.05</strong></td>
+        <td>🎙️ Gave a talk about <a href="https://arxiv.org/abs/2603.20527"><em>RMNP</em></a> at Dartmouth--Berkeley--Rice AI Reading Group (<a href="https://drive.google.com/file/d/1DpE-PhpCtNHCZuI5oIdvQutLnOOL2yUS/view?usp=drive_link">Recording</a>).</td>
+      </tr>
+      <tr>
+        <td><strong>2026.05</strong></td>
+        <td>✨ <a href="/blog/dsyblog/"><em>New blog: A Proof of Orthogonalized and Row-Normalized Descent Directions</em></a> is now online.</td>
+      </tr>
+      <tr>
+        <td><strong>2026.05</strong></td>
+        <td>🎉 Honored to be recognized as an ICML 2026 Golden Reviewer. Grateful for the recognition from the community.</td>
+      </tr>
+      <tr>
+        <td><strong>2026.05</strong></td>
+        <td>✨ <a href="/blog/">New blog</a> in understanding Row normalization and orthogonalization for NN online. Welcome to discuss!</td>
+      </tr>
+      <tr>
+        <td><strong>2026.05</strong></td>
+        <td>🎉Two paper has been accepted to ICML 2026, including <a href="https://arxiv.org/abs/2603.20527"><em>RMNP</em></a>! We will soon release two blog posts to discuss the rich intuitions behind RMNP.</td>
+      </tr>
+      <tr>
+        <td><strong>2026.03</strong></td>
+        <td>🎉 Our paper about <a href="https://arxiv.org/abs/2602.00545"><em>Hessian Spectral Bifurcation</em></a> has been accepted to <strong>ISIT 2026</strong>.</td>
+      </tr>
+      <tr>
+        <td><strong>2026.03</strong></td>
+        <td>📄 New preprint about Matrix-Based Optimization: <a href="https://arxiv.org/abs/2603.20527"><em>RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization</em></a></td>
+      </tr>
+      <tr>
+        <td><strong>2026.02</strong></td>
+        <td>🏆 My first paper as first author, <a href="https://arxiv.org/abs/2601.11789"><em>Suspicious Alignment of SGD</em></a>, received <strong>Best Student Paper Award</strong> at the 37th International Conference on Algorithmic Learning Theory (ALT) 2026!</td>
+      </tr>
+      <tr>
+        <td><strong>2026.02</strong></td>
+        <td>🎙️ Giving a talk at Fields Institute on Feb 26th about our ALT paper (<a href="https://www.youtube.com/watch?v=uRXzDT5L_Sk&t=2761s">Recording</a>)</td>
+      </tr>
+      <tr>
+        <td><strong>2026.02</strong></td>
+        <td>📄 New short paper preprint about Hessian: <a href="https://arxiv.org/abs/2602.00545"><em>Depth, Not Data: An Analysis of Hessian Spectral Bifurcation</em></a></td>
+      </tr>
+      <tr>
+        <td><strong>2026.02</strong></td>
+        <td>📝 Serving as a reviewer for <strong>ICML 2026</strong></td>
+      </tr>
+      <tr>
+        <td><strong>2025.12</strong></td>
+        <td>🎉 <a href="https://arxiv.org/abs/2601.11789"><em>Suspicious Alignment of SGD</em></a> has been accepted to <strong>ALT 2026</strong>.</td>
+      </tr>
+      <tr>
+        <td><strong>2025.12</strong></td>
+        <td>💰 Honored to receive a $2,000 grant from <strong>Lambda AI</strong></td>
+      </tr>
+      <tr>
+        <td><strong>2025.10</strong></td>
+        <td>📝 Serving as a reviewer for <strong>ICLR 2026</strong></td>
+      </tr>
+      <tr>
+        <td><strong>2025.10</strong></td>
+        <td>👋 First post on this website - welcome!</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="news-fade">
+    <label for="news-expand">Show older news</label>
   </div>
-</details>
+</div>
 
 ---
 
@@ -161,7 +303,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 <strong>Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis</strong><br>
 <span style="color: #555;"><strong>Shenyang Deng</strong>, Boyao Liao, Zhuoli Ouyang, Tianyu Pang, Minhak Song, Yaoqing Yang</span><br>
-<em>The 37th International Conference on Algorithmic Learning Theory (ALT)</em>, 2026<br>
+<em>The 37th International Conference on Algorithmic Learning Theory (ALT 2026)</em><br>
 🏆 <span style="color: #E74C3C; font-weight: bold;">Best Student Paper Award</span><br>
 <a href="https://arxiv.org/abs/2601.11789">[arxiv]</a> <a href="https://drive.google.com/file/d/1VIR-OjXcosWFBDb9lUU_AEeEEqCc3xLu/view?usp=sharing">[download]</a>
 
