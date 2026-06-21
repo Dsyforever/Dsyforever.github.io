@@ -225,6 +225,18 @@ I am interested in both classical learning theory problems (Rademacher Complexit
       <td><strong>2026.05</strong></td>
       <td>🎉 Honored to be recognized as an ICML 2026 Golden Reviewer. Grateful for the recognition from the community.</td>
     </tr>
+    <tr>
+      <td><strong>2026.05</strong></td>
+      <td>✨ <a href="/blog/">New blog</a> in understanding Row normalization and orthogonalization for NN online. Welcome to discuss!</td>
+    </tr>
+    <tr>
+      <td><strong>2026.05</strong></td>
+      <td>🎉Two paper has been accepted to ICML 2026, including <a href="https://arxiv.org/abs/2603.20527"><em>RMNP</em></a>! We will soon release two blog posts to discuss the rich intuitions behind RMNP.</td>
+    </tr>
+    <tr>
+      <td><strong>2026.03</strong></td>
+      <td>🎉 Our paper about <a href="https://arxiv.org/abs/2602.00545"><em>Hessian Spectral Bifurcation</em></a> has been accepted to <strong>ISIT 2026</strong>.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -235,18 +247,6 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
   <table class="news-table">
     <tbody>
-      <tr>
-        <td><strong>2026.05</strong></td>
-        <td>✨ <a href="/blog/">New blog</a> in understanding Row normalization and orthogonalization for NN online. Welcome to discuss!</td>
-      </tr>
-      <tr>
-        <td><strong>2026.05</strong></td>
-        <td>🎉Two paper has been accepted to ICML 2026, including <a href="https://arxiv.org/abs/2603.20527"><em>RMNP</em></a>! We will soon release two blog posts to discuss the rich intuitions behind RMNP.</td>
-      </tr>
-      <tr>
-        <td><strong>2026.03</strong></td>
-        <td>🎉 Our paper about <a href="https://arxiv.org/abs/2602.00545"><em>Hessian Spectral Bifurcation</em></a> has been accepted to <strong>ISIT 2026</strong>.</td>
-      </tr>
       <tr>
         <td><strong>2026.03</strong></td>
         <td>📄 New preprint about Matrix-Based Optimization: <a href="https://arxiv.org/abs/2603.20527"><em>RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization</em></a></td>
