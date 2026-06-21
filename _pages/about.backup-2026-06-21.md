@@ -297,237 +297,74 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 ## 📚 Selected Research
 
-<style>
-  .sr-note {
-    margin: 4px 0 16px 0;
-    color: #6b7280;
-    font-size: 0.95rem;
-  }
+<p style="margin: 4px 0 12px 0; font-size: 0.95em; color: #555;"><sup>*</sup> indicates equal contribution.</p>
 
-  .sr-grid {
-    display: grid;
-    gap: 22px;
-  }
+<div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
 
-  .sr-card {
-    display: grid;
-    grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.9fr);
-    gap: 20px;
-    align-items: stretch;
-    padding: 22px;
-    border: 1px solid rgba(90, 76, 59, 0.12);
-    border-radius: 22px;
-    background: linear-gradient(140deg, #fffdfa 0%, #f7f1e8 52%, #f1f5f9 100%);
-    box-shadow: 0 12px 30px rgba(62, 45, 31, 0.08);
-  }
+<strong>How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</strong><br>
+<span style="color: #555;"><strong>Shenyang Deng</strong>, Shuhua Yu, Yaoqing Yang</span><br>
+<em>ICML 2026 Workshop on High-dimensional Learning Dynamics</em><br>
+<a href="https://openreview.net/forum?id=U812abpXRD">[OpenReview]</a>
 
-  .sr-copy {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .sr-kicker {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.45rem;
-    width: fit-content;
-    padding: 0.32rem 0.72rem;
-    border-radius: 999px;
-    background: rgba(111, 77, 50, 0.1);
-    color: #7c5637;
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
-
-  .sr-title {
-    margin: 0.85rem 0 0.65rem 0;
-    color: #1f2933;
-    font-family: Georgia, "Palatino Linotype", "Book Antiqua", serif;
-    font-size: 1.42rem;
-    line-height: 1.28;
-    font-weight: 700;
-  }
-
-  .sr-authors {
-    margin: 0 0 0.55rem 0;
-    color: #54606c;
-    font-size: 0.99rem;
-    line-height: 1.72;
-  }
-
-  .sr-venue {
-    margin: 0;
-    color: #27313b;
-    font-size: 0.98rem;
-    line-height: 1.7;
-  }
-
-  .sr-venue-note {
-    color: #7c5d42;
-    font-weight: 600;
-  }
-
-  .sr-award {
-    margin-top: 0.7rem;
-    color: #c0392b;
-    font-weight: 700;
-  }
-
-  .sr-links {
-    margin-top: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.55rem;
-  }
-
-  .sr-links a {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.34rem 0.82rem;
-    border-radius: 999px;
-    border: 1px solid rgba(73, 93, 118, 0.16);
-    background: rgba(255, 255, 255, 0.82);
-    color: #334155;
-    text-decoration: none;
-    font-size: 0.92rem;
-    font-weight: 600;
-  }
-
-  .sr-figure {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 240px;
-    padding: 14px;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    border-radius: 18px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(250, 248, 245, 0.98) 100%);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
-    overflow: hidden;
-  }
-
-  .sr-figure img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    border-radius: 10px;
-  }
-
-  .sr-card-compact .sr-figure {
-    min-height: 210px;
-  }
-
-  .sr-cta-row {
-    margin: 10px 0 18px 0;
-    text-align: center;
-  }
-
-  .sr-cta {
-    display: inline-block;
-    padding: 10px 18px;
-    border-radius: 999px;
-    background: #1f2937;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-  }
-
-  .sr-footer {
-    text-align: center;
-    color: #4b5563;
-  }
-
-  @media (max-width: 860px) {
-    .sr-card {
-      grid-template-columns: 1fr;
-    }
-
-    .sr-title {
-      font-size: 1.28rem;
-    }
-
-    .sr-figure,
-    .sr-card-compact .sr-figure {
-      min-height: 220px;
-    }
-  }
-</style>
-
-<p class="sr-note"><sup>*</sup> indicates equal contribution.</p>
-
-<div class="sr-grid">
-  <article class="sr-card">
-    <div class="sr-copy">
-      <span class="sr-kicker">Workshop Paper</span>
-      <h3 class="sr-title">How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</h3>
-      <p class="sr-authors"><strong>Shenyang Deng</strong>, Shuhua Yu, Yaoqing Yang</p>
-      <p class="sr-venue"><strong>ICML 2026 Workshop on High-dimensional Learning Dynamics</strong></p>
-      <div class="sr-links">
-        <a href="https://openreview.net/forum?id=U812abpXRD">OpenReview</a>
-      </div>
-    </div>
-    <div class="sr-figure">
-      <img src="/images/HILD_img.png" alt="How Does Orthogonalization Adapt to the Neural-Network Hessian Structure?">
-    </div>
-  </article>
-
-  <article class="sr-card">
-    <div class="sr-copy">
-      <span class="sr-kicker">Conference Paper</span>
-      <h3 class="sr-title">RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization</h3>
-      <p class="sr-authors"><strong>Shenyang Deng</strong><sup>*</sup>, Zhuoli Ouyang<sup>*</sup>, Tianyu Pang, Zihang Liu, Ruochen Jin, Shuhua Yu, Yaoqing Yang</p>
-      <p class="sr-venue"><strong>The 43rd International Conference on Machine Learning (ICML 2026)</strong></p>
-      <div class="sr-links">
-        <a href="https://arxiv.org/abs/2603.20527">arXiv</a>
-        <a href="https://dsyforever.github.io/blog/normalization-orthogonalization/">Additional Theory</a>
-      </div>
-    </div>
-    <div class="sr-figure">
-      <img src="/images/precc3_01.png" alt="RMNP">
-    </div>
-  </article>
-
-  <article class="sr-card sr-card-compact">
-    <div class="sr-copy">
-      <span class="sr-kicker">Awarded Paper</span>
-      <h3 class="sr-title">Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis</h3>
-      <p class="sr-authors"><strong>Shenyang Deng</strong>, Boyao Liao, Zhuoli Ouyang, Tianyu Pang, Minhak Song, Yaoqing Yang</p>
-      <p class="sr-venue"><strong>The 37th International Conference on Algorithmic Learning Theory (ALT 2026)</strong></p>
-      <p class="sr-award">Best Student Paper Award</p>
-      <div class="sr-links">
-        <a href="https://arxiv.org/abs/2601.11789">arXiv</a>
-        <a href="https://drive.google.com/file/d/1VIR-OjXcosWFBDb9lUU_AEeEEqCc3xLu/view?usp=sharing">Download</a>
-      </div>
-    </div>
-    <div class="sr-figure">
-      <img src="/images/con_figure_3agx_2.png" alt="Suspicious Alignment of SGD">
-    </div>
-  </article>
-
-  <article class="sr-card">
-    <div class="sr-copy">
-      <span class="sr-kicker">Conference Paper</span>
-      <h3 class="sr-title">Depth, Not Data: An Analysis of Hessian Spectral Bifurcation</h3>
-      <p class="sr-authors"><strong>Shenyang Deng</strong><sup>*</sup>, Boyao Liao<sup>*</sup>, Zhuoli Ouyang<sup>*</sup>, Tianyu Pang, Yaoqing Yang</p>
-      <p class="sr-venue"><strong>IEEE International Symposium on Information Theory (ISIT 2026)</strong> <span class="sr-venue-note">Extended version in preparation for IEEE Transactions on Information Theory</span></p>
-      <div class="sr-links">
-        <a href="https://arxiv.org/abs/2602.00545">arXiv</a>
-      </div>
-    </div>
-    <div class="sr-figure">
-      <img src="/images/combined_3panels.png" alt="Depth, Not Data: An Analysis of Hessian Spectral Bifurcation">
-    </div>
-  </article>
 </div>
 
-<p class="sr-cta-row">
-  <a href="/publications/" class="sr-cta">See Full Publication List →</a>
+<div style="display: flex; justify-content: center; margin: 18px 0 24px 0;">
+  <div style="width: min(60%, 620px); height: 240px; display: flex; align-items: center; justify-content: center; padding: 12px; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; box-shadow: 0 3px 12px rgba(0,0,0,0.08); background: #fff; overflow: hidden;">
+    <img src="/images/HILD_img.png" alt="How Does Orthogonalization Adapt to the Neural-Network Hessian Structure?" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+  </div>
+</div>
+
+<div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
+
+<strong>RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization</strong><br>
+<span style="color: #555;"><strong>Shenyang Deng</strong><sup>*</sup>, Zhuoli Ouyang<sup>*</sup>, Tianyu Pang, Zihang Liu, Ruochen Jin, Shuhua Yu, Yaoqing Yang</span><br>
+<em>The 43rd International Conference on Machine Learning (ICML 2026)</em><br>
+<a href="https://arxiv.org/abs/2603.20527">[arxiv]</a> <a href="https://dsyforever.github.io/blog/normalization-orthogonalization/">[Additional Asymptotic Theory on NNs]</a>
+
+</div>
+
+<div style="display: flex; justify-content: center; margin: 18px 0 24px 0;">
+  <div style="width: min(60%, 620px); height: 240px; display: flex; align-items: center; justify-content: center; padding: 12px; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; box-shadow: 0 3px 12px rgba(0,0,0,0.08); background: #fff; overflow: hidden;">
+    <img src="/images/precc3_01.png" alt="RMNP" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+  </div>
+</div>
+
+<div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
+
+<strong>Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis</strong><br>
+<span style="color: #555;"><strong>Shenyang Deng</strong>, Boyao Liao, Zhuoli Ouyang, Tianyu Pang, Minhak Song, Yaoqing Yang</span><br>
+<em>The 37th International Conference on Algorithmic Learning Theory (ALT 2026)</em><br>
+🏆 <span style="color: #E74C3C; font-weight: bold;">Best Student Paper Award</span><br>
+<a href="https://arxiv.org/abs/2601.11789">[arxiv]</a> <a href="https://drive.google.com/file/d/1VIR-OjXcosWFBDb9lUU_AEeEEqCc3xLu/view?usp=sharing">[download]</a>
+
+</div>
+
+<div style="display: flex; justify-content: center; margin: 18px 0 24px 0;">
+  <div style="width: min(52%, 520px); height: 210px; display: flex; align-items: center; justify-content: center; padding: 12px; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; box-shadow: 0 3px 12px rgba(0,0,0,0.08); background: #fff; overflow: hidden;">
+    <img src="/images/con_figure_3agx_2.png" alt="Suspicious Alignment of SGD" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+  </div>
+</div>
+
+<div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
+
+<strong>Depth, Not Data: An Analysis of Hessian Spectral Bifurcation</strong><br>
+<span style="color: #555;"><strong>Shenyang Deng</strong><sup>*</sup>, Boyao Liao<sup>*</sup>, Zhuoli Ouyang<sup>*</sup>, Tianyu Pang, Yaoqing Yang</span><br>
+<em>IEEE International Symposium on Information Theory (ISIT 2026)</em> <strong>(Extended version in preparation for IEEE Transactions on Information Theory)</strong><br>
+<a href="https://arxiv.org/abs/2602.00545">[arxiv]</a>
+
+</div>
+
+<div style="display: flex; justify-content: center; margin: 18px 0 24px 0;">
+  <div style="width: min(60%, 620px); height: 240px; display: flex; align-items: center; justify-content: center; padding: 12px; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; box-shadow: 0 3px 12px rgba(0,0,0,0.08); background: #fff; overflow: hidden;">
+    <img src="/images/combined_3panels.png" alt="Depth, Not Data: An Analysis of Hessian Spectral Bifurcation" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+  </div>
+</div>
+
+<p style="text-align: center; margin: 6px 0 18px 0;">
+  <a href="/publications/" style="display: inline-block; padding: 10px 18px; border-radius: 999px; background: #1f2937; color: #fff; text-decoration: none; font-weight: 600;">See Full Publication List →</a>
 </p>
 
-<p class="sr-footer">
+<p style="text-align: center;">
   📎 Check out more of my work on <a href="https://scholar.google.com/citations?user=TvUZLD8AAAAJ&hl=en"><strong>Google Scholar</strong></a>
 </p>
 
@@ -537,3 +374,43 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 ## 🎙️ Recent Talks
 <div style="margin: 8px 0 2px 0; font-size: 0.94em; line-height: 1.35;">
+  <div style="display: grid; grid-template-columns: 92px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2026.05.05</strong>
+    <span><strong>RMNP</strong><br>Dartmouth--Berkeley--Rice AI Reading Group. <a href="https://drive.google.com/file/d/1DpE-PhpCtNHCZuI5oIdvQutLnOOL2yUS/view?usp=drive_link">Recording</a></span>
+  </div>
+  <div style="display: grid; grid-template-columns: 92px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2026.02.26</strong>
+    <span><strong>Suspicious Alignment of SGD</strong><br>Fields Institute. <a href="https://www.youtube.com/watch?v=uRXzDT5L_Sk&t=2761s">Recording</a></span>
+  </div>
+  <div style="display: grid; grid-template-columns: 92px 1fr; gap: 8px; padding: 6px 0 0 0; align-items: start;">
+    <strong>2025.11.27</strong>
+    <span><strong>Suspicious Alignment of SGD</strong><br>Dartmouth--Berkeley--Rice AI Reading Group. <a href="https://drive.google.com/file/d/1ByfsVsaRM7DG_HPKRijWwpkVApFOgjHx/view?usp=sharing">Recording</a></span>
+  </div>
+</div>
+
+---
+
+<span class='anchor' id='service'></span>
+
+## 📝 Academic Service
+
+<div style="margin: 8px 0 2px 0; font-size: 0.94em; line-height: 1.35;">
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>Journal</strong>
+    <span>Reviewer for TPAMI</span>
+  </div>
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2026</strong>
+    <span>Reviewer for ICML 2026</span>
+  </div>
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0 0 0; align-items: start;">
+    <strong>2025</strong>
+    <span>Reviewer for ICLR 2026</span>
+  </div>
+</div>
+
+---
+
+## 🍽️ Miscellaneous
+
+I am a food enthusiast who loves both eating and cooking. I enjoy preparing a hearty dinner after a busy work schedule and then rewarding myself with a game of **StarCraft II** 🎮. Here are some photos of the dishes I have made: [**See Gallery →**](/gallery/)
