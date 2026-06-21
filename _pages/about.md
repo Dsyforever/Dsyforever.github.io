@@ -299,130 +299,94 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 <style>
   .sr-note {
-    margin: 4px 0 16px 0;
-    color: #6b7280;
+    margin: 4px 0 12px 0;
     font-size: 0.95rem;
+    color: #5f5a53;
   }
 
-  .sr-grid {
-    display: grid;
-    gap: 22px;
+  .sr-block {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 15px 0;
   }
 
-  .sr-card {
-    display: grid;
-    grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.9fr);
-    gap: 20px;
-    align-items: stretch;
-    padding: 22px;
-    border: 1px solid rgba(90, 76, 59, 0.12);
-    border-radius: 22px;
-    background: linear-gradient(140deg, #fffdfa 0%, #f7f1e8 52%, #f1f5f9 100%);
-    box-shadow: 0 12px 30px rgba(62, 45, 31, 0.08);
-  }
-
-  .sr-copy {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .sr-kicker {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.45rem;
-    width: fit-content;
-    padding: 0.32rem 0.72rem;
-    border-radius: 999px;
-    background: rgba(111, 77, 50, 0.1);
-    color: #7c5637;
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
-
-  .sr-title {
-    margin: 0.85rem 0 0.65rem 0;
+  .sr-block-title {
+    margin: 0 0 0.42rem 0;
     color: #1f2933;
     font-family: Georgia, "Palatino Linotype", "Book Antiqua", serif;
-    font-size: 1.42rem;
-    line-height: 1.28;
+    font-size: 1.3rem;
+    line-height: 1.34;
     font-weight: 700;
   }
 
-  .sr-authors {
-    margin: 0 0 0.55rem 0;
-    color: #54606c;
-    font-size: 0.99rem;
+  .sr-block-authors {
+    margin: 0 0 0.34rem 0;
+    color: #4f5b66;
+    font-size: 0.98rem;
     line-height: 1.72;
   }
 
-  .sr-venue {
+  .sr-block-venue {
     margin: 0;
-    color: #27313b;
+    color: #2d3742;
     font-size: 0.98rem;
-    line-height: 1.7;
+    line-height: 1.68;
   }
 
-  .sr-venue-note {
-    color: #7c5d42;
-    font-weight: 600;
-  }
-
-  .sr-award {
-    margin-top: 0.7rem;
-    color: #c0392b;
+  .sr-block-award {
+    margin: 0.28rem 0 0 0;
+    color: #d14b3d;
     font-weight: 700;
   }
 
-  .sr-links {
-    margin-top: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.55rem;
+  .sr-inline-links {
+    margin-top: 0.6rem;
+    color: #34495e;
+    font-size: 0.95rem;
+    line-height: 1.6;
   }
 
-  .sr-links a {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.34rem 0.82rem;
-    border-radius: 999px;
-    border: 1px solid rgba(73, 93, 118, 0.16);
-    background: rgba(255, 255, 255, 0.82);
-    color: #334155;
-    text-decoration: none;
-    font-size: 0.92rem;
+  .sr-inline-links a {
     font-weight: 600;
+    text-decoration: none;
   }
 
-  .sr-figure {
+  .sr-image-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 18px 0 24px 0;
+  }
+
+  .sr-image-frame {
+    width: min(60%, 620px);
+    height: 240px;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 240px;
-    padding: 14px;
+    padding: 12px;
     border: 1px solid rgba(0, 0, 0, 0.08);
-    border-radius: 18px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(250, 248, 245, 0.98) 100%);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    background: #fff;
     overflow: hidden;
   }
 
-  .sr-figure img {
+  .sr-image-frame img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    border-radius: 10px;
+    border-radius: 8px;
   }
 
-  .sr-card-compact .sr-figure {
-    min-height: 210px;
+  .sr-image-frame-compact {
+    width: min(52%, 520px);
+    height: 210px;
   }
 
   .sr-cta-row {
-    margin: 10px 0 18px 0;
     text-align: center;
+    margin: 6px 0 18px 0;
   }
 
   .sr-cta {
@@ -437,90 +401,74 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
   .sr-footer {
     text-align: center;
-    color: #4b5563;
   }
 
-  @media (max-width: 860px) {
-    .sr-card {
-      grid-template-columns: 1fr;
+  @media (max-width: 640px) {
+    .sr-block-title {
+      font-size: 1.15rem;
     }
 
-    .sr-title {
-      font-size: 1.28rem;
-    }
-
-    .sr-figure,
-    .sr-card-compact .sr-figure {
-      min-height: 220px;
+    .sr-image-frame,
+    .sr-image-frame-compact {
+      width: min(100%, 620px);
+      height: 220px;
     }
   }
 </style>
 
 <p class="sr-note"><sup>*</sup> indicates equal contribution.</p>
 
-<div class="sr-grid">
-  <article class="sr-card">
-    <div class="sr-copy">
-      <span class="sr-kicker">Workshop Paper</span>
-      <h3 class="sr-title">How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</h3>
-      <p class="sr-authors"><strong>Shenyang Deng</strong>, Shuhua Yu, Yaoqing Yang</p>
-      <p class="sr-venue"><strong>ICML 2026 Workshop on High-dimensional Learning Dynamics</strong></p>
-      <div class="sr-links">
-        <a href="https://openreview.net/forum?id=U812abpXRD">OpenReview</a>
-      </div>
-    </div>
-    <div class="sr-figure">
-      <img src="/images/HILD_img.png" alt="How Does Orthogonalization Adapt to the Neural-Network Hessian Structure?">
-    </div>
-  </article>
+<div class="sr-block">
+  <p class="sr-block-title">How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</p>
+  <p class="sr-block-authors"><strong>Shenyang Deng</strong>, Shuhua Yu, Yaoqing Yang</p>
+  <p class="sr-block-venue"><em>ICML 2026 Workshop on High-dimensional Learning Dynamics</em></p>
+  <p class="sr-inline-links"><a href="https://openreview.net/forum?id=U812abpXRD">[OpenReview]</a></p>
+</div>
 
-  <article class="sr-card">
-    <div class="sr-copy">
-      <span class="sr-kicker">Conference Paper</span>
-      <h3 class="sr-title">RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization</h3>
-      <p class="sr-authors"><strong>Shenyang Deng</strong><sup>*</sup>, Zhuoli Ouyang<sup>*</sup>, Tianyu Pang, Zihang Liu, Ruochen Jin, Shuhua Yu, Yaoqing Yang</p>
-      <p class="sr-venue"><strong>The 43rd International Conference on Machine Learning (ICML 2026)</strong></p>
-      <div class="sr-links">
-        <a href="https://arxiv.org/abs/2603.20527">arXiv</a>
-        <a href="https://dsyforever.github.io/blog/normalization-orthogonalization/">Additional Theory</a>
-      </div>
-    </div>
-    <div class="sr-figure">
-      <img src="/images/precc3_01.png" alt="RMNP">
-    </div>
-  </article>
+<div class="sr-image-wrap">
+  <div class="sr-image-frame">
+    <img src="/images/HILD_img.png" alt="How Does Orthogonalization Adapt to the Neural-Network Hessian Structure?">
+  </div>
+</div>
 
-  <article class="sr-card sr-card-compact">
-    <div class="sr-copy">
-      <span class="sr-kicker">Awarded Paper</span>
-      <h3 class="sr-title">Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis</h3>
-      <p class="sr-authors"><strong>Shenyang Deng</strong>, Boyao Liao, Zhuoli Ouyang, Tianyu Pang, Minhak Song, Yaoqing Yang</p>
-      <p class="sr-venue"><strong>The 37th International Conference on Algorithmic Learning Theory (ALT 2026)</strong></p>
-      <p class="sr-award">Best Student Paper Award</p>
-      <div class="sr-links">
-        <a href="https://arxiv.org/abs/2601.11789">arXiv</a>
-        <a href="https://drive.google.com/file/d/1VIR-OjXcosWFBDb9lUU_AEeEEqCc3xLu/view?usp=sharing">Download</a>
-      </div>
-    </div>
-    <div class="sr-figure">
-      <img src="/images/con_figure_3agx_2.png" alt="Suspicious Alignment of SGD">
-    </div>
-  </article>
+<div class="sr-block">
+  <p class="sr-block-title">RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization</p>
+  <p class="sr-block-authors"><strong>Shenyang Deng</strong><sup>*</sup>, Zhuoli Ouyang<sup>*</sup>, Tianyu Pang, Zihang Liu, Ruochen Jin, Shuhua Yu, Yaoqing Yang</p>
+  <p class="sr-block-venue"><em>The 43rd International Conference on Machine Learning (ICML 2026)</em></p>
+  <p class="sr-inline-links"><a href="https://arxiv.org/abs/2603.20527">[arXiv]</a> <a href="https://dsyforever.github.io/blog/normalization-orthogonalization/">[Additional Asymptotic Theory on NNs]</a></p>
+</div>
 
-  <article class="sr-card">
-    <div class="sr-copy">
-      <span class="sr-kicker">Conference Paper</span>
-      <h3 class="sr-title">Depth, Not Data: An Analysis of Hessian Spectral Bifurcation</h3>
-      <p class="sr-authors"><strong>Shenyang Deng</strong><sup>*</sup>, Boyao Liao<sup>*</sup>, Zhuoli Ouyang<sup>*</sup>, Tianyu Pang, Yaoqing Yang</p>
-      <p class="sr-venue"><strong>IEEE International Symposium on Information Theory (ISIT 2026)</strong> <span class="sr-venue-note">Extended version in preparation for IEEE Transactions on Information Theory</span></p>
-      <div class="sr-links">
-        <a href="https://arxiv.org/abs/2602.00545">arXiv</a>
-      </div>
-    </div>
-    <div class="sr-figure">
-      <img src="/images/combined_3panels.png" alt="Depth, Not Data: An Analysis of Hessian Spectral Bifurcation">
-    </div>
-  </article>
+<div class="sr-image-wrap">
+  <div class="sr-image-frame">
+    <img src="/images/precc3_01.png" alt="RMNP">
+  </div>
+</div>
+
+<div class="sr-block">
+  <p class="sr-block-title">Suspicious Alignment of SGD: A Fine-Grained Step Size Condition Analysis</p>
+  <p class="sr-block-authors"><strong>Shenyang Deng</strong>, Boyao Liao, Zhuoli Ouyang, Tianyu Pang, Minhak Song, Yaoqing Yang</p>
+  <p class="sr-block-venue"><em>The 37th International Conference on Algorithmic Learning Theory (ALT 2026)</em></p>
+  <p class="sr-block-award">Best Student Paper Award</p>
+  <p class="sr-inline-links"><a href="https://arxiv.org/abs/2601.11789">[arXiv]</a> <a href="https://drive.google.com/file/d/1VIR-OjXcosWFBDb9lUU_AEeEEqCc3xLu/view?usp=sharing">[download]</a></p>
+</div>
+
+<div class="sr-image-wrap">
+  <div class="sr-image-frame sr-image-frame-compact">
+    <img src="/images/con_figure_3agx_2.png" alt="Suspicious Alignment of SGD">
+  </div>
+</div>
+
+<div class="sr-block">
+  <p class="sr-block-title">Depth, Not Data: An Analysis of Hessian Spectral Bifurcation</p>
+  <p class="sr-block-authors"><strong>Shenyang Deng</strong><sup>*</sup>, Boyao Liao<sup>*</sup>, Zhuoli Ouyang<sup>*</sup>, Tianyu Pang, Yaoqing Yang</p>
+  <p class="sr-block-venue"><em>IEEE International Symposium on Information Theory (ISIT 2026)</em> <strong>(Extended version in preparation for IEEE Transactions on Information Theory)</strong></p>
+  <p class="sr-inline-links"><a href="https://arxiv.org/abs/2602.00545">[arXiv]</a></p>
+</div>
+
+<div class="sr-image-wrap">
+  <div class="sr-image-frame">
+    <img src="/images/combined_3panels.png" alt="Depth, Not Data: An Analysis of Hessian Spectral Bifurcation">
+  </div>
 </div>
 
 <p class="sr-cta-row">
