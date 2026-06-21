@@ -95,6 +95,14 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 | **2026.05** | 🎙️ Gave a talk about [*RMNP*](https://arxiv.org/abs/2603.20527) at Dartmouth--Berkeley--Rice AI Reading Group ([Recording](https://drive.google.com/file/d/1DpE-PhpCtNHCZuI5oIdvQutLnOOL2yUS/view?usp=drive_link)). |
 | **2026.05** | ✨ [New blog: *A Proof of Orthogonalized and Row-Normalized Descent Directions*](/blog/dsyblog/) is now online. |
 | **2026.05** | 🎉 Honored to be recognized as an ICML 2026 Golden Reviewer. Grateful for the recognition from the community. |
+ 
+<details style="margin-top: 10px;">
+  <summary style="cursor: pointer; color: #4b5563; font-weight: 600;">Show older news</summary>
+
+  <div style="margin-top: 10px;">
+
+| Date | Update |
+|:-----|:-------|
 | **2026.05** | ✨ [New blog](/blog/) in understanding Row normalization and orthogonalization for NN online. Welcome to discuss! |
 | **2026.05** | 🎉Two paper has been accepted to ICML 2026, including [*RMNP*](https://arxiv.org/abs/2603.20527) ! We will soon release two blog posts to discuss the rich intuitions behind RMNP.|
 | **2026.03** | 🎉 Our paper about [*"Hessian Spectral Bifurcation"*](https://arxiv.org/abs/2602.00545) has been accepted to **ISIT 2026**.|
@@ -107,6 +115,9 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 | **2025.12** | 💰 Honored to receive a $2,000 grant from **Lambda AI** |
 | **2025.10** | 📝 Serving as a reviewer for **ICLR 2026** |
 | **2025.10** | 👋 First post on this website - welcome! |
+
+  </div>
+</details>
 
 ---
 
