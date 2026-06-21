@@ -91,7 +91,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 | Date | Update |
 |:-----|:-------|
 | **2026.06** | 💰 Honored to receive the **ISIT 2026 Travel Grant**. |
-| **2026.06** | 🎉 Our paper, "*How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization*," has been accepted to the **ICML 2026 HILD Workshop**. |
+| **2026.06** | 🎉 Our paper, ["*How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization*"](https://openreview.net/forum?id=U812abpXRD), has been accepted to the **ICML 2026 HILD Workshop**. |
 | **2026.05** | 🎙️ Gave a talk about [*RMNP*](https://arxiv.org/abs/2603.20527) at Dartmouth--Berkeley--Rice AI Reading Group ([Recording](https://drive.google.com/file/d/1DpE-PhpCtNHCZuI5oIdvQutLnOOL2yUS/view?usp=drive_link)). |
 | **2026.05** | ✨ [New blog: *A Proof of Orthogonalized and Row-Normalized Descent Directions*](/blog/dsyblog/) is now online. |
 | **2026.05** | 🎉 Honored to be recognized as an ICML 2026 Golden Reviewer. Grateful for the recognition from the community. |
@@ -115,6 +115,21 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 ## 📚 Selected Research
 
 <p style="margin: 4px 0 12px 0; font-size: 0.95em; color: #555;"><sup>*</sup> indicates equal contribution.</p>
+
+<div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
+
+<strong>How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</strong><br>
+<span style="color: #555;"><strong>Shenyang Deng</strong>, Shuhua Yu, Yaoqing Yang</span><br>
+<em>ICML 2026 Workshop on High-dimensional Learning Dynamics</em><br>
+<a href="https://openreview.net/forum?id=U812abpXRD">[OpenReview]</a>
+
+</div>
+
+<div style="display: flex; justify-content: center; margin: 18px 0 24px 0;">
+  <div style="width: min(60%, 620px); height: 240px; display: flex; align-items: center; justify-content: center; padding: 12px; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; box-shadow: 0 3px 12px rgba(0,0,0,0.08); background: #fff; overflow: hidden;">
+    <img src="/images/HILD_img.png" alt="How Does Orthogonalization Adapt to the Neural-Network Hessian Structure?" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+  </div>
+</div>
 
 <div style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%); padding: 20px; border-radius: 12px; margin: 15px 0;">
 

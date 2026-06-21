@@ -99,6 +99,9 @@ author_profile: false
       <p class="pub-title">&ldquo;<em>How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</em>.&rdquo;</p>
       <p class="pub-authors"><strong>Shenyang Deng</strong>, Shuhua Yu, Yaoqing Yang.</p>
       <p class="pub-venue"><strong>ICML 2026 Workshop on High-dimensional Learning Dynamics</strong>.</p>
+      <div class="pub-links">
+        <a href="https://openreview.net/forum?id=U812abpXRD">OpenReview</a>
+      </div>
     </div>
 
     <div class="pub-card">
