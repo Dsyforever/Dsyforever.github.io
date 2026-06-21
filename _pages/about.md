@@ -89,22 +89,6 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 ## 📢 News
 
 <style>
-  .news-toggle {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-  }
-
-  .news-shell {
-    position: relative;
-    max-height: 285px;
-    overflow: hidden;
-  }
-
-  .news-toggle:checked + .news-shell {
-    max-height: none;
-  }
-
   .news-table {
     width: 100%;
     border-collapse: collapse;
@@ -135,39 +119,77 @@ I am interested in both classical learning theory problems (Rademacher Complexit
     border-bottom: none;
   }
 
-  .news-fade {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  .news-details {
+    position: relative;
+    margin-top: -4px;
+  }
+
+  .news-details summary {
+    list-style: none;
+    cursor: pointer;
     height: 92px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    padding-bottom: 12px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.92) 58%, #ffffff 100%);
+    padding: 0 0 12px 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(250, 251, 252, 0.88) 56%, #ffffff 100%);
   }
 
-  .news-toggle:checked + .news-shell .news-fade {
+  .news-details summary::-webkit-details-marker {
     display: none;
   }
 
-  .news-fade label {
-    cursor: pointer;
+  .news-details[open] summary {
+    display: none;
+  }
+
+  .news-summary-button {
+    display: inline-block;
     padding: 8px 16px;
     border-radius: 999px;
-    background: rgba(31, 41, 55, 0.92);
-    color: #ffffff;
+    border: 1px solid rgba(71, 85, 105, 0.18);
+    background: rgba(248, 250, 252, 0.96);
+    color: #334155;
     font-size: 0.93em;
     font-weight: 600;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
+    transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease, border-color 0.18s ease;
+  }
+
+  .news-details summary:hover .news-summary-button,
+  .news-details summary:focus .news-summary-button {
+    transform: translateY(-1px);
+    box-shadow: 0 12px 24px rgba(15, 23, 42, 0.12);
+    background: #ffffff;
+    border-color: rgba(71, 85, 105, 0.28);
+  }
+
+  .news-collapse-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+  }
+
+  .news-collapse-button {
+    border: 1px solid rgba(71, 85, 105, 0.16);
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: #f8fafc;
+    color: #475569;
+    font-size: 0.92em;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.05);
+    transition: background 0.18s ease, transform 0.18s ease, border-color 0.18s ease;
+  }
+
+  .news-collapse-button:hover {
+    background: #ffffff;
+    border-color: rgba(71, 85, 105, 0.24);
+    transform: translateY(-1px);
   }
 
   @media (max-width: 640px) {
-    .news-shell {
-      max-height: 340px;
-    }
-
     .news-table td:first-child,
     .news-table th:first-child {
       width: 86px;
@@ -175,36 +197,44 @@ I am interested in both classical learning theory problems (Rademacher Complexit
   }
 </style>
 
-<input type="checkbox" id="news-expand" class="news-toggle">
-<div class="news-shell">
+<table class="news-table">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Update</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>2026.06</strong></td>
+      <td>💰 Honored to receive the <strong>ISIT 2026 Travel Grant</strong>.</td>
+    </tr>
+    <tr>
+      <td><strong>2026.06</strong></td>
+      <td>🎉 Our paper, <a href="https://openreview.net/forum?id=U812abpXRD"><em>How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</em></a>, has been accepted to the <strong>ICML 2026 HILD Workshop</strong>.</td>
+    </tr>
+    <tr>
+      <td><strong>2026.05</strong></td>
+      <td>🎙️ Gave a talk about <a href="https://arxiv.org/abs/2603.20527"><em>RMNP</em></a> at Dartmouth--Berkeley--Rice AI Reading Group (<a href="https://drive.google.com/file/d/1DpE-PhpCtNHCZuI5oIdvQutLnOOL2yUS/view?usp=drive_link">Recording</a>).</td>
+    </tr>
+    <tr>
+      <td><strong>2026.05</strong></td>
+      <td>✨ <a href="/blog/dsyblog/"><em>New blog: A Proof of Orthogonalized and Row-Normalized Descent Directions</em></a> is now online.</td>
+    </tr>
+    <tr>
+      <td><strong>2026.05</strong></td>
+      <td>🎉 Honored to be recognized as an ICML 2026 Golden Reviewer. Grateful for the recognition from the community.</td>
+    </tr>
+  </tbody>
+</table>
+
+<details class="news-details">
+  <summary>
+    <span class="news-summary-button">More news</span>
+  </summary>
+
   <table class="news-table">
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Update</th>
-      </tr>
-    </thead>
     <tbody>
-      <tr>
-        <td><strong>2026.06</strong></td>
-        <td>💰 Honored to receive the <strong>ISIT 2026 Travel Grant</strong>.</td>
-      </tr>
-      <tr>
-        <td><strong>2026.06</strong></td>
-        <td>🎉 Our paper, <a href="https://openreview.net/forum?id=U812abpXRD"><em>How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</em></a>, has been accepted to the <strong>ICML 2026 HILD Workshop</strong>.</td>
-      </tr>
-      <tr>
-        <td><strong>2026.05</strong></td>
-        <td>🎙️ Gave a talk about <a href="https://arxiv.org/abs/2603.20527"><em>RMNP</em></a> at Dartmouth--Berkeley--Rice AI Reading Group (<a href="https://drive.google.com/file/d/1DpE-PhpCtNHCZuI5oIdvQutLnOOL2yUS/view?usp=drive_link">Recording</a>).</td>
-      </tr>
-      <tr>
-        <td><strong>2026.05</strong></td>
-        <td>✨ <a href="/blog/dsyblog/"><em>New blog: A Proof of Orthogonalized and Row-Normalized Descent Directions</em></a> is now online.</td>
-      </tr>
-      <tr>
-        <td><strong>2026.05</strong></td>
-        <td>🎉 Honored to be recognized as an ICML 2026 Golden Reviewer. Grateful for the recognition from the community.</td>
-      </tr>
       <tr>
         <td><strong>2026.05</strong></td>
         <td>✨ <a href="/blog/">New blog</a> in understanding Row normalization and orthogonalization for NN online. Welcome to discuss!</td>
@@ -256,10 +286,10 @@ I am interested in both classical learning theory problems (Rademacher Complexit
     </tbody>
   </table>
 
-  <div class="news-fade">
-    <label for="news-expand">Show older news</label>
+  <div class="news-collapse-row">
+    <button type="button" class="news-collapse-button" onclick="this.closest('details').open=false;">Show less</button>
   </div>
-</div>
+</details>
 
 ---
 
