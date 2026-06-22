@@ -17,13 +17,13 @@ redirect_from:
 
 # About Me
 
-I am currently a second-year PhD student at Dartmouth College. I am honored to be advised by Prof. [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/). Prior to this, I earned my Bachelor's degree in Mathematics and Applied Mathematics from South China University of Technology in 2024. My primary research interests lie in **learning theory** ?? and **optimization** ??.
+I am currently a second-year PhD student at Dartmouth College. I am honored to be advised by Prof. [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/). Prior to this, I earned my Bachelor's degree in Mathematics and Applied Mathematics from South China University of Technology in 2024. My primary research interests lie in **learning theory** 📊 and **optimization** 📈.
 
 ---
 
 <span class='anchor' id='research'></span>
 
-## ??Research Interests
+## ✨ Research Interests
 
 I am interested in both classical learning theory problems (Rademacher Complexity, Covering Number, PAC-Bayesian, etc.) and recently emerging theory problems (primarily focusing on the statistical and optimization properties of large-scale deep neural networks). If you have any interesting related problems, feel free to discuss with me anytime! I am very open to cooperation.
 
@@ -36,7 +36,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 <span class='anchor' id='xl'></span>
 
-## ?? Education
+## 📖 Education
 
 <table style="width: 100%; border-collapse: collapse; margin: 8px 0 2px 0; font-size: 0.97em; line-height: 1.35;">
   <tr style="border-bottom: 1px solid rgba(0,0,0,0.08);">
@@ -49,7 +49,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
   </tr>
 </table>
 
-## ?? Selected Awards
+## 🏆 Selected Awards
 
 <div style="margin: 8px 0 2px 0; font-size: 0.97em; line-height: 1.35;">
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
@@ -86,7 +86,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 <span class='anchor' id='news'></span>
 
-## ?? News
+## 📢 News
 
 <style>
   .news-table {
@@ -207,35 +207,35 @@ I am interested in both classical learning theory problems (Rademacher Complexit
   <tbody>
     <tr>
       <td><strong>2026.06</strong></td>
-      <td>?? Honored to receive the <strong>ISIT 2026 Travel Grant</strong>.</td>
+      <td>💰 Honored to receive the <strong>ISIT 2026 Travel Grant</strong>.</td>
     </tr>
     <tr>
       <td><strong>2026.06</strong></td>
-      <td>?? Our paper, <a href="https://openreview.net/pdf?id=U812abpXRD"><em>How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</em></a>, has been accepted to the <strong>ICML 2026 HILD Workshop</strong>.</td>
+      <td>🎉 Our paper, <a href="https://openreview.net/pdf?id=U812abpXRD"><em>How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</em></a>, has been accepted to the <strong>ICML 2026 HILD Workshop</strong>.</td>
     </tr>
     <tr>
       <td><strong>2026.05</strong></td>
-      <td>????Gave a talk about <a href="https://arxiv.org/abs/2603.20527"><em>RMNP</em></a> at Dartmouth--Berkeley--Rice AI Reading Group (<a href="https://drive.google.com/file/d/1DpE-PhpCtNHCZuI5oIdvQutLnOOL2yUS/view?usp=drive_link">Recording</a>).</td>
+      <td>🎙️ Gave a talk about <a href="https://arxiv.org/abs/2603.20527"><em>RMNP</em></a> at Dartmouth--Berkeley--Rice AI Reading Group (<a href="https://drive.google.com/file/d/1DpE-PhpCtNHCZuI5oIdvQutLnOOL2yUS/view?usp=drive_link">Recording</a>).</td>
     </tr>
     <tr>
       <td><strong>2026.05</strong></td>
-      <td>??<a href="/blog/dsyblog/"><em>New blog: A Proof of Orthogonalized and Row-Normalized Descent Directions</em></a> is now online.</td>
+      <td>✨ <a href="/blog/dsyblog/"><em>New blog: A Proof of Orthogonalized and Row-Normalized Descent Directions</em></a> is now online.</td>
     </tr>
     <tr>
       <td><strong>2026.05</strong></td>
-      <td>?? Honored to be recognized as an ICML 2026 Golden Reviewer. Grateful for the recognition from the community.</td>
+      <td>🎉 Honored to be recognized as an ICML 2026 Golden Reviewer. Grateful for the recognition from the community.</td>
     </tr>
     <tr>
       <td><strong>2026.05</strong></td>
-      <td>??<a href="/blog/">New blog</a> in understanding Row normalization and orthogonalization for NN online. Welcome to discuss!</td>
+      <td>✨ <a href="/blog/">New blog</a> in understanding Row normalization and orthogonalization for NN online. Welcome to discuss!</td>
     </tr>
     <tr>
       <td><strong>2026.05</strong></td>
-      <td>??Two paper has been accepted to ICML 2026, including <a href="https://arxiv.org/abs/2603.20527"><em>RMNP</em></a>! We will soon release two blog posts to discuss the rich intuitions behind RMNP.</td>
+      <td>🎉Two paper has been accepted to ICML 2026, including <a href="https://arxiv.org/abs/2603.20527"><em>RMNP</em></a>! We will soon release two blog posts to discuss the rich intuitions behind RMNP.</td>
     </tr>
     <tr>
       <td><strong>2026.03</strong></td>
-      <td>?? Our paper about <a href="https://arxiv.org/abs/2602.00545"><em>Hessian Spectral Bifurcation</em></a> has been accepted to <strong>ISIT 2026</strong>.</td>
+      <td>🎉 Our paper about <a href="https://arxiv.org/abs/2602.00545"><em>Hessian Spectral Bifurcation</em></a> has been accepted to <strong>ISIT 2026</strong>.</td>
     </tr>
   </tbody>
 </table>
@@ -249,39 +249,39 @@ I am interested in both classical learning theory problems (Rademacher Complexit
     <tbody>
       <tr>
         <td><strong>2026.03</strong></td>
-        <td>?? New preprint about Matrix-Based Optimization: <a href="https://arxiv.org/abs/2603.20527"><em>RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization</em></a></td>
+        <td>📄 New preprint about Matrix-Based Optimization: <a href="https://arxiv.org/abs/2603.20527"><em>RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization</em></a></td>
       </tr>
       <tr>
         <td><strong>2026.02</strong></td>
-        <td>?? My first paper as first author, <a href="https://arxiv.org/abs/2601.11789"><em>Suspicious Alignment of SGD</em></a>, received <strong>Best Student Paper Award</strong> at the 37th International Conference on Algorithmic Learning Theory (ALT) 2026!</td>
+        <td>🏆 My first paper as first author, <a href="https://arxiv.org/abs/2601.11789"><em>Suspicious Alignment of SGD</em></a>, received <strong>Best Student Paper Award</strong> at the 37th International Conference on Algorithmic Learning Theory (ALT) 2026!</td>
       </tr>
       <tr>
         <td><strong>2026.02</strong></td>
-        <td>????Giving a talk at Fields Institute on Feb 26th about our ALT paper (<a href="https://www.youtube.com/watch?v=uRXzDT5L_Sk&t=2761s">Recording</a>)</td>
+        <td>🎙️ Giving a talk at Fields Institute on Feb 26th about our ALT paper (<a href="https://www.youtube.com/watch?v=uRXzDT5L_Sk&t=2761s">Recording</a>)</td>
       </tr>
       <tr>
         <td><strong>2026.02</strong></td>
-        <td>?? New short paper preprint about Hessian: <a href="https://arxiv.org/abs/2602.00545"><em>Depth, Not Data: An Analysis of Hessian Spectral Bifurcation</em></a></td>
+        <td>📄 New short paper preprint about Hessian: <a href="https://arxiv.org/abs/2602.00545"><em>Depth, Not Data: An Analysis of Hessian Spectral Bifurcation</em></a></td>
       </tr>
       <tr>
         <td><strong>2026.02</strong></td>
-        <td>?? Serving as a reviewer for <strong>ICML 2026</strong></td>
+        <td>📝 Serving as a reviewer for <strong>ICML 2026</strong></td>
       </tr>
       <tr>
         <td><strong>2025.12</strong></td>
-        <td>?? <a href="https://arxiv.org/abs/2601.11789"><em>Suspicious Alignment of SGD</em></a> has been accepted to <strong>ALT 2026</strong>.</td>
+        <td>🎉 <a href="https://arxiv.org/abs/2601.11789"><em>Suspicious Alignment of SGD</em></a> has been accepted to <strong>ALT 2026</strong>.</td>
       </tr>
       <tr>
         <td><strong>2025.12</strong></td>
-        <td>?? Honored to receive a $2,000 grant from <strong>Lambda AI</strong></td>
+        <td>💰 Honored to receive a $2,000 grant from <strong>Lambda AI</strong></td>
       </tr>
       <tr>
         <td><strong>2025.10</strong></td>
-        <td>?? Serving as a reviewer for <strong>ICLR 2026</strong></td>
+        <td>📝 Serving as a reviewer for <strong>ICLR 2026</strong></td>
       </tr>
       <tr>
         <td><strong>2025.10</strong></td>
-        <td>?? First post on this website - welcome!</td>
+        <td>👋 First post on this website - welcome!</td>
       </tr>
     </tbody>
   </table>
@@ -295,7 +295,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 <span class='anchor' id='publications'></span>
 
-## ?? Selected Research
+## 📚 Selected Research
 
 <style>
   .sr-note {
@@ -472,16 +472,16 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 </div>
 
 <p class="sr-cta-row">
-  <a href="/publications/" class="sr-cta">See Full Publication List ??/a>
+  <a href="/publications/" class="sr-cta">See Full Publication List →</a>
 </p>
 
 <p class="sr-footer">
-  ?? Check out more of my work on <a href="https://scholar.google.com/citations?user=TvUZLD8AAAAJ&hl=en"><strong>Google Scholar</strong></a>
+  📎 Check out more of my work on <a href="https://scholar.google.com/citations?user=TvUZLD8AAAAJ&hl=en"><strong>Google Scholar</strong></a>
 </p>
 
 ---
 
 <span class='anchor' id='talks'></span>
 
-## ????Recent Talks
+## 🎙️ Recent Talks
 <div style="margin: 8px 0 2px 0; font-size: 0.94em; line-height: 1.35;">
