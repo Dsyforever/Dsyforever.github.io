@@ -485,3 +485,43 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 
 ## 🎙️ Recent Talks
 <div style="margin: 8px 0 2px 0; font-size: 0.94em; line-height: 1.35;">
+  <div style="display: grid; grid-template-columns: 92px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2026.05.05</strong>
+    <span><strong>RMNP</strong><br>Dartmouth--Berkeley--Rice AI Reading Group. <a href="https://drive.google.com/file/d/1DpE-PhpCtNHCZuI5oIdvQutLnOOL2yUS/view?usp=drive_link">Recording</a></span>
+  </div>
+  <div style="display: grid; grid-template-columns: 92px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2026.02.26</strong>
+    <span><strong>Suspicious Alignment of SGD</strong><br>Fields Institute. <a href="https://www.youtube.com/watch?v=uRXzDT5L_Sk&t=2761s">Recording</a></span>
+  </div>
+  <div style="display: grid; grid-template-columns: 92px 1fr; gap: 8px; padding: 6px 0 0 0; align-items: start;">
+    <strong>2025.11.27</strong>
+    <span><strong>Suspicious Alignment of SGD</strong><br>Dartmouth--Berkeley--Rice AI Reading Group. <a href="https://drive.google.com/file/d/1ByfsVsaRM7DG_HPKRijWwpkVApFOgjHx/view?usp=sharing">Recording</a></span>
+  </div>
+</div>
+
+---
+
+<span class='anchor' id='service'></span>
+
+## 📝 Academic Service
+
+<div style="margin: 8px 0 2px 0; font-size: 0.94em; line-height: 1.35;">
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>Journal</strong>
+    <span>Reviewer for TPAMI</span>
+  </div>
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2026</strong>
+    <span>Reviewer for ICML 2026</span>
+  </div>
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0 0 0; align-items: start;">
+    <strong>2025</strong>
+    <span>Reviewer for ICLR 2026</span>
+  </div>
+</div>
+
+---
+
+## 🍽️ Miscellaneous
+
+I am a food enthusiast who loves both eating and cooking. I enjoy preparing a hearty dinner after a busy work schedule and then rewarding myself with a game of **StarCraft II** 🎮. Here are some photos of the dishes I have made: [**See Gallery →**](/gallery/)
