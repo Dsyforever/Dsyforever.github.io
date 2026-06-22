@@ -100,7 +100,7 @@ author_profile: false
       <p class="pub-authors"><strong>Shenyang Deng</strong>, Shuhua Yu, Yaoqing Yang.</p>
       <p class="pub-venue"><strong>ICML 2026 Workshop on High-dimensional Learning Dynamics</strong>.</p>
       <div class="pub-links">
-        <a href="https://openreview.net/forum?id=U812abpXRD">OpenReview</a>
+        <a href="https://openreview.net/pdf?id=U812abpXRD">OpenReview</a>
       </div>
     </div>
 
