@@ -207,7 +207,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
   <tbody>
     <tr>
       <td><strong>2026.06</strong></td>
-      <td>💰 Honored to receive the <strong>ISIT 2026 Travel Grant</strong>.</td>
+      <td>💰 Honored to receive the <strong>ISIT 2026 Travel Grant Award</strong>.</td>
     </tr>
     <tr>
       <td><strong>2026.06</strong></td>
