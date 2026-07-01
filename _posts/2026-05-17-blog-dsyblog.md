@@ -17,7 +17,7 @@ translation_url: /blog/dsyblog-zh/
 
 ## 1. Setup
 
-Here I only discuss the simplest possible example. The corresponding statement for neural networks is much more intricate and requires substantially deeper analysis. Consider the basic linear-regression loss
+Here I offer a simple example. The corresponding statement for neural networks is much more intricate and requires substantially deeper analysis. Consider the basic linear-regression loss
 
 $$L(W) = \tfrac{1}{2}\|W\|_F^2$$
 
