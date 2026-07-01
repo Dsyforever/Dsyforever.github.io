@@ -211,7 +211,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
     </tr>
     <tr>
       <td><strong>2026.06</strong></td>
-      <td>🎉 Our paper, <a href="https://openreview.net/forum?id=U812abpXRD"><em>How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</em></a>, has been accepted to the <strong>ICML 2026 HILD Workshop</strong>.</td>
+      <td>🎉 Our paper, <a href="https://openreview.net/pdf?id=U812abpXRD"><em>How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</em></a>, has been accepted to the <strong>ICML 2026 HILD Workshop</strong>.</td>
     </tr>
     <tr>
       <td><strong>2026.05</strong></td>
@@ -304,7 +304,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
 <strong>How Does Orthogonalization Adapt to the Neural-Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization</strong><br>
 <span style="color: #555;"><strong>Shenyang Deng</strong>, Shuhua Yu, Yaoqing Yang</span><br>
 <em>ICML 2026 Workshop on High-dimensional Learning Dynamics</em><br>
-<a href="https://openreview.net/forum?id=U812abpXRD">[OpenReview]</a>
+<a href="https://openreview.net/pdf?id=U812abpXRD">[OpenReview]</a>
 
 </div>
 
