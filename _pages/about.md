@@ -17,7 +17,7 @@ redirect_from:
 
 # About Me
 
-I am currently a second-year PhD student at Dartmouth College. I am honored to be advised by Prof. [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/). Prior to this, I earned my Bachelor's degree in Mathematics and Applied Mathematics from South China University of Technology in 2024. My primary research interests lie in **learning theory** 📊 and **optimization** 📈.
+I am currently a second-year PhD student at Dartmouth College. I am honored to be advised by Prof. [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/). Prior to this, I earned my Bachelor's degree in Mathematics and Applied Mathematics from South China University of Technology in 2024. My primary research interests lie in **learning theory** 📊 and **optimization for NNs** 📈.
 
 ---
 
@@ -28,7 +28,7 @@ I am currently a second-year PhD student at Dartmouth College. I am honored to b
 I am interested in both classical learning theory problems (Rademacher Complexity, Covering Number, PAC-Bayesian, etc.) and recently emerging theory problems (primarily focusing on the statistical and optimization properties of large-scale deep neural networks). If you have any interesting related problems, feel free to discuss with me anytime! I am very open to cooperation.
 
 
-- Analyze the optimization properties (Non-Smoothness, Hessian, River-Valley, etc.) of large-scale neural networks, the behavior of optimization algorithms under specific loss landscapes, and develop scalable optimization algorithms based on these optimization properties and algorithms' behavior.
+- Analyze the optimization properties (Non-Smoothness, Hessian, River-Valley, etc.) of large-scale neural networks, the behavior of optimization algorithms under specific loss landscapes, and develop scalable optimization algorithms **for pre-training and post-training** based on these optimization properties and algorithms' behavior.
 - Investigate **non-vacuous** and theoretically interpretable metrics for data/model statistical complexity in neural networks training, and determine how the interplay between data complexity and model complexity can lead to improved generalization and robustness performance.
 
 
