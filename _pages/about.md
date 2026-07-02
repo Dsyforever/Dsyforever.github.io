@@ -17,7 +17,7 @@ redirect_from:
 
 # About Me
 
-I am currently a second-year PhD student at Dartmouth College. I am honored to be advised by Prof. [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/). Prior to this, I earned my Bachelor's degree in Mathematics and Applied Mathematics from South China University of Technology in 2024. My primary research interests lie in **learning theory** 📊 and **optimization for NNs** 📈.
+I am currently a second-year PhD student at Dartmouth College. I am honored to be advised by Prof. [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/). Prior to this, I earned my Bachelor's degree in Mathematics and Applied Mathematics from South China University of Technology in 2024. My primary research interests lie in **learning theory** 📊 and **optimization** 📈 for NNs.
 
 ---
 
@@ -55,6 +55,10 @@ I am interested in both classical learning theory problems (Rademacher Complexit
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
     <strong>2026</strong>
     <span>ICML 2026 Golden Reviewer.</span>
+  </div>
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2026</strong>
+    <span>ISIT 2026 Travel Grant Award.</span>
   </div>
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
     <strong>2026</strong>
