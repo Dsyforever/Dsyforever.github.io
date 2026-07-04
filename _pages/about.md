@@ -235,7 +235,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
     </tr>
     <tr>
       <td><strong>2026.05</strong></td>
-      <td>🎉Two paper has been accepted to ICML 2026, including <a href="https://arxiv.org/abs/2603.20527"><em>RMNP</em></a>! We will soon release two blog posts to discuss the rich intuitions behind RMNP.</td>
+      <td>🎉Two paper has been accepted to ICML 2026, including <a href="https://arxiv.org/abs/2603.20527"><em>RMNP</em></a> and <a href="https://arxiv.org/abs/2606.00340"><em>Balance LR Analysis</em></a>! We will soon release two blog posts to discuss the rich intuitions behind RMNP.</td>
     </tr>
     <tr>
       <td><strong>2026.03</strong></td>
