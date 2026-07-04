@@ -227,7 +227,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
     </tr>
     <tr>
       <td><strong>2026.05</strong></td>
-      <td>🎉 Honored to be recognized as an ICML 2026 Golden Reviewer. Grateful for the recognition from the community.</td>
+      <td>🎉 Honored to be recognized as an <strong>ICML 2026 Golden Reviewer</strong>. Grateful for the recognition from the community.</td>
     </tr>
     <tr>
       <td><strong>2026.05</strong></td>
