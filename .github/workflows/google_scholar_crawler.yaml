@@ -12,6 +12,8 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
     steps:
       - uses: actions/checkout@v4
 
@@ -20,12 +22,12 @@ jobs:
           sudo apt-get install python3-setuptools
 
       - name: Validate Required Secret
-        if: ${{ secrets.GOOGLE_SCHOLAR_ID == '' }}
+        if: ${{ env.GOOGLE_SCHOLAR_ID == '' }}
         run: |
           echo "GOOGLE_SCHOLAR_ID is not configured. Skipping citation update."
 
       - name: Run
-        if: ${{ secrets.GOOGLE_SCHOLAR_ID != '' }}
+        if: ${{ env.GOOGLE_SCHOLAR_ID != '' }}
         run: |
           cd ./google_scholar_crawler
           pip3 install -r requirements.txt
@@ -41,5 +43,3 @@ jobs:
           fi
           git commit -m "Updated Citation Data"
           git push "${remote_repo}" HEAD:google-scholar-stats --force
-        env:
-          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
