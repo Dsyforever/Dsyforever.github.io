@@ -62,7 +62,7 @@ I am interested in both classical learning theory problems (Rademacher Complexit
   </div>
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
     <strong>2026</strong>
-    <span><strong style="color: #C0392B;">Best Student Paper Award</strong>, The 37th International Conference on Algorithmic Learning Theory.</span>
+    <span><strong style="color: #C0392B;">Best Student Paper Award</strong> (First Author), The 37th International Conference on Algorithmic Learning Theory.</span>
   </div>
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
     <strong>2024</strong>
