@@ -27,7 +27,49 @@ I am currently a second-year PhD student at Dartmouth College. I am honored to b
 
 I currently focus on the optimization theory and methods of neural networks. Specifically, I study **architecture-aware** optimization techniques through high-dimensional asymptotic theory and empirical investigation.
 
-I believe there exists a **first principle** that allows us to automatically adapt the appropriate optimization techniques (e.g., preconditioning, hyperparameter selection, and hyperparameter transfer) to a neural network, based on the types of modules in its architecture and its forward structure. Such a principle would be analogous to a "central limit theorem" for network architectures: given the characteristics of an architecture, we can predict which optimization techniques it requires at large scale.
+<style>
+  .ri-belief {
+    position: relative;
+    margin: 14px 0 18px 0;
+    padding: 14px 20px 15px 20px;
+    border-left: 4px solid #7a8288;
+    border-radius: 0 12px 12px 0;
+    background: linear-gradient(135deg, #f7f9fb 0%, #eceff3 100%);
+    font-family: Georgia, "Palatino Linotype", "Book Antiqua", serif;
+    font-style: italic;
+    font-size: 1.02em;
+    line-height: 1.65;
+    color: #2d3742;
+  }
+
+  .ri-belief-label {
+    display: block;
+    margin-bottom: 6px;
+    font-family: inherit;
+    font-style: normal;
+    font-size: 0.72em;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #7a8288;
+  }
+
+  .ri-belief strong {
+    color: #1f2933;
+  }
+
+  @media (max-width: 640px) {
+    .ri-belief {
+      padding: 12px 14px 13px 14px;
+      font-size: 0.98em;
+    }
+  }
+</style>
+
+<div class="ri-belief">
+  <span class="ri-belief-label">Guiding Hypothesis</span>
+  I believe there exists a <strong>first principle</strong> that allows us to automatically adapt the appropriate optimization techniques (e.g., preconditioning, hyperparameter selection, and hyperparameter transfer) to a neural network, based on the types of modules in its architecture and its forward structure. Such a principle would be analogous to a &ldquo;central limit theorem&rdquo; for network architectures: given the characteristics of an architecture, we can predict which optimization techniques it requires at large scale.
+</div>
 
 If you have any interesting related problems, feel free to discuss with me anytime! I am very open to cooperation.
 
