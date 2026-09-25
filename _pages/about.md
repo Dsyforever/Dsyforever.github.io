@@ -67,7 +67,7 @@ I currently focus on the optimization theory and methods of neural networks. Spe
 </style>
 
 <div class="ri-belief">
-  <span class="ri-belief-label">Guiding Hypothesis</span>
+  <span class="ri-belief-label">Theory I am working on</span>
   I believe there exists a <strong>first principle</strong> that allows us to automatically adapt the appropriate optimization techniques (e.g., preconditioning, hyperparameter selection, and hyperparameter transfer) to a neural network, based on the types of modules in its architecture and its forward structure. Such a principle would be analogous to a &ldquo;central limit theorem&rdquo; for network architectures: given the characteristics of an architecture, we can predict which optimization techniques it requires at large scale.
 </div>
 
