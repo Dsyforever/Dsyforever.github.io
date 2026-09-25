@@ -25,11 +25,20 @@ I am currently a second-year PhD student at Dartmouth College. I am honored to b
 
 ## ✨ Research Interests
 
-I am interested in both classical learning theory problems (Rademacher Complexity, Covering Number, PAC-Bayesian, etc.) and recently emerging theory problems (primarily focusing on the statistical and optimization properties of large-scale deep neural networks). If you have any interesting related problems, feel free to discuss with me anytime! I am very open to cooperation.
+I currently focus on the optimization theory and methods of neural networks. Specifically, I study **architecture-aware** optimization techniques through high-dimensional asymptotic theory and empirical investigation.
 
+I believe there exists a **first principle** that allows us to automatically adapt the appropriate optimization techniques (e.g., preconditioning, hyperparameter selection, and hyperparameter transfer) to a neural network, based on the types of modules in its architecture and its forward structure. Such a principle would be analogous to a "central limit theorem" for network architectures: given the characteristics of an architecture, we can predict which optimization techniques it requires at large scale.
+
+If you have any interesting related problems, feel free to discuss with me anytime! I am very open to cooperation.
+
+<!--
+Previous version:
+
+I am interested in both classical learning theory problems (Rademacher Complexity, Covering Number, PAC-Bayesian, etc.) and recently emerging theory problems (primarily focusing on the statistical and optimization properties of large-scale deep neural networks). If you have any interesting related problems, feel free to discuss with me anytime! I am very open to cooperation.
 
 - Analyze the optimization properties (Non-Smoothness, Hessian, River-Valley, etc.) of large-scale neural networks, the behavior of optimization algorithms under specific loss landscapes, and develop scalable optimization algorithms based on these optimization properties and algorithms' behavior.
 - Investigate **non-vacuous** and theoretically interpretable metrics for data/model statistical complexity in neural networks training, and determine how the interplay between data complexity and model complexity can lead to improved generalization and robustness performance.
+-->
 
 
 ---
