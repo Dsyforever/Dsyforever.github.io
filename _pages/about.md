@@ -567,6 +567,10 @@ I am interested in both classical learning theory problems (Rademacher Complexit
   </div>
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
     <strong>2026</strong>
+    <span>Reviewer for ICLR 2027</span>
+  </div>
+  <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.08); align-items: start;">
+    <strong>2026</strong>
     <span>Reviewer for ICML 2026</span>
   </div>
   <div style="display: grid; grid-template-columns: 72px 1fr; gap: 8px; padding: 6px 0 0 0; align-items: start;">
